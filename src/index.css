@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply bg-bg-base text-text-primary font-sans antialiased;
+  }
+
+  body {
+    @apply bg-bg-base text-text-primary;
+    /* Prevent flash of unstyled content on dark bg */
+    min-height: 100vh;
+  }
+
+  /* Consistent focus ring using accent-primary */
+  *:focus-visible {
+    @apply outline-none ring-2 ring-accent-primary ring-offset-2 ring-offset-bg-base;
+  }
+
+  /* Smooth color transitions on interactive elements */
+  a,
+  button {
+    @apply transition-colors duration-150;
+  }
+}
