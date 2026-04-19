@@ -24,7 +24,97 @@ interface DiscoveryResult {
     newCount: number;
     updatedCount: number;
     unchangedCount: number;
+    errors: number;
+    skipped: string[];
   };
+}
+
+/**
+ * Error context for logging
+ */
+interface ErrorContext {
+  operation: string;
+  repo?: string;
+  attempt?: number;
+  error: unknown;
+}
+
+/**
+ * Log error with context
+ */
+function logError(context: ErrorContext): void {
+  const { operation, repo, attempt, error } = context;
+  const errorMessage = error instanceof Error ? error.message : String(error);
+  
+  let logMessage = `❌ Error during ${operation}`;
+  if (repo) logMessage += ` for ${repo}`;
+  if (attempt) logMessage += ` (attempt ${attempt})`;
+  logMessage += `: ${errorMessage}`;
+  
+  console.error(logMessage);
+  
+  // Log stack trace for debugging if available
+  if (error instanceof Error && error.stack) {
+    console.error('Stack trace:', error.stack);
+  }
+}
+
+/**
+ * Sleep for specified milliseconds
+ */
+function sleep(ms: number): Promise<void> {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+/**
+ * Retry function with exponential backoff
+ */
+async function retryWithBackoff<T>(
+  fn: () => Promise<T>,
+  options: {
+    maxRetries: number;
+    initialDelay: number;
+    operation: string;
+    repo?: string;
+  }
+): Promise<T | null> {
+  const { maxRetries, initialDelay, operation, repo } = options;
+  
+  for (let attempt = 1; attempt <= maxRetries; attempt++) {
+    try {
+      return await fn();
+    } catch (error) {
+      // Check if it's a rate limit error
+      const isRateLimit = error instanceof Error && 
+        (error.message.includes('rate limit') || error.message.includes('403'));
+      
+      // Check if it's a timeout
+      const isTimeout = error instanceof Error && 
+        (error.message.includes('timeout') || error.message.includes('ETIMEDOUT'));
+      
+      // Log error with context
+      logError({ operation, repo, attempt, error });
+      
+      // Don't retry on 404 or other non-retryable errors
+      if (error instanceof Error && error.message.includes('404')) {
+        console.warn(`  ⚠️  Resource not found, skipping retries`);
+        return null;
+      }
+      
+      // If last attempt or non-retryable error, give up
+      if (attempt === maxRetries || (!isRateLimit && !isTimeout)) {
+        console.error(`  ❌ Failed after ${attempt} attempts`);
+        return null;
+      }
+      
+      // Calculate exponential backoff delay
+      const delay = initialDelay * Math.pow(2, attempt - 1);
+      console.log(`  ⏳ Retrying in ${delay}ms... (attempt ${attempt + 1}/${maxRetries})`);
+      await sleep(delay);
+    }
+  }
+  
+  return null;
 }
 
 /**
@@ -87,6 +177,33 @@ function compareEntries(existing: Entry, updated: Entry): Array<{ field: string;
 }
 
 /**
+ * Fetch README with retry logic
+ */
+async function fetchReadme(
+  octokit: Octokit,
+  owner: string,
+  repo: string
+): Promise<string | undefined> {
+  const result = await retryWithBackoff(
+    async () => {
+      const response = await octokit.rest.repos.getReadme({
+        owner,
+        repo,
+      });
+      return Buffer.from(response.data.content, 'base64').toString('utf-8');
+    },
+    {
+      maxRetries: 3,
+      initialDelay: 1000,
+      operation: 'README fetch',
+      repo: `${owner}/${repo}`,
+    }
+  );
+  
+  return result || undefined;
+}
+
+/**
  * Main discovery function
  */
 async function discoverMCPServers(dryRun: boolean = false): Promise<DiscoveryResult> {
@@ -96,19 +213,47 @@ async function discoverMCPServers(dryRun: boolean = false): Promise<DiscoveryRes
     throw new Error('GITHUB_TOKEN environment variable is required');
   }
   
-  const octokit = new Octokit({ auth: token });
+  const octokit = new Octokit({ 
+    auth: token,
+    request: {
+      timeout: 30000, // 30 second timeout
+    },
+  });
   
   console.log('🔍 Searching GitHub for MCP servers...');
   
   // Search for repositories with topic:mcp-server and stars >= 10
-  const searchResponse = await octokit.rest.search.repos({
-    q: 'topic:mcp-server stars:>=10',
-    sort: 'stars',
-    order: 'desc',
-    per_page: 100,
-  });
+  let searchResponse;
+  try {
+    searchResponse = await retryWithBackoff(
+      async () => {
+        return await octokit.rest.search.repos({
+          q: 'topic:mcp-server stars:>=10',
+          sort: 'stars',
+          order: 'desc',
+          per_page: 100,
+        });
+      },
+      {
+        maxRetries: 3,
+        initialDelay: 2000,
+        operation: 'GitHub search',
+      }
+    );
+    
+    if (!searchResponse) {
+      throw new Error('Failed to search GitHub repositories after retries');
+    }
+  } catch (error) {
+    logError({ operation: 'GitHub search', error });
+    throw error;
+  }
   
   console.log(`Found ${searchResponse.data.items.length} repositories`);
+  
+  // Track errors and skipped repos
+  let errorCount = 0;
+  const skippedRepos: string[] = [];
   
   // Fetch README for each repo and transform to Entry
   const discoveredEntries: Entry[] = [];
@@ -116,34 +261,68 @@ async function discoverMCPServers(dryRun: boolean = false): Promise<DiscoveryRes
   for (const repo of searchResponse.data.items) {
     console.log(`Processing: ${repo.full_name}`);
     
-    let readmeContent: string | undefined;
     try {
-      const readmeResponse = await octokit.rest.repos.getReadme({
-        owner: repo.owner.login,
-        repo: repo.name,
-      });
+      // Fetch README with retry logic
+      let readmeContent: string | undefined;
+      try {
+        readmeContent = await fetchReadme(octokit, repo.owner.login, repo.name);
+        if (!readmeContent) {
+          console.warn(`  ⚠️  Could not fetch README for ${repo.full_name}, using description as fallback`);
+        }
+      } catch (error) {
+        logError({ 
+          operation: 'README fetch', 
+          repo: repo.full_name, 
+          error 
+        });
+        console.warn(`  ⚠️  README fetch failed, using description as fallback`);
+      }
       
-      // Decode base64 content
-      readmeContent = Buffer.from(readmeResponse.data.content, 'base64').toString('utf-8');
+      // Handle missing or empty description
+      const description = repo.description?.trim() || null;
+      if (!description) {
+        console.warn(`  ⚠️  No description available for ${repo.full_name}`);
+      }
+      
+      // Handle missing topics
+      const topics = repo.topics || [];
+      if (topics.length === 0) {
+        console.warn(`  ⚠️  No topics found for ${repo.full_name}`);
+      }
+      
+      // Transform to Entry
+      const githubRepo: GitHubRepo = {
+        name: repo.name,
+        full_name: repo.full_name,
+        description: description,
+        html_url: repo.html_url,
+        owner: {
+          login: repo.owner.login,
+        },
+        topics: topics,
+        stargazers_count: repo.stargazers_count,
+      };
+      
+      const entry = transformRepoToEntry(githubRepo, readmeContent);
+      discoveredEntries.push(entry);
+      console.log(`  ✅ Successfully processed ${repo.full_name}`);
+      
     } catch (error) {
-      console.warn(`  ⚠️  Could not fetch README for ${repo.full_name}`);
+      errorCount++;
+      skippedRepos.push(repo.full_name);
+      logError({ 
+        operation: 'entry transformation', 
+        repo: repo.full_name, 
+        error 
+      });
+      console.error(`  ❌ Skipping ${repo.full_name} due to errors`);
     }
-    
-    // Transform to Entry
-    const githubRepo: GitHubRepo = {
-      name: repo.name,
-      full_name: repo.full_name,
-      description: repo.description,
-      html_url: repo.html_url,
-      owner: {
-        login: repo.owner.login,
-      },
-      topics: repo.topics,
-      stargazers_count: repo.stargazers_count,
-    };
-    
-    const entry = transformRepoToEntry(githubRepo, readmeContent);
-    discoveredEntries.push(entry);
+  }
+  
+  // Log summary of errors
+  if (errorCount > 0) {
+    console.warn(`\n⚠️  Encountered ${errorCount} errors during discovery`);
+    console.warn(`Skipped repositories: ${skippedRepos.join(', ')}`);
   }
   
   // Load existing entries
@@ -186,6 +365,8 @@ async function discoverMCPServers(dryRun: boolean = false): Promise<DiscoveryRes
       newCount: newEntries.length,
       updatedCount: updatedEntries.length,
       unchangedCount,
+      errors: errorCount,
+      skipped: skippedRepos,
     },
   };
   

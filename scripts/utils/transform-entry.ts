@@ -39,9 +39,14 @@ export function transformRepoToEntry(
       fullDescription = firstParagraph;
     }
   }
+  
+  // Ensure we always have a description
+  if (fullDescription === 'No description provided' && shortDescription !== 'No description provided') {
+    fullDescription = shortDescription;
+  }
 
-  // Get tags from topics
-  const tags = repo.topics || [];
+  // Get tags from topics, ensure it's always an array
+  const tags = Array.isArray(repo.topics) ? repo.topics : [];
 
   // Get author from owner
   const author = repo.owner.login;
