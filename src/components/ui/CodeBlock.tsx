@@ -1,9 +1,10 @@
 interface CodeBlockProps {
   code: string;
   language?: string;
+  maxHeight?: string;
 }
 
-export function CodeBlock({ code, language }: CodeBlockProps) {
+export function CodeBlock({ code, language, maxHeight = "none" }: CodeBlockProps) {
   return (
     <div className="relative rounded-lg overflow-hidden border border-border-subtle">
       {language !== undefined && (
@@ -19,7 +20,14 @@ export function CodeBlock({ code, language }: CodeBlockProps) {
           </span>
         </div>
       )}
-      <pre className="bg-bg-elevated overflow-x-auto p-4 text-sm leading-relaxed">
+      <pre 
+        className="bg-bg-elevated overflow-auto p-4 text-sm leading-relaxed"
+        style={{ 
+          maxHeight,
+          scrollbarWidth: 'thin',
+          scrollbarColor: '#3d4460 #22263a'
+        }}
+      >
         <code className="font-mono text-text-primary whitespace-pre">{code}</code>
       </pre>
     </div>

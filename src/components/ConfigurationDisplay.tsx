@@ -5,9 +5,10 @@ import { CopyButton } from './ui/CopyButton';
 interface ConfigurationDisplayProps {
   config: IDEConfig;
   ideName: string;
+  maxCodeHeight?: string;
 }
 
-export function ConfigurationDisplay({ config }: ConfigurationDisplayProps) {
+export function ConfigurationDisplay({ config, maxCodeHeight = "none" }: ConfigurationDisplayProps) {
   return (
     <div className="space-y-6">
       {/* File Path Section */}
@@ -30,7 +31,11 @@ export function ConfigurationDisplay({ config }: ConfigurationDisplayProps) {
           </label>
           <CopyButton textToCopy={config.configSnippet} label="Copy Config" />
         </div>
-        <CodeBlock code={config.configSnippet} language="json" />
+        <CodeBlock 
+          code={config.configSnippet} 
+          language="json" 
+          maxHeight={maxCodeHeight}
+        />
       </div>
     </div>
   );

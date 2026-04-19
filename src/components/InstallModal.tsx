@@ -140,6 +140,7 @@ export function InstallModal({ installConfig, entryName, isOpen, onClose }: Inst
             <ConfigurationDisplay
               config={installConfig[activeIDE]}
               ideName={activeIDE}
+              maxCodeHeight="300px"
             />
           </div>
         </div>
