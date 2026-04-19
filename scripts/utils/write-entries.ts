@@ -10,19 +10,19 @@ function formatEntry(entry: Entry, indent: string = '  '): string {
   
   // Required fields
   parts.push(`id: '${entry.id}'`);
-  parts.push(`name: '${escapeSingleQuotes(entry.name)}'`);
-  parts.push(`shortDescription: '${escapeSingleQuotes(entry.shortDescription)}'`);
-  parts.push(`fullDescription: '${escapeSingleQuotes(entry.fullDescription)}'`);
+  parts.push(`name: '${escapeString(entry.name)}'`);
+  parts.push(`shortDescription: '${escapeString(entry.shortDescription)}'`);
+  parts.push(`fullDescription: '${escapeString(entry.fullDescription)}'`);
   parts.push(`category: '${entry.category}'`);
-  parts.push(`tags: [${entry.tags.map(t => `'${t}'`).join(', ')}]`);
+  parts.push(`tags: [${entry.tags.map(t => `'${escapeString(t)}'`).join(', ')}]`);
   parts.push(`sourceUrl: '${entry.sourceUrl}'`);
   
   // Optional fields
   if (entry.author) {
-    parts.push(`author: '${escapeSingleQuotes(entry.author)}'`);
+    parts.push(`author: '${escapeString(entry.author)}'`);
   }
   if (entry.usageSnippet) {
-    parts.push(`usageSnippet: '${escapeSingleQuotes(entry.usageSnippet)}'`);
+    parts.push(`usageSnippet: '${escapeString(entry.usageSnippet)}'`);
   }
   if (entry.iconUrl) {
     parts.push(`iconUrl: '${entry.iconUrl}'`);
@@ -45,17 +45,28 @@ function formatInstallConfig(config: any): string {
     const ideConfig = config[ide];
     if (!ideConfig) return null;
     
-    return `${ide}: { configSnippet: '${escapeSingleQuotes(ideConfig.configSnippet)}', filePath: '${ideConfig.filePath}' }`;
+    return `${ide}: { configSnippet: '${escapeString(ideConfig.configSnippet)}', filePath: '${escapeString(ideConfig.filePath)}' }`;
   }).filter(Boolean).join(', ');
   
   return `installConfig: { ${formatted} }`;
 }
 
 /**
- * Escape single quotes in strings
+ * Escape string for JavaScript single-quoted string literal
+ * Must escape in this order: backslashes first, then quotes, then control chars
  */
-function escapeSingleQuotes(str: string): string {
-  return str.replace(/'/g, "\\'");
+function escapeString(str: string): string {
+  return str
+    // Escape backslashes first (must be first!)
+    .replace(/\\/g, '\\\\')
+    // Escape single quotes
+    .replace(/'/g, "\\'")
+    // Escape newlines
+    .replace(/\n/g, '\\n')
+    // Escape carriage returns
+    .replace(/\r/g, '\\r')
+    // Escape tabs
+    .replace(/\t/g, '\\t');
 }
 
 /**
