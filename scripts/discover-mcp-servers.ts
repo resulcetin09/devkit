@@ -3,6 +3,8 @@ import { Octokit } from '@octokit/rest';
 import { transformRepoToEntry } from './utils/transform-entry.js';
 import type { GitHubRepo } from './utils/transform-entry.js';
 import type { Entry } from '../src/types/entry.js';
+import { filterAtDiscovery } from './utils/quality-filter-discovery.js';
+import { validateMCPServer } from './utils/quality-filter-validation.js';
 import * as fs from 'fs';
 import * as path from 'path';
 
@@ -51,6 +53,12 @@ function shouldSkipRepo(repo: any): { skip: boolean; reason?: string } {
     if (description.includes(pattern)) {
       return { skip: true, reason: 'inactive' };
     }
+  }
+  
+  // Quality filter at discovery stage
+  const qualityCheck = filterAtDiscovery(repo);
+  if (qualityCheck.shouldSkip) {
+    return { skip: true, reason: `quality-filter: ${qualityCheck.reason}` };
   }
   
   return { skip: false };
@@ -316,6 +324,20 @@ async function discoverMCPServers(dryRun: boolean = false): Promise<DiscoveryRes
         console.warn(`  ⚠️  README fetch failed, using description as fallback`);
       }
       
+      // Quality validation after README fetch
+      if (readmeContent !== undefined) {
+        const validation = await validateMCPServer(repo, readmeContent || '', octokit);
+        
+        if (!validation.isValid) {
+          console.log(`  🚫 Quality filter rejected ${repo.full_name} (score: ${validation.score})`);
+          console.log(`     Reasons: ${validation.reasons.join(', ')}`);
+          skippedRepos.push(`${repo.full_name} (quality-score: ${validation.score})`);
+          continue;
+        } else {
+          console.log(`  ✅ Quality filter accepted ${repo.full_name} (score: ${validation.score})`);
+        }
+      }
+      
       // Handle missing or empty description
       const description = repo.description?.trim() || null;
       if (!description) {
@@ -423,6 +445,15 @@ async function discoverMCPServers(dryRun: boolean = false): Promise<DiscoveryRes
   console.log(`  New entries: ${result.summary.newCount}`);
   console.log(`  Updated entries: ${result.summary.updatedCount}`);
   console.log(`  Unchanged: ${result.summary.unchangedCount}`);
+
+  // Add quality filter statistics
+  const qualityFiltered = skippedRepos.filter(repo => 
+    repo.includes('quality-filter:') || repo.includes('quality-score:')
+  ).length;
+
+  if (qualityFiltered > 0) {
+    console.log(`  Quality filtered: ${qualityFiltered}`);
+  }
   
   return result;
 }
