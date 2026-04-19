@@ -1,0 +1,412 @@
+{
+  "entriesAdded": 100,
+  "entriesUpdated": 0,
+  "entriesPreserved": 66,
+  "fieldsPreserved": [
+    "installConfig",
+    "usageSnippet",
+    "iconUrl"
+  ],
+  "changes": [
+    {
+      "id": "n8n-mcp",
+      "action": "added"
+    },
+    {
+      "id": "gemini-cli-mcp",
+      "action": "added"
+    },
+    {
+      "id": "context7-mcp",
+      "action": "added"
+    },
+    {
+      "id": "trendradar-mcp",
+      "action": "added"
+    },
+    {
+      "id": "scrapling-mcp",
+      "action": "added"
+    },
+    {
+      "id": "chrome-devtools-mcp",
+      "action": "added"
+    },
+    {
+      "id": "ruflo-mcp",
+      "action": "added"
+    },
+    {
+      "id": "ui-tars-desktop-mcp",
+      "action": "added"
+    },
+    {
+      "id": "github-server-mcp",
+      "action": "added"
+    },
+    {
+      "id": "gpt-researcher-mcp",
+      "action": "added"
+    },
+    {
+      "id": "serena-mcp",
+      "action": "added"
+    },
+    {
+      "id": "activepieces-mcp",
+      "action": "added"
+    },
+    {
+      "id": "maxkb-mcp",
+      "action": "added"
+    },
+    {
+      "id": "n8n-mcp",
+      "action": "added"
+    },
+    {
+      "id": "nuclear-mcp",
+      "action": "added"
+    },
+    {
+      "id": "mcp-for-beginners",
+      "action": "added"
+    },
+    {
+      "id": "trigger.dev-mcp",
+      "action": "added"
+    },
+    {
+      "id": "xiaohongshu-mcp",
+      "action": "added"
+    },
+    {
+      "id": "skill-seekers-mcp",
+      "action": "added"
+    },
+    {
+      "id": "fastapi-mcp",
+      "action": "added"
+    },
+    {
+      "id": "openmetadata-mcp",
+      "action": "added"
+    },
+    {
+      "id": "nginx-ui-mcp",
+      "action": "added"
+    },
+    {
+      "id": "xhs-downloader-mcp",
+      "action": "added"
+    },
+    {
+      "id": "mcp-use",
+      "action": "added"
+    },
+    {
+      "id": "xiaozhi-esp32-server-mcp",
+      "action": "added"
+    },
+    {
+      "id": "mcp",
+      "action": "added"
+    },
+    {
+      "id": "hexstrike-ai-mcp",
+      "action": "added"
+    },
+    {
+      "id": "context-mode-mcp",
+      "action": "added"
+    },
+    {
+      "id": "lamda-mcp",
+      "action": "added"
+    },
+    {
+      "id": "ida-pro-mcp",
+      "action": "added"
+    },
+    {
+      "id": "browser-tools-mcp",
+      "action": "added"
+    },
+    {
+      "id": "auto-claude-code-research-in-sleep-mcp",
+      "action": "added"
+    },
+    {
+      "id": "awesome-zh-mcp",
+      "action": "added"
+    },
+    {
+      "id": "mcp",
+      "action": "added"
+    },
+    {
+      "id": "firecrawl-server-mcp",
+      "action": "added"
+    },
+    {
+      "id": "klavis-mcp",
+      "action": "added"
+    },
+    {
+      "id": "xcodebuild-mcp",
+      "action": "added"
+    },
+    {
+      "id": "osaurus-mcp",
+      "action": "added"
+    },
+    {
+      "id": "viper-mcp",
+      "action": "added"
+    },
+    {
+      "id": "deep-research-mcp",
+      "action": "added"
+    },
+    {
+      "id": "enscan-go-mcp",
+      "action": "added"
+    },
+    {
+      "id": "exa-server-mcp",
+      "action": "added"
+    },
+    {
+      "id": "httprunner-mcp",
+      "action": "added"
+    },
+    {
+      "id": "csharp-sdk-mcp",
+      "action": "added"
+    },
+    {
+      "id": "o-mcp",
+      "action": "added"
+    },
+    {
+      "id": "kubefwd-mcp",
+      "action": "added"
+    },
+    {
+      "id": "chart-mcp",
+      "action": "added"
+    },
+    {
+      "id": "bifrost-mcp",
+      "action": "added"
+    },
+    {
+      "id": "fast-agent-mcp",
+      "action": "added"
+    },
+    {
+      "id": "excel-server-mcp",
+      "action": "added"
+    },
+    {
+      "id": "lemonade-mcp",
+      "action": "added"
+    },
+    {
+      "id": "archestra-mcp",
+      "action": "added"
+    },
+    {
+      "id": "mcp-chinese-getting-started-guide",
+      "action": "added"
+    },
+    {
+      "id": "py-xiaozhi-mcp",
+      "action": "added"
+    },
+    {
+      "id": "buildwithclaude-mcp",
+      "action": "added"
+    },
+    {
+      "id": "solon-mcp",
+      "action": "added"
+    },
+    {
+      "id": "dbhub-mcp",
+      "action": "added"
+    },
+    {
+      "id": "arxiv-server-mcp",
+      "action": "added"
+    },
+    {
+      "id": "nunu-mcp",
+      "action": "added"
+    },
+    {
+      "id": "slackdump-mcp",
+      "action": "added"
+    },
+    {
+      "id": "ddgs-mcp",
+      "action": "added"
+    },
+    {
+      "id": "mcp-proxy",
+      "action": "added"
+    },
+    {
+      "id": "brightdata-mcp",
+      "action": "added"
+    },
+    {
+      "id": "meta-mcp",
+      "action": "added"
+    },
+    {
+      "id": "unity-mcp",
+      "action": "added"
+    },
+    {
+      "id": "google-workspace-mcp",
+      "action": "added"
+    },
+    {
+      "id": "unla-mcp",
+      "action": "added"
+    },
+    {
+      "id": "fusio-mcp",
+      "action": "added"
+    },
+    {
+      "id": "mcp-shrimp-task-manager",
+      "action": "added"
+    },
+    {
+      "id": "fli-mcp",
+      "action": "added"
+    },
+    {
+      "id": "hub-mcp",
+      "action": "added"
+    },
+    {
+      "id": "tradingview-mcp",
+      "action": "added"
+    },
+    {
+      "id": "mcp-router",
+      "action": "added"
+    },
+    {
+      "id": "esp32-nat-router-mcp",
+      "action": "added"
+    },
+    {
+      "id": "inspector-mcp",
+      "action": "added"
+    },
+    {
+      "id": "jadx-ai-mcp",
+      "action": "added"
+    },
+    {
+      "id": "dive-mcp",
+      "action": "added"
+    },
+    {
+      "id": "contextplus-mcp",
+      "action": "added"
+    },
+    {
+      "id": "unreal-mcp",
+      "action": "added"
+    },
+    {
+      "id": "hub.nvim-mcp",
+      "action": "added"
+    },
+    {
+      "id": "pg-aiguide-mcp",
+      "action": "added"
+    },
+    {
+      "id": "mcp-memory-service",
+      "action": "added"
+    },
+    {
+      "id": "zenfeed-mcp",
+      "action": "added"
+    },
+    {
+      "id": "codebase-memory-mcp",
+      "action": "added"
+    },
+    {
+      "id": "linkedin-server-mcp",
+      "action": "added"
+    },
+    {
+      "id": "tools-mcp",
+      "action": "added"
+    },
+    {
+      "id": "slack-server-mcp",
+      "action": "added"
+    },
+    {
+      "id": "mcp-language-server",
+      "action": "added"
+    },
+    {
+      "id": "korean-law-mcp",
+      "action": "added"
+    },
+    {
+      "id": "rulego-mcp",
+      "action": "added"
+    },
+    {
+      "id": "paperdebugger-mcp",
+      "action": "added"
+    },
+    {
+      "id": "minimax-mcp",
+      "action": "added"
+    },
+    {
+      "id": "mcp-brasil",
+      "action": "added"
+    },
+    {
+      "id": "data-api-builder-mcp",
+      "action": "added"
+    },
+    {
+      "id": "qdrant-mcp",
+      "action": "added"
+    },
+    {
+      "id": "datagouv-mcp",
+      "action": "added"
+    },
+    {
+      "id": "litterbox-mcp",
+      "action": "added"
+    },
+    {
+      "id": "paperbanana-mcp",
+      "action": "added"
+    },
+    {
+      "id": "awesome-hacking-lists-mcp",
+      "action": "added"
+    },
+    {
+      "id": "npcpy-mcp",
+      "action": "added"
+    }
+  ]
+}
