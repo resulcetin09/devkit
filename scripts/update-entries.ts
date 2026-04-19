@@ -1,9 +1,78 @@
 #!/usr/bin/env node
 import { parseEntriesFile, findEntryById } from './utils/parse-entries.js';
 import { writeEntriesFile, previewEntriesFile } from './utils/write-entries.js';
+import { QUALITY_FILTER_CONFIG } from './utils/quality-filter-config.js';
 import type { Entry } from '../src/types/entry.js';
 import * as fs from 'fs';
 import * as path from 'path';
+
+/**
+ * One-time cleanup function to filter existing MCP server entries through quality filter
+ * Only applies to mcp-server category entries, never touches skill entries
+ */
+function cleanupExistingEntries(): { removedCount: number; removedEntries: string[] } {
+  console.log('🧹 Running one-time quality cleanup on existing MCP server entries...');
+  
+  // Parse existing entries
+  const existingEntries = parseEntriesFile();
+  const removedEntries: string[] = [];
+  
+  // Filter entries - only check MCP servers, never touch skills
+  const filteredEntries = existingEntries.filter(entry => {
+    // Always keep skill entries
+    if (entry.category === 'skill') {
+      return true;
+    }
+    
+    // Only apply quality filter to mcp-server entries
+    if (entry.category === 'mcp-server') {
+      // Check repository name patterns
+      for (const pattern of QUALITY_FILTER_CONFIG.EXCLUDE_NAME_PATTERNS) {
+        if (pattern.test(entry.name)) {
+          console.log(`  🚫 Removing ${entry.name} - matches excluded pattern: ${pattern.source}`);
+          removedEntries.push(`${entry.name} (pattern: ${pattern.source})`);
+          return false;
+        }
+      }
+      
+      // Check description keywords
+      const description = (entry.shortDescription || '').toLowerCase();
+      const excludeKeywords = QUALITY_FILTER_CONFIG.EXCLUDE_DESCRIPTION_KEYWORDS;
+      
+      for (const keyword of excludeKeywords) {
+        if (description.includes(keyword)) {
+          console.log(`  🚫 Removing ${entry.name} - description contains excluded keyword: ${keyword}`);
+          removedEntries.push(`${entry.name} (keyword: ${keyword})`);
+          return false;
+        }
+      }
+      
+      // Keep entries that pass the filter
+      return true;
+    }
+    
+    // Keep any other category entries (shouldn't exist but be safe)
+    return true;
+  });
+  
+  const removedCount = existingEntries.length - filteredEntries.length;
+  
+  if (removedCount > 0) {
+    console.log(`\n📊 Cleanup Summary:`);
+    console.log(`  Total entries before: ${existingEntries.length}`);
+    console.log(`  Entries removed: ${removedCount}`);
+    console.log(`  Entries remaining: ${filteredEntries.length}`);
+    console.log(`  Removed entries: ${removedEntries.join(', ')}`);
+    
+    // Write cleaned entries back to file
+    writeEntriesFile(filteredEntries);
+    console.log(`✅ Cleaned entries.ts written successfully!`);
+  } else {
+    console.log(`✅ No entries needed to be removed - all existing entries pass quality filter`);
+  }
+  
+  return { removedCount, removedEntries };
+}
 
 /**
  * Discovery result structure (from discover-mcp-servers.ts)
@@ -183,7 +252,14 @@ async function updateEntries(discoveryResultPath: string, dryRun: boolean = fals
 // Parse command line arguments
 const args = process.argv.slice(2);
 const dryRun = args.includes('--dry-run');
+const cleanup = args.includes('--cleanup');
 const inputFile = args.find(arg => !arg.startsWith('--')) || 'mcp-discovery-result.json';
+
+// Run cleanup if requested
+if (cleanup) {
+  cleanupExistingEntries();
+  process.exit(0);
+}
 
 // Run update
 updateEntries(inputFile, dryRun).catch(error => {
