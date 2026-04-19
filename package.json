@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "test": "vitest --run",
     "deploy": "npm run build && npx gh-pages -d dist",
-    "discover-mcp": "node --loader ts-node/esm scripts/discover-mcp-servers.ts"
+    "discover-mcp": "node --loader ts-node/esm scripts/discover-mcp-servers.ts",
+    "update-entries": "node --loader ts-node/esm scripts/update-entries.ts"
   },
   "dependencies": {
     "@octokit/rest": "^22.0.1",
