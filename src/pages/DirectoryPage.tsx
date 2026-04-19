@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useMemo, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { RAW_ENTRIES } from '../data/entries';
 import { validateEntries } from '../data/validateEntries';
@@ -6,6 +6,7 @@ import type { CategoryFilter, Entry } from '../types/entry';
 import { filterEntries } from '../utils/filterEntries';
 import { EntryGrid } from '../components/EntryGrid';
 import { FilterPanel } from '../components/FilterPanel';
+import { Hero } from '../components/Hero';
 import { ResultCount } from '../components/ResultCount';
 import { SearchBar } from '../components/SearchBar';
 
@@ -19,6 +20,7 @@ const ALL_TAGS: string[] = Array.from(
 
 export function DirectoryPage() {
   const navigate = useNavigate();
+  const directoryRef = useRef<HTMLDivElement>(null);
 
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<CategoryFilter>('all');
@@ -30,6 +32,10 @@ export function DirectoryPage() {
     [searchQuery, selectedCategory, selectedTags],
   );
 
+  function handleScrollDown() {
+    directoryRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
   function handleClear() {
     setSelectedCategory('all');
     setSelectedTags([]);
@@ -40,24 +46,33 @@ export function DirectoryPage() {
   }
 
   return (
-    <div className="space-y-6">
-      {/* Page heading */}
-      <div className="space-y-1">
-        <h1 className="text-2xl font-bold text-text-primary tracking-tight">
-          Directory
-        </h1>
-        <p className="text-sm text-text-secondary">
-          Browse Claude skills and MCP servers
-        </p>
-      </div>
+    <>
+      <Hero onScrollDown={handleScrollDown} />
 
-      {/* Search */}
-      <SearchBar value={searchQuery} onChange={setSearchQuery} />
+      {/* Directory section */}
+      <div
+        ref={directoryRef}
+        className="mx-auto max-w-7xl scroll-mt-16 px-6 pb-24 pt-16"
+      >
+        {/* Section heading */}
+        <div className="mb-12 flex items-end justify-between gap-4">
+          <h2
+            className="text-text-primary"
+            style={{
+              fontFamily: 'var(--font-display)',
+              fontSize: 'clamp(1.75rem, 3vw, 2.5rem)',
+              lineHeight: 1.1,
+              letterSpacing: '-0.02em',
+            }}
+          >
+            Browse the directory
+          </h2>
+          <ResultCount count={visibleEntries.length} total={ALL_ENTRIES.length} />
+        </div>
 
-      {/* Filters + results */}
-      <div className="flex flex-col gap-6 lg:flex-row">
-        {/* Sidebar filters */}
-        <aside className="w-full shrink-0 lg:w-56">
+        {/* Search + filters stacked */}
+        <div className="mb-8 space-y-4">
+          <SearchBar value={searchQuery} onChange={setSearchQuery} />
           <FilterPanel
             allTags={ALL_TAGS}
             selectedCategory={selectedCategory}
@@ -66,18 +81,15 @@ export function DirectoryPage() {
             onTagsChange={setSelectedTags}
             onClear={handleClear}
           />
-        </aside>
+        </div>
 
         {/* Grid */}
-        <div className="min-w-0 flex-1 space-y-4">
-          <ResultCount count={visibleEntries.length} total={ALL_ENTRIES.length} />
-          <EntryGrid
-            entries={visibleEntries}
-            searchQuery={searchQuery}
-            onEntryClick={handleEntryClick}
-          />
-        </div>
+        <EntryGrid
+          entries={visibleEntries}
+          searchQuery={searchQuery}
+          onEntryClick={handleEntryClick}
+        />
       </div>
-    </div>
+    </>
   );
 }

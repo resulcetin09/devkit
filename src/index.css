@@ -1,26 +1,104 @@
+/* ─── Fonts ───────────────────────────────────────────────────── */
+/* DM Serif Display: editorial, high-contrast serif for headlines  */
+/* DM Mono: technical, precise for tags and code                   */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400;500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* ─── CSS custom properties ───────────────────────────────────── */
+:root {
+  --font-display: 'DM Serif Display', Georgia, serif;
+  --font-body:    'DM Sans', system-ui, sans-serif;
+  --font-mono:    'DM Mono', 'Fira Code', monospace;
+}
+
+/* ─── Hero animations ─────────────────────────────────────────── */
+
+@keyframes hero-reveal {
+  from { opacity: 0; transform: translateY(40px) skewY(1deg); }
+  to   { opacity: 1; transform: translateY(0) skewY(0deg); }
+}
+
+@keyframes particle-drift {
+  0%   { transform: translate(0, 0) scale(1);    opacity: 0.6; }
+  33%  { transform: translate(3px, -5px) scale(1.2); opacity: 1; }
+  66%  { transform: translate(-4px, 3px) scale(0.9); opacity: 0.4; }
+  100% { transform: translate(0, 0) scale(1);    opacity: 0.6; }
+}
+
+@keyframes line-grow {
+  from { transform: scaleX(0); }
+  to   { transform: scaleX(1); }
+}
+
+@keyframes scroll-nudge {
+  0%, 100% { transform: translateX(-50%) translateY(0); opacity: 0.5; }
+  50%       { transform: translateX(-50%) translateY(8px); opacity: 1; }
+}
+
+@keyframes card-in {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Hero text lines — staggered reveal */
+.hero-line {
+  opacity: 0;
+  animation: hero-reveal 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+.hero-line-1 { animation-delay: 0.05s; }
+.hero-line-2 { animation-delay: 0.2s; }
+.hero-line-3 { animation-delay: 0.38s; }
+.hero-line-4 { animation-delay: 0.54s; }
+.hero-line-5 { animation-delay: 0.7s; }
+
+/* Decorative underline that grows in */
+.hero-underline {
+  transform-origin: left center;
+  animation: line-grow 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.6s both;
+}
+
+/* Scroll indicator */
+.scroll-cue {
+  animation: scroll-nudge 2.4s ease-in-out 1.6s infinite;
+}
+
+/* Card stagger on grid mount */
+.card-animate {
+  opacity: 0;
+  animation: card-in 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* ─── Base layer ──────────────────────────────────────────────── */
+
 @layer base {
   html {
-    @apply bg-bg-base text-text-primary font-sans antialiased;
+    font-family: var(--font-body);
+    @apply bg-bg-base text-text-primary antialiased;
+    font-feature-settings: 'kern' 1, 'liga' 1;
   }
 
   body {
     @apply bg-bg-base text-text-primary;
-    /* Prevent flash of unstyled content on dark bg */
     min-height: 100vh;
   }
 
-  /* Consistent focus ring using accent-primary */
   *:focus-visible {
     @apply outline-none ring-2 ring-accent-primary ring-offset-2 ring-offset-bg-base;
   }
 
-  /* Smooth color transitions on interactive elements */
-  a,
-  button {
+  a, button {
     @apply transition-colors duration-150;
   }
+}
+
+/* ─── Utility: hide scrollbar but keep scroll ─────────────────── */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
 }
