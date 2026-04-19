@@ -57,37 +57,37 @@
 ## Phase 3: Update Script
 
 ### Task 7: Create entries.ts Parser
-- [ ] Create scripts/utils/parse-entries.ts
-- [ ] Implement parseEntriesFile function (read and parse RAW_ENTRIES)
-- [ ] Implement findEntryById function
+- [x] Create scripts/utils/parse-entries.ts
+- [x] Implement parseEntriesFile function (read and parse RAW_ENTRIES)
+- [x] Implement findEntryById function
 - [ ] Write unit tests
 - [ ] Run tests: npm test
 - [ ] Commit: "feat: add entries.ts parser utility"
 
 ### Task 8: Create entries.ts Writer
-- [ ] Create scripts/utils/write-entries.ts
-- [ ] Implement writeEntriesFile function
-- [ ] Preserve file formatting and structure
-- [ ] Sort new entries alphabetically
+- [x] Create scripts/utils/write-entries.ts
+- [x] Implement writeEntriesFile function
+- [x] Preserve file formatting and structure
+- [x] Sort new entries alphabetically
 - [ ] Write unit tests
 - [ ] Run tests: npm test
 - [ ] Commit: "feat: add entries.ts writer utility"
 
 ### Task 9: Create Update Script
-- [ ] Create scripts/update-entries.ts
-- [ ] Read discovery results from JSON file
-- [ ] Parse current entries.ts
-- [ ] Merge new and updated entries
-- [ ] Preserve installConfig and other manual fields
-- [ ] Generate UpdateSummary
-- [ ] Write updated entries.ts
-- [ ] Add --dry-run flag support
+- [x] Create scripts/update-entries.ts
+- [x] Read discovery results from JSON file
+- [x] Parse current entries.ts
+- [x] Merge new and updated entries
+- [x] Preserve installConfig and other manual fields
+- [x] Generate UpdateSummary
+- [x] Write updated entries.ts
+- [x] Add --dry-run flag support
 - [ ] Write integration tests
 - [ ] Run tests: npm test
 - [ ] Commit: "feat: add entries update script"
 
 ### Task 10: Add Update npm Script
-- [ ] Add "update-entries" script to package.json
+- [x] Add "update-entries" script to package.json
 - [ ] Test locally: npm run update-entries -- --dry-run
 - [ ] Verify entries.ts updates correctly
 - [ ] Commit: "chore: add update-entries npm script"
@@ -95,29 +95,29 @@
 ## Phase 4: GitHub Actions Workflow
 
 ### Task 11: Create Workflow File
-- [ ] Create .github/workflows/auto-discover-mcp.yml
-- [ ] Add schedule trigger (cron: '0 0 * * *')
-- [ ] Add workflow_dispatch trigger
-- [ ] Add checkout step
-- [ ] Add setup-node step (v20)
-- [ ] Add npm ci step
+- [x] Create .github/workflows/auto-discover-mcp.yml
+- [x] Add schedule trigger (cron: '0 0 * * *')
+- [x] Add workflow_dispatch trigger
+- [x] Add checkout step
+- [x] Add setup-node step (v20)
+- [x] Add npm ci step
 - [ ] Commit: "ci: add MCP auto-discovery workflow skeleton"
 
 ### Task 12: Add Discovery and Update Steps
-- [ ] Add step to run discovery script
-- [ ] Save discovery results to JSON file
-- [ ] Add step to run update script
-- [ ] Configure git user for commits
-- [ ] Add conditional commit step (only if changes)
+- [x] Add step to run discovery script
+- [x] Save discovery results to JSON file
+- [x] Add step to run update script
+- [x] Configure git user for commits
+- [x] Add conditional commit step (only if changes)
 - [ ] Commit: "ci: add discovery and update steps to workflow"
 
 ### Task 13: Add PR Creation Step
-- [ ] Add peter-evans/create-pull-request action
-- [ ] Configure branch name: auto-update-mcp-servers-YYYY-MM-DD
-- [ ] Set PR title template
-- [ ] Create PR body template with summary
-- [ ] Add labels: automated, mcp-servers
-- [ ] Set assignee to repo owner
+- [x] Add peter-evans/create-pull-request action
+- [x] Configure branch name: auto-update-mcp-servers-YYYY-MM-DD
+- [x] Set PR title template
+- [x] Create PR body template with summary
+- [x] Add labels: automated, mcp-servers
+- [x] Set assignee to repo owner
 - [ ] Commit: "ci: add PR creation to workflow"
 
 ### Task 14: Add PR Body Template
@@ -152,12 +152,14 @@
 - [ ] Commit: "feat: add entry validation to discovery"
 
 ### Task 17: Add Error Handling
-- [ ] Add try-catch blocks in discovery script
-- [ ] Handle README fetch failures (use description fallback)
-- [ ] Handle empty descriptions (use "No description provided")
-- [ ] Handle missing topics (empty array)
-- [ ] Handle API errors gracefully
-- [ ] Log errors with context
+- [x] Add try-catch blocks in discovery script
+- [x] Handle README fetch failures (use description fallback)
+- [x] Handle empty descriptions (use "No description provided")
+- [x] Handle missing topics (empty array)
+- [x] Handle API errors gracefully
+- [x] Add retry logic with exponential backoff (3 retries)
+- [x] Add timeout handling (30s per request)
+- [x] Log errors with context
 - [ ] Write tests for error scenarios
 - [ ] Run tests: npm test
 - [ ] Commit: "feat: add comprehensive error handling"
