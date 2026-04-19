@@ -2,4 +2,4 @@
 dist/
 .env
 *.tsbuildinfo
-.kiro/specs/devkit-directory
+.kiro/
