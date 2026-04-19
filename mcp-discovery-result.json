@@ -29,7 +29,25 @@
         "workflow-automation"
       ],
       "sourceUrl": "https://github.com/n8n-io/n8n",
-      "author": "n8n-io"
+      "author": "n8n-io",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"n8n monorepo\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"n8n-monorepo\"\n      ],\n      \"env\": {\n        \"LICENSE_EE\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"n8n monorepo\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"n8n-monorepo\"\n      ],\n      \"env\": {\n        \"LICENSE_EE\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"n8n monorepo\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"n8n-monorepo\"\n      ],\n      \"env\": {\n        \"LICENSE_EE\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"n8n monorepo\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"n8n-monorepo\"\n      ],\n      \"env\": {\n        \"LICENSE_EE\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "gemini-cli-mcp",
@@ -47,7 +65,25 @@
         "mcp-server"
       ],
       "sourceUrl": "https://github.com/google-gemini/gemini-cli",
-      "author": "google-gemini"
+      "author": "google-gemini",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"gemini cli\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"@google/gemini-cli\"\n      ],\n      \"env\": {\n        \"GEMINI_API_KEY\": \"your-api-key-here\",\n        \"YOUR_API_KEY\": \"your-api-key-here\",\n        \"GOOGLE_API_KEY\": \"your-api-key-here\",\n        \"GOOGLE_CLOUD_PROJECT\": \"your-value-here\",\n        \"GOOGLE_GENAI_USE_VERTEXAI\": \"your-value-here\",\n        \"YOUR_PROJECT_ID\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"gemini cli\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"@google/gemini-cli\"\n      ],\n      \"env\": {\n        \"GEMINI_API_KEY\": \"your-api-key-here\",\n        \"YOUR_API_KEY\": \"your-api-key-here\",\n        \"GOOGLE_API_KEY\": \"your-api-key-here\",\n        \"GOOGLE_CLOUD_PROJECT\": \"your-value-here\",\n        \"GOOGLE_GENAI_USE_VERTEXAI\": \"your-value-here\",\n        \"YOUR_PROJECT_ID\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"gemini cli\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"@google/gemini-cli\"\n      ],\n      \"env\": {\n        \"GEMINI_API_KEY\": \"your-api-key-here\",\n        \"YOUR_API_KEY\": \"your-api-key-here\",\n        \"GOOGLE_API_KEY\": \"your-api-key-here\",\n        \"GOOGLE_CLOUD_PROJECT\": \"your-value-here\",\n        \"GOOGLE_GENAI_USE_VERTEXAI\": \"your-value-here\",\n        \"YOUR_PROJECT_ID\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"gemini cli\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"@google/gemini-cli\"\n      ],\n      \"env\": {\n        \"GEMINI_API_KEY\": \"your-api-key-here\",\n        \"YOUR_API_KEY\": \"your-api-key-here\",\n        \"GOOGLE_API_KEY\": \"your-api-key-here\",\n        \"GOOGLE_CLOUD_PROJECT\": \"your-value-here\",\n        \"GOOGLE_GENAI_USE_VERTEXAI\": \"your-value-here\",\n        \"YOUR_PROJECT_ID\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "context7-mcp",
@@ -62,7 +98,25 @@
         "vibe-coding"
       ],
       "sourceUrl": "https://github.com/upstash/context7",
-      "author": "upstash"
+      "author": "upstash",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"context7\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"@upstash/context7\"\n      ],\n      \"env\": {\n        \"CONTEXT7_API_KEY\": \"your-api-key-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"context7\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"@upstash/context7\"\n      ],\n      \"env\": {\n        \"CONTEXT7_API_KEY\": \"your-api-key-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"context7\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"@upstash/context7\"\n      ],\n      \"env\": {\n        \"CONTEXT7_API_KEY\": \"your-api-key-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"context7\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"@upstash/context7\"\n      ],\n      \"env\": {\n        \"CONTEXT7_API_KEY\": \"your-api-key-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "trendradar-mcp",
@@ -89,7 +143,25 @@
         "wework"
       ],
       "sourceUrl": "https://github.com/sansan0/TrendRadar",
-      "author": "sansan0"
+      "author": "sansan0",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"trendradar\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"trendradar\"\n      ],\n      \"env\": {\n        \"AI_API_KEY\": \"your-api-key-here\",\n        \"TELEGRAM_BOT_TOKEN\": \"your-token-here\",\n        \"NTFY_TOKEN\": \"your-token-here\",\n        \"S3_SECRET_ACCESS_KEY\": \"your-api-key-here\",\n        \"DOCKER_ARCH\": \"your-value-here\",\n        \"AI_PROVIDER\": \"your-value-here\",\n        \"AI_BASE_URL\": \"https://example.com\",\n        \"AI_API_BASE\": \"your-value-here\",\n        \"FEISHU_WEBHOOK_URL\": \"https://example.com\",\n        \"GLOBAL_FILTER\": \"your-value-here\",\n        \"SLACK_WEBHOOK_URL\": \"https://example.com\",\n        \"BARK_URL\": \"https://example.com\",\n        \"WEWORK_MSG_TYPE\": \"your-value-here\",\n        \"FOCUS_NEW_ONLY\": \"your-value-here\",\n        \"FEISHU_SHOW_VERSION_UPDATE\": \"your-value-here\",\n        \"WEWORK_WEBHOOK_URL\": \"https://example.com\",\n        \"DINGTALK_WEBHOOK_URL\": \"https://example.com\",\n        \"TELEGRAM_CHAT_ID\": \"your-value-here\",\n        \"EMAIL_FROM\": \"user@example.com\",\n        \"EMAIL_PASSWORD\": \"user@example.com\",\n        \"EMAIL_TO\": \"user@example.com\",\n        \"EMAIL_SMTP_SERVER\": \"user@example.com\",\n        \"EMAIL_SMTP_PORT\": \"3000\",\n        \"NTFY_TOPIC\": \"your-value-here\",\n        \"NTFY_SERVER_URL\": \"https://example.com\",\n        \"GENERIC_WEBHOOK_URL\": \"https://example.com\",\n        \"GENERIC_WEBHOOK_TEMPLATE\": \"your-value-here\",\n        \"S3_BUCKET_NAME\": \"your-value-here\",\n        \"S3_ACCESS_KEY_ID\": \"your-api-key-here\",\n        \"S3_ENDPOINT_URL\": \"https://example.com\",\n        \"S3_REGION\": \"your-value-here\",\n        \"WORD_GROUPS\": \"your-value-here\",\n        \"SORT_BY_POSITION_FIRST\": \"your-value-here\",\n        \"MAX_NEWS_PER_KEYWORD\": \"your-api-key-here\",\n        \"WEBSERVER_PORT\": \"3000\",\n        \"AI_ANALYSIS_ENABLED\": \"your-value-here\",\n        \"S3_\": \"your-value-here\",\n        \"MAX_ACCOUNTS_PER_CHANNEL\": \"your-value-here\",\n        \"STORAGE_BACKEND\": \"your-value-here\",\n        \"AI_MODEL\": \"your-value-here\",\n        \"AI_TEMPERATURE\": \"your-value-here\",\n        \"AI_MAX_TOKENS\": \"your-token-here\",\n        \"AI_TIMEOUT\": \"your-value-here\",\n        \"AI_NUM_RETRIES\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"trendradar\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"trendradar\"\n      ],\n      \"env\": {\n        \"AI_API_KEY\": \"your-api-key-here\",\n        \"TELEGRAM_BOT_TOKEN\": \"your-token-here\",\n        \"NTFY_TOKEN\": \"your-token-here\",\n        \"S3_SECRET_ACCESS_KEY\": \"your-api-key-here\",\n        \"DOCKER_ARCH\": \"your-value-here\",\n        \"AI_PROVIDER\": \"your-value-here\",\n        \"AI_BASE_URL\": \"https://example.com\",\n        \"AI_API_BASE\": \"your-value-here\",\n        \"FEISHU_WEBHOOK_URL\": \"https://example.com\",\n        \"GLOBAL_FILTER\": \"your-value-here\",\n        \"SLACK_WEBHOOK_URL\": \"https://example.com\",\n        \"BARK_URL\": \"https://example.com\",\n        \"WEWORK_MSG_TYPE\": \"your-value-here\",\n        \"FOCUS_NEW_ONLY\": \"your-value-here\",\n        \"FEISHU_SHOW_VERSION_UPDATE\": \"your-value-here\",\n        \"WEWORK_WEBHOOK_URL\": \"https://example.com\",\n        \"DINGTALK_WEBHOOK_URL\": \"https://example.com\",\n        \"TELEGRAM_CHAT_ID\": \"your-value-here\",\n        \"EMAIL_FROM\": \"user@example.com\",\n        \"EMAIL_PASSWORD\": \"user@example.com\",\n        \"EMAIL_TO\": \"user@example.com\",\n        \"EMAIL_SMTP_SERVER\": \"user@example.com\",\n        \"EMAIL_SMTP_PORT\": \"3000\",\n        \"NTFY_TOPIC\": \"your-value-here\",\n        \"NTFY_SERVER_URL\": \"https://example.com\",\n        \"GENERIC_WEBHOOK_URL\": \"https://example.com\",\n        \"GENERIC_WEBHOOK_TEMPLATE\": \"your-value-here\",\n        \"S3_BUCKET_NAME\": \"your-value-here\",\n        \"S3_ACCESS_KEY_ID\": \"your-api-key-here\",\n        \"S3_ENDPOINT_URL\": \"https://example.com\",\n        \"S3_REGION\": \"your-value-here\",\n        \"WORD_GROUPS\": \"your-value-here\",\n        \"SORT_BY_POSITION_FIRST\": \"your-value-here\",\n        \"MAX_NEWS_PER_KEYWORD\": \"your-api-key-here\",\n        \"WEBSERVER_PORT\": \"3000\",\n        \"AI_ANALYSIS_ENABLED\": \"your-value-here\",\n        \"S3_\": \"your-value-here\",\n        \"MAX_ACCOUNTS_PER_CHANNEL\": \"your-value-here\",\n        \"STORAGE_BACKEND\": \"your-value-here\",\n        \"AI_MODEL\": \"your-value-here\",\n        \"AI_TEMPERATURE\": \"your-value-here\",\n        \"AI_MAX_TOKENS\": \"your-token-here\",\n        \"AI_TIMEOUT\": \"your-value-here\",\n        \"AI_NUM_RETRIES\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"trendradar\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"trendradar\"\n      ],\n      \"env\": {\n        \"AI_API_KEY\": \"your-api-key-here\",\n        \"TELEGRAM_BOT_TOKEN\": \"your-token-here\",\n        \"NTFY_TOKEN\": \"your-token-here\",\n        \"S3_SECRET_ACCESS_KEY\": \"your-api-key-here\",\n        \"DOCKER_ARCH\": \"your-value-here\",\n        \"AI_PROVIDER\": \"your-value-here\",\n        \"AI_BASE_URL\": \"https://example.com\",\n        \"AI_API_BASE\": \"your-value-here\",\n        \"FEISHU_WEBHOOK_URL\": \"https://example.com\",\n        \"GLOBAL_FILTER\": \"your-value-here\",\n        \"SLACK_WEBHOOK_URL\": \"https://example.com\",\n        \"BARK_URL\": \"https://example.com\",\n        \"WEWORK_MSG_TYPE\": \"your-value-here\",\n        \"FOCUS_NEW_ONLY\": \"your-value-here\",\n        \"FEISHU_SHOW_VERSION_UPDATE\": \"your-value-here\",\n        \"WEWORK_WEBHOOK_URL\": \"https://example.com\",\n        \"DINGTALK_WEBHOOK_URL\": \"https://example.com\",\n        \"TELEGRAM_CHAT_ID\": \"your-value-here\",\n        \"EMAIL_FROM\": \"user@example.com\",\n        \"EMAIL_PASSWORD\": \"user@example.com\",\n        \"EMAIL_TO\": \"user@example.com\",\n        \"EMAIL_SMTP_SERVER\": \"user@example.com\",\n        \"EMAIL_SMTP_PORT\": \"3000\",\n        \"NTFY_TOPIC\": \"your-value-here\",\n        \"NTFY_SERVER_URL\": \"https://example.com\",\n        \"GENERIC_WEBHOOK_URL\": \"https://example.com\",\n        \"GENERIC_WEBHOOK_TEMPLATE\": \"your-value-here\",\n        \"S3_BUCKET_NAME\": \"your-value-here\",\n        \"S3_ACCESS_KEY_ID\": \"your-api-key-here\",\n        \"S3_ENDPOINT_URL\": \"https://example.com\",\n        \"S3_REGION\": \"your-value-here\",\n        \"WORD_GROUPS\": \"your-value-here\",\n        \"SORT_BY_POSITION_FIRST\": \"your-value-here\",\n        \"MAX_NEWS_PER_KEYWORD\": \"your-api-key-here\",\n        \"WEBSERVER_PORT\": \"3000\",\n        \"AI_ANALYSIS_ENABLED\": \"your-value-here\",\n        \"S3_\": \"your-value-here\",\n        \"MAX_ACCOUNTS_PER_CHANNEL\": \"your-value-here\",\n        \"STORAGE_BACKEND\": \"your-value-here\",\n        \"AI_MODEL\": \"your-value-here\",\n        \"AI_TEMPERATURE\": \"your-value-here\",\n        \"AI_MAX_TOKENS\": \"your-token-here\",\n        \"AI_TIMEOUT\": \"your-value-here\",\n        \"AI_NUM_RETRIES\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"trendradar\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"trendradar\"\n      ],\n      \"env\": {\n        \"AI_API_KEY\": \"your-api-key-here\",\n        \"TELEGRAM_BOT_TOKEN\": \"your-token-here\",\n        \"NTFY_TOKEN\": \"your-token-here\",\n        \"S3_SECRET_ACCESS_KEY\": \"your-api-key-here\",\n        \"DOCKER_ARCH\": \"your-value-here\",\n        \"AI_PROVIDER\": \"your-value-here\",\n        \"AI_BASE_URL\": \"https://example.com\",\n        \"AI_API_BASE\": \"your-value-here\",\n        \"FEISHU_WEBHOOK_URL\": \"https://example.com\",\n        \"GLOBAL_FILTER\": \"your-value-here\",\n        \"SLACK_WEBHOOK_URL\": \"https://example.com\",\n        \"BARK_URL\": \"https://example.com\",\n        \"WEWORK_MSG_TYPE\": \"your-value-here\",\n        \"FOCUS_NEW_ONLY\": \"your-value-here\",\n        \"FEISHU_SHOW_VERSION_UPDATE\": \"your-value-here\",\n        \"WEWORK_WEBHOOK_URL\": \"https://example.com\",\n        \"DINGTALK_WEBHOOK_URL\": \"https://example.com\",\n        \"TELEGRAM_CHAT_ID\": \"your-value-here\",\n        \"EMAIL_FROM\": \"user@example.com\",\n        \"EMAIL_PASSWORD\": \"user@example.com\",\n        \"EMAIL_TO\": \"user@example.com\",\n        \"EMAIL_SMTP_SERVER\": \"user@example.com\",\n        \"EMAIL_SMTP_PORT\": \"3000\",\n        \"NTFY_TOPIC\": \"your-value-here\",\n        \"NTFY_SERVER_URL\": \"https://example.com\",\n        \"GENERIC_WEBHOOK_URL\": \"https://example.com\",\n        \"GENERIC_WEBHOOK_TEMPLATE\": \"your-value-here\",\n        \"S3_BUCKET_NAME\": \"your-value-here\",\n        \"S3_ACCESS_KEY_ID\": \"your-api-key-here\",\n        \"S3_ENDPOINT_URL\": \"https://example.com\",\n        \"S3_REGION\": \"your-value-here\",\n        \"WORD_GROUPS\": \"your-value-here\",\n        \"SORT_BY_POSITION_FIRST\": \"your-value-here\",\n        \"MAX_NEWS_PER_KEYWORD\": \"your-api-key-here\",\n        \"WEBSERVER_PORT\": \"3000\",\n        \"AI_ANALYSIS_ENABLED\": \"your-value-here\",\n        \"S3_\": \"your-value-here\",\n        \"MAX_ACCOUNTS_PER_CHANNEL\": \"your-value-here\",\n        \"STORAGE_BACKEND\": \"your-value-here\",\n        \"AI_MODEL\": \"your-value-here\",\n        \"AI_TEMPERATURE\": \"your-value-here\",\n        \"AI_MAX_TOKENS\": \"your-token-here\",\n        \"AI_TIMEOUT\": \"your-value-here\",\n        \"AI_NUM_RETRIES\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "scrapling-mcp",
@@ -120,7 +192,25 @@
         "xpath"
       ],
       "sourceUrl": "https://github.com/D4Vinci/Scrapling",
-      "author": "D4Vinci"
+      "author": "D4Vinci",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"scrapling\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"scrapling\"\n      ],\n      \"env\": {\n        \"README_AR\": \"your-value-here\",\n        \"README_ES\": \"your-value-here\",\n        \"README_PT_BR\": \"your-value-here\",\n        \"README_FR\": \"your-value-here\",\n        \"README_DE\": \"your-value-here\",\n        \"README_CN\": \"your-value-here\",\n        \"README_JP\": \"your-value-here\",\n        \"README_RU\": \"your-value-here\",\n        \"README_KR\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"scrapling\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"scrapling\"\n      ],\n      \"env\": {\n        \"README_AR\": \"your-value-here\",\n        \"README_ES\": \"your-value-here\",\n        \"README_PT_BR\": \"your-value-here\",\n        \"README_FR\": \"your-value-here\",\n        \"README_DE\": \"your-value-here\",\n        \"README_CN\": \"your-value-here\",\n        \"README_JP\": \"your-value-here\",\n        \"README_RU\": \"your-value-here\",\n        \"README_KR\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"scrapling\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"scrapling\"\n      ],\n      \"env\": {\n        \"README_AR\": \"your-value-here\",\n        \"README_ES\": \"your-value-here\",\n        \"README_PT_BR\": \"your-value-here\",\n        \"README_FR\": \"your-value-here\",\n        \"README_DE\": \"your-value-here\",\n        \"README_CN\": \"your-value-here\",\n        \"README_JP\": \"your-value-here\",\n        \"README_RU\": \"your-value-here\",\n        \"README_KR\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"scrapling\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"scrapling\"\n      ],\n      \"env\": {\n        \"README_AR\": \"your-value-here\",\n        \"README_ES\": \"your-value-here\",\n        \"README_PT_BR\": \"your-value-here\",\n        \"README_FR\": \"your-value-here\",\n        \"README_DE\": \"your-value-here\",\n        \"README_CN\": \"your-value-here\",\n        \"README_JP\": \"your-value-here\",\n        \"README_RU\": \"your-value-here\",\n        \"README_KR\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "chrome-devtools-mcp",
@@ -139,7 +229,25 @@
         "puppeteer"
       ],
       "sourceUrl": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-      "author": "ChromeDevTools"
+      "author": "ChromeDevTools",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"chrome devtools\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"chrome-devtools-mcp\"\n      ],\n      \"env\": {\n        \"YOUR_TOKEN\": \"your-token-here\",\n        \"CHANNEL_SUFFIX_IF_NON_STABLE\": \"your-value-here\",\n        \"CHROME_DEVTOOLS_MCP_NO_USAGE_STATISTICS\": \"your-value-here\",\n        \"CHROME_DEVTOOLS_MCP_NO_UPDATE_CHECKS\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"chrome devtools\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"chrome-devtools-mcp\"\n      ],\n      \"env\": {\n        \"YOUR_TOKEN\": \"your-token-here\",\n        \"CHANNEL_SUFFIX_IF_NON_STABLE\": \"your-value-here\",\n        \"CHROME_DEVTOOLS_MCP_NO_USAGE_STATISTICS\": \"your-value-here\",\n        \"CHROME_DEVTOOLS_MCP_NO_UPDATE_CHECKS\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"chrome devtools\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"chrome-devtools-mcp\"\n      ],\n      \"env\": {\n        \"YOUR_TOKEN\": \"your-token-here\",\n        \"CHANNEL_SUFFIX_IF_NON_STABLE\": \"your-value-here\",\n        \"CHROME_DEVTOOLS_MCP_NO_USAGE_STATISTICS\": \"your-value-here\",\n        \"CHROME_DEVTOOLS_MCP_NO_UPDATE_CHECKS\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"chrome devtools\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"chrome-devtools-mcp\"\n      ],\n      \"env\": {\n        \"YOUR_TOKEN\": \"your-token-here\",\n        \"CHANNEL_SUFFIX_IF_NON_STABLE\": \"your-value-here\",\n        \"CHROME_DEVTOOLS_MCP_NO_USAGE_STATISTICS\": \"your-value-here\",\n        \"CHROME_DEVTOOLS_MCP_NO_UPDATE_CHECKS\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "ruflo-mcp",
@@ -170,7 +278,25 @@
         "swarm-intelligence"
       ],
       "sourceUrl": "https://github.com/ruvnet/ruflo",
-      "author": "ruvnet"
+      "author": "ruvnet",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"claude flow\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"claude-flow\"\n      ],\n      \"env\": {\n        \"ANTHROPIC_API_KEY\": \"your-api-key-here\",\n        \"YOUR_API_KEY\": \"your-api-key-here\",\n        \"OPENAI_API_KEY\": \"your-api-key-here\",\n        \"GOOGLE_API_KEY\": \"your-api-key-here\",\n        \"PROOF_KEY\": \"your-api-key-here\",\n        \"GOOGLE_GEMINI_API_KEY\": \"your-api-key-here\",\n        \"OPENROUTER_API_KEY\": \"your-api-key-here\",\n        \"WEB3_STORAGE_TOKEN\": \"your-token-here\",\n        \"W3_TOKEN\": \"your-token-here\",\n        \"IPFS_TOKEN\": \"your-token-here\",\n        \"PINATA_API_KEY\": \"your-api-key-here\",\n        \"PINATA_API_SECRET\": \"your-secret-here\",\n        \"GITHUB_TOKEN\": \"your-token-here\",\n        \"JWT_SECRET\": \"your-secret-here\",\n        \"HMAC_SECRET\": \"your-secret-here\",\n        \"CLAUDE_FLOW_TOKEN\": \"your-token-here\",\n        \"CLAUDE_FLOW_TOOL_GROUPS\": \"your-value-here\",\n        \"CLAUDE_FLOW_TOOL_MODE\": \"your-value-here\",\n        \"CLAUDE_FLOW_SECURITY_MODE\": \"your-value-here\",\n        \"CLAUDE_FLOW_MEMORY_PATH\": \"your-value-here\",\n        \"CLAUDE_FLOW_MAX_AGENTS\": \"your-value-here\",\n        \"CLAUDE_FLOW_HNSW_M\": \"your-value-here\",\n        \"CLAUDE_FLOW_HNSW_EF\": \"your-value-here\",\n        \"PINATA_JWT\": \"your-value-here\",\n        \"AGENT_INPUT\": \"your-value-here\",\n        \"AGENT_BOOSTER_AVAILABLE\": \"your-value-here\",\n        \"TASK_MODEL_RECOMMENDATION\": \"your-value-here\",\n        \"CLAUDE_FLOW_LOG_LEVEL\": \"your-value-here\",\n        \"CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS\": \"your-value-here\",\n        \"CLAUDE_FLOW_CONTEXT_AUTOPILOT\": \"your-value-here\",\n        \"CLAUDE_FLOW_CONTEXT_WINDOW\": \"your-value-here\",\n        \"CLAUDE_FLOW_AUTOPILOT_WARN\": \"your-value-here\",\n        \"CLAUDE_FLOW_AUTOPILOT_PRUNE\": \"your-value-here\",\n        \"CLAUDE_FLOW_COMPACT_RESTORE_BUDGET\": \"your-value-here\",\n        \"CLAUDE_FLOW_RETENTION_DAYS\": \"your-value-here\",\n        \"CLAUDE_FLOW_AUTO_OPTIMIZE\": \"your-value-here\",\n        \"CLAUDE_FLOW_MEMORY_BACKEND\": \"your-value-here\",\n        \"POSTGRES_USER\": \"your-username\",\n        \"POSTGRES_PASSWORD\": \"your-password\",\n        \"POSTGRES_DB\": \"your-database-url\",\n        \"COLLABORATES_WITH\": \"your-value-here\",\n        \"V3_PERFORMANCE_TARGETS\": \"your-value-here\",\n        \"TEST_CONFIG\": \"your-value-here\",\n        \"FLASH_ATTENTION_SPEEDUP_MIN\": \"your-value-here\",\n        \"AGENTDB_SEARCH_IMPROVEMENT_MAX\": \"your-database-url\",\n        \"CLAUDE_FLOW_MODE\": \"your-value-here\",\n        \"CLAUDE_FLOW_ENV\": \"your-value-here\",\n        \"CLAUDE_FLOW_DATA_DIR\": \"your-value-here\",\n        \"CLAUDE_FLOW_MEMORY_TYPE\": \"your-value-here\",\n        \"CLAUDE_FLOW_CONFIG\": \"your-value-here\",\n        \"NODE_ENV\": \"your-value-here\",\n        \"CLAUDE_FLOW_TOPOLOGY\": \"your-value-here\",\n        \"CLAUDE_FLOW_HEADLESS\": \"your-value-here\",\n        \"CLAUDE_CODE_HEADLESS\": \"your-value-here\",\n        \"CLAUDE_FLOW_MCP_PORT\": \"3000\",\n        \"CLAUDE_FLOW_MCP_HOST\": \"https://api.example.com\",\n        \"CLAUDE_FLOW_MCP_TRANSPORT\": \"3000\",\n        \"CLAUDE_FLOW_EMBEDDING_DIM\": \"your-value-here\",\n        \"SQLJS_WASM_PATH\": \"your-value-here\",\n        \"OLLAMA_URL\": \"https://example.com\",\n        \"IPFS_API_URL\": \"https://example.com\",\n        \"IPFS_GATEWAY_URL\": \"https://example.com\",\n        \"GCS_BUCKET\": \"your-value-here\",\n        \"GOOGLE_CLOUD_BUCKET\": \"your-value-here\",\n        \"GCS_PROJECT_ID\": \"your-value-here\",\n        \"GOOGLE_CLOUD_PROJECT\": \"your-value-here\",\n        \"GOOGLE_APPLICATION_CREDENTIALS\": \"your-value-here\",\n        \"GCS_PREFIX\": \"your-value-here\",\n        \"CLAUDE_FLOW_AUTO_UPDATE\": \"your-value-here\",\n        \"CLAUDE_FLOW_FORCE_UPDATE\": \"your-value-here\",\n        \"CONTINUOUS_INTEGRATION\": \"your-value-here\",\n        \"NO_COLOR\": \"your-value-here\",\n        \"FORCE_COLOR\": \"your-value-here\",\n        \"MODULE_NOT_FOUND\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"claude flow\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"claude-flow\"\n      ],\n      \"env\": {\n        \"ANTHROPIC_API_KEY\": \"your-api-key-here\",\n        \"YOUR_API_KEY\": \"your-api-key-here\",\n        \"OPENAI_API_KEY\": \"your-api-key-here\",\n        \"GOOGLE_API_KEY\": \"your-api-key-here\",\n        \"PROOF_KEY\": \"your-api-key-here\",\n        \"GOOGLE_GEMINI_API_KEY\": \"your-api-key-here\",\n        \"OPENROUTER_API_KEY\": \"your-api-key-here\",\n        \"WEB3_STORAGE_TOKEN\": \"your-token-here\",\n        \"W3_TOKEN\": \"your-token-here\",\n        \"IPFS_TOKEN\": \"your-token-here\",\n        \"PINATA_API_KEY\": \"your-api-key-here\",\n        \"PINATA_API_SECRET\": \"your-secret-here\",\n        \"GITHUB_TOKEN\": \"your-token-here\",\n        \"JWT_SECRET\": \"your-secret-here\",\n        \"HMAC_SECRET\": \"your-secret-here\",\n        \"CLAUDE_FLOW_TOKEN\": \"your-token-here\",\n        \"CLAUDE_FLOW_TOOL_GROUPS\": \"your-value-here\",\n        \"CLAUDE_FLOW_TOOL_MODE\": \"your-value-here\",\n        \"CLAUDE_FLOW_SECURITY_MODE\": \"your-value-here\",\n        \"CLAUDE_FLOW_MEMORY_PATH\": \"your-value-here\",\n        \"CLAUDE_FLOW_MAX_AGENTS\": \"your-value-here\",\n        \"CLAUDE_FLOW_HNSW_M\": \"your-value-here\",\n        \"CLAUDE_FLOW_HNSW_EF\": \"your-value-here\",\n        \"PINATA_JWT\": \"your-value-here\",\n        \"AGENT_INPUT\": \"your-value-here\",\n        \"AGENT_BOOSTER_AVAILABLE\": \"your-value-here\",\n        \"TASK_MODEL_RECOMMENDATION\": \"your-value-here\",\n        \"CLAUDE_FLOW_LOG_LEVEL\": \"your-value-here\",\n        \"CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS\": \"your-value-here\",\n        \"CLAUDE_FLOW_CONTEXT_AUTOPILOT\": \"your-value-here\",\n        \"CLAUDE_FLOW_CONTEXT_WINDOW\": \"your-value-here\",\n        \"CLAUDE_FLOW_AUTOPILOT_WARN\": \"your-value-here\",\n        \"CLAUDE_FLOW_AUTOPILOT_PRUNE\": \"your-value-here\",\n        \"CLAUDE_FLOW_COMPACT_RESTORE_BUDGET\": \"your-value-here\",\n        \"CLAUDE_FLOW_RETENTION_DAYS\": \"your-value-here\",\n        \"CLAUDE_FLOW_AUTO_OPTIMIZE\": \"your-value-here\",\n        \"CLAUDE_FLOW_MEMORY_BACKEND\": \"your-value-here\",\n        \"POSTGRES_USER\": \"your-username\",\n        \"POSTGRES_PASSWORD\": \"your-password\",\n        \"POSTGRES_DB\": \"your-database-url\",\n        \"COLLABORATES_WITH\": \"your-value-here\",\n        \"V3_PERFORMANCE_TARGETS\": \"your-value-here\",\n        \"TEST_CONFIG\": \"your-value-here\",\n        \"FLASH_ATTENTION_SPEEDUP_MIN\": \"your-value-here\",\n        \"AGENTDB_SEARCH_IMPROVEMENT_MAX\": \"your-database-url\",\n        \"CLAUDE_FLOW_MODE\": \"your-value-here\",\n        \"CLAUDE_FLOW_ENV\": \"your-value-here\",\n        \"CLAUDE_FLOW_DATA_DIR\": \"your-value-here\",\n        \"CLAUDE_FLOW_MEMORY_TYPE\": \"your-value-here\",\n        \"CLAUDE_FLOW_CONFIG\": \"your-value-here\",\n        \"NODE_ENV\": \"your-value-here\",\n        \"CLAUDE_FLOW_TOPOLOGY\": \"your-value-here\",\n        \"CLAUDE_FLOW_HEADLESS\": \"your-value-here\",\n        \"CLAUDE_CODE_HEADLESS\": \"your-value-here\",\n        \"CLAUDE_FLOW_MCP_PORT\": \"3000\",\n        \"CLAUDE_FLOW_MCP_HOST\": \"https://api.example.com\",\n        \"CLAUDE_FLOW_MCP_TRANSPORT\": \"3000\",\n        \"CLAUDE_FLOW_EMBEDDING_DIM\": \"your-value-here\",\n        \"SQLJS_WASM_PATH\": \"your-value-here\",\n        \"OLLAMA_URL\": \"https://example.com\",\n        \"IPFS_API_URL\": \"https://example.com\",\n        \"IPFS_GATEWAY_URL\": \"https://example.com\",\n        \"GCS_BUCKET\": \"your-value-here\",\n        \"GOOGLE_CLOUD_BUCKET\": \"your-value-here\",\n        \"GCS_PROJECT_ID\": \"your-value-here\",\n        \"GOOGLE_CLOUD_PROJECT\": \"your-value-here\",\n        \"GOOGLE_APPLICATION_CREDENTIALS\": \"your-value-here\",\n        \"GCS_PREFIX\": \"your-value-here\",\n        \"CLAUDE_FLOW_AUTO_UPDATE\": \"your-value-here\",\n        \"CLAUDE_FLOW_FORCE_UPDATE\": \"your-value-here\",\n        \"CONTINUOUS_INTEGRATION\": \"your-value-here\",\n        \"NO_COLOR\": \"your-value-here\",\n        \"FORCE_COLOR\": \"your-value-here\",\n        \"MODULE_NOT_FOUND\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"claude flow\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"claude-flow\"\n      ],\n      \"env\": {\n        \"ANTHROPIC_API_KEY\": \"your-api-key-here\",\n        \"YOUR_API_KEY\": \"your-api-key-here\",\n        \"OPENAI_API_KEY\": \"your-api-key-here\",\n        \"GOOGLE_API_KEY\": \"your-api-key-here\",\n        \"PROOF_KEY\": \"your-api-key-here\",\n        \"GOOGLE_GEMINI_API_KEY\": \"your-api-key-here\",\n        \"OPENROUTER_API_KEY\": \"your-api-key-here\",\n        \"WEB3_STORAGE_TOKEN\": \"your-token-here\",\n        \"W3_TOKEN\": \"your-token-here\",\n        \"IPFS_TOKEN\": \"your-token-here\",\n        \"PINATA_API_KEY\": \"your-api-key-here\",\n        \"PINATA_API_SECRET\": \"your-secret-here\",\n        \"GITHUB_TOKEN\": \"your-token-here\",\n        \"JWT_SECRET\": \"your-secret-here\",\n        \"HMAC_SECRET\": \"your-secret-here\",\n        \"CLAUDE_FLOW_TOKEN\": \"your-token-here\",\n        \"CLAUDE_FLOW_TOOL_GROUPS\": \"your-value-here\",\n        \"CLAUDE_FLOW_TOOL_MODE\": \"your-value-here\",\n        \"CLAUDE_FLOW_SECURITY_MODE\": \"your-value-here\",\n        \"CLAUDE_FLOW_MEMORY_PATH\": \"your-value-here\",\n        \"CLAUDE_FLOW_MAX_AGENTS\": \"your-value-here\",\n        \"CLAUDE_FLOW_HNSW_M\": \"your-value-here\",\n        \"CLAUDE_FLOW_HNSW_EF\": \"your-value-here\",\n        \"PINATA_JWT\": \"your-value-here\",\n        \"AGENT_INPUT\": \"your-value-here\",\n        \"AGENT_BOOSTER_AVAILABLE\": \"your-value-here\",\n        \"TASK_MODEL_RECOMMENDATION\": \"your-value-here\",\n        \"CLAUDE_FLOW_LOG_LEVEL\": \"your-value-here\",\n        \"CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS\": \"your-value-here\",\n        \"CLAUDE_FLOW_CONTEXT_AUTOPILOT\": \"your-value-here\",\n        \"CLAUDE_FLOW_CONTEXT_WINDOW\": \"your-value-here\",\n        \"CLAUDE_FLOW_AUTOPILOT_WARN\": \"your-value-here\",\n        \"CLAUDE_FLOW_AUTOPILOT_PRUNE\": \"your-value-here\",\n        \"CLAUDE_FLOW_COMPACT_RESTORE_BUDGET\": \"your-value-here\",\n        \"CLAUDE_FLOW_RETENTION_DAYS\": \"your-value-here\",\n        \"CLAUDE_FLOW_AUTO_OPTIMIZE\": \"your-value-here\",\n        \"CLAUDE_FLOW_MEMORY_BACKEND\": \"your-value-here\",\n        \"POSTGRES_USER\": \"your-username\",\n        \"POSTGRES_PASSWORD\": \"your-password\",\n        \"POSTGRES_DB\": \"your-database-url\",\n        \"COLLABORATES_WITH\": \"your-value-here\",\n        \"V3_PERFORMANCE_TARGETS\": \"your-value-here\",\n        \"TEST_CONFIG\": \"your-value-here\",\n        \"FLASH_ATTENTION_SPEEDUP_MIN\": \"your-value-here\",\n        \"AGENTDB_SEARCH_IMPROVEMENT_MAX\": \"your-database-url\",\n        \"CLAUDE_FLOW_MODE\": \"your-value-here\",\n        \"CLAUDE_FLOW_ENV\": \"your-value-here\",\n        \"CLAUDE_FLOW_DATA_DIR\": \"your-value-here\",\n        \"CLAUDE_FLOW_MEMORY_TYPE\": \"your-value-here\",\n        \"CLAUDE_FLOW_CONFIG\": \"your-value-here\",\n        \"NODE_ENV\": \"your-value-here\",\n        \"CLAUDE_FLOW_TOPOLOGY\": \"your-value-here\",\n        \"CLAUDE_FLOW_HEADLESS\": \"your-value-here\",\n        \"CLAUDE_CODE_HEADLESS\": \"your-value-here\",\n        \"CLAUDE_FLOW_MCP_PORT\": \"3000\",\n        \"CLAUDE_FLOW_MCP_HOST\": \"https://api.example.com\",\n        \"CLAUDE_FLOW_MCP_TRANSPORT\": \"3000\",\n        \"CLAUDE_FLOW_EMBEDDING_DIM\": \"your-value-here\",\n        \"SQLJS_WASM_PATH\": \"your-value-here\",\n        \"OLLAMA_URL\": \"https://example.com\",\n        \"IPFS_API_URL\": \"https://example.com\",\n        \"IPFS_GATEWAY_URL\": \"https://example.com\",\n        \"GCS_BUCKET\": \"your-value-here\",\n        \"GOOGLE_CLOUD_BUCKET\": \"your-value-here\",\n        \"GCS_PROJECT_ID\": \"your-value-here\",\n        \"GOOGLE_CLOUD_PROJECT\": \"your-value-here\",\n        \"GOOGLE_APPLICATION_CREDENTIALS\": \"your-value-here\",\n        \"GCS_PREFIX\": \"your-value-here\",\n        \"CLAUDE_FLOW_AUTO_UPDATE\": \"your-value-here\",\n        \"CLAUDE_FLOW_FORCE_UPDATE\": \"your-value-here\",\n        \"CONTINUOUS_INTEGRATION\": \"your-value-here\",\n        \"NO_COLOR\": \"your-value-here\",\n        \"FORCE_COLOR\": \"your-value-here\",\n        \"MODULE_NOT_FOUND\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"claude flow\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"claude-flow\"\n      ],\n      \"env\": {\n        \"ANTHROPIC_API_KEY\": \"your-api-key-here\",\n        \"YOUR_API_KEY\": \"your-api-key-here\",\n        \"OPENAI_API_KEY\": \"your-api-key-here\",\n        \"GOOGLE_API_KEY\": \"your-api-key-here\",\n        \"PROOF_KEY\": \"your-api-key-here\",\n        \"GOOGLE_GEMINI_API_KEY\": \"your-api-key-here\",\n        \"OPENROUTER_API_KEY\": \"your-api-key-here\",\n        \"WEB3_STORAGE_TOKEN\": \"your-token-here\",\n        \"W3_TOKEN\": \"your-token-here\",\n        \"IPFS_TOKEN\": \"your-token-here\",\n        \"PINATA_API_KEY\": \"your-api-key-here\",\n        \"PINATA_API_SECRET\": \"your-secret-here\",\n        \"GITHUB_TOKEN\": \"your-token-here\",\n        \"JWT_SECRET\": \"your-secret-here\",\n        \"HMAC_SECRET\": \"your-secret-here\",\n        \"CLAUDE_FLOW_TOKEN\": \"your-token-here\",\n        \"CLAUDE_FLOW_TOOL_GROUPS\": \"your-value-here\",\n        \"CLAUDE_FLOW_TOOL_MODE\": \"your-value-here\",\n        \"CLAUDE_FLOW_SECURITY_MODE\": \"your-value-here\",\n        \"CLAUDE_FLOW_MEMORY_PATH\": \"your-value-here\",\n        \"CLAUDE_FLOW_MAX_AGENTS\": \"your-value-here\",\n        \"CLAUDE_FLOW_HNSW_M\": \"your-value-here\",\n        \"CLAUDE_FLOW_HNSW_EF\": \"your-value-here\",\n        \"PINATA_JWT\": \"your-value-here\",\n        \"AGENT_INPUT\": \"your-value-here\",\n        \"AGENT_BOOSTER_AVAILABLE\": \"your-value-here\",\n        \"TASK_MODEL_RECOMMENDATION\": \"your-value-here\",\n        \"CLAUDE_FLOW_LOG_LEVEL\": \"your-value-here\",\n        \"CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS\": \"your-value-here\",\n        \"CLAUDE_FLOW_CONTEXT_AUTOPILOT\": \"your-value-here\",\n        \"CLAUDE_FLOW_CONTEXT_WINDOW\": \"your-value-here\",\n        \"CLAUDE_FLOW_AUTOPILOT_WARN\": \"your-value-here\",\n        \"CLAUDE_FLOW_AUTOPILOT_PRUNE\": \"your-value-here\",\n        \"CLAUDE_FLOW_COMPACT_RESTORE_BUDGET\": \"your-value-here\",\n        \"CLAUDE_FLOW_RETENTION_DAYS\": \"your-value-here\",\n        \"CLAUDE_FLOW_AUTO_OPTIMIZE\": \"your-value-here\",\n        \"CLAUDE_FLOW_MEMORY_BACKEND\": \"your-value-here\",\n        \"POSTGRES_USER\": \"your-username\",\n        \"POSTGRES_PASSWORD\": \"your-password\",\n        \"POSTGRES_DB\": \"your-database-url\",\n        \"COLLABORATES_WITH\": \"your-value-here\",\n        \"V3_PERFORMANCE_TARGETS\": \"your-value-here\",\n        \"TEST_CONFIG\": \"your-value-here\",\n        \"FLASH_ATTENTION_SPEEDUP_MIN\": \"your-value-here\",\n        \"AGENTDB_SEARCH_IMPROVEMENT_MAX\": \"your-database-url\",\n        \"CLAUDE_FLOW_MODE\": \"your-value-here\",\n        \"CLAUDE_FLOW_ENV\": \"your-value-here\",\n        \"CLAUDE_FLOW_DATA_DIR\": \"your-value-here\",\n        \"CLAUDE_FLOW_MEMORY_TYPE\": \"your-value-here\",\n        \"CLAUDE_FLOW_CONFIG\": \"your-value-here\",\n        \"NODE_ENV\": \"your-value-here\",\n        \"CLAUDE_FLOW_TOPOLOGY\": \"your-value-here\",\n        \"CLAUDE_FLOW_HEADLESS\": \"your-value-here\",\n        \"CLAUDE_CODE_HEADLESS\": \"your-value-here\",\n        \"CLAUDE_FLOW_MCP_PORT\": \"3000\",\n        \"CLAUDE_FLOW_MCP_HOST\": \"https://api.example.com\",\n        \"CLAUDE_FLOW_MCP_TRANSPORT\": \"3000\",\n        \"CLAUDE_FLOW_EMBEDDING_DIM\": \"your-value-here\",\n        \"SQLJS_WASM_PATH\": \"your-value-here\",\n        \"OLLAMA_URL\": \"https://example.com\",\n        \"IPFS_API_URL\": \"https://example.com\",\n        \"IPFS_GATEWAY_URL\": \"https://example.com\",\n        \"GCS_BUCKET\": \"your-value-here\",\n        \"GOOGLE_CLOUD_BUCKET\": \"your-value-here\",\n        \"GCS_PROJECT_ID\": \"your-value-here\",\n        \"GOOGLE_CLOUD_PROJECT\": \"your-value-here\",\n        \"GOOGLE_APPLICATION_CREDENTIALS\": \"your-value-here\",\n        \"GCS_PREFIX\": \"your-value-here\",\n        \"CLAUDE_FLOW_AUTO_UPDATE\": \"your-value-here\",\n        \"CLAUDE_FLOW_FORCE_UPDATE\": \"your-value-here\",\n        \"CONTINUOUS_INTEGRATION\": \"your-value-here\",\n        \"NO_COLOR\": \"your-value-here\",\n        \"FORCE_COLOR\": \"your-value-here\",\n        \"MODULE_NOT_FOUND\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "ui-tars-desktop-mcp",
@@ -195,7 +321,25 @@
         "vlm"
       ],
       "sourceUrl": "https://github.com/bytedance/UI-TARS-desktop",
-      "author": "bytedance"
+      "author": "bytedance",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"monorepo\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"monorepo\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"monorepo\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"monorepo\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"monorepo\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"monorepo\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"monorepo\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"monorepo\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "github-server-mcp",
@@ -231,7 +375,25 @@
         "webscraping"
       ],
       "sourceUrl": "https://github.com/assafelovic/gpt-researcher",
-      "author": "assafelovic"
+      "author": "assafelovic",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"gpt researcher\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"gpt-researcher\"\n      ],\n      \"env\": {\n        \"OPENAI_API_KEY\": \"your-api-key-here\",\n        \"TAVILY_API_KEY\": \"your-api-key-here\",\n        \"LANGCHAIN_API_KEY\": \"your-api-key-here\",\n        \"GITHUB_TOKEN\": \"your-token-here\",\n        \"GOOGLE_API_KEY\": \"your-api-key-here\",\n        \"LANGCHAIN_TRACING_V2\": \"your-value-here\",\n        \"OPENAI_BASE_URL\": \"https://example.com\",\n        \"DOC_PATH\": \"your-value-here\",\n        \"LANGCHAIN_PROJECT\": \"your-value-here\",\n        \"IMAGE_GENERATION_ENABLED\": \"your-value-here\",\n        \"IMAGE_GENERATION_MODEL\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"gpt researcher\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"gpt-researcher\"\n      ],\n      \"env\": {\n        \"OPENAI_API_KEY\": \"your-api-key-here\",\n        \"TAVILY_API_KEY\": \"your-api-key-here\",\n        \"LANGCHAIN_API_KEY\": \"your-api-key-here\",\n        \"GITHUB_TOKEN\": \"your-token-here\",\n        \"GOOGLE_API_KEY\": \"your-api-key-here\",\n        \"LANGCHAIN_TRACING_V2\": \"your-value-here\",\n        \"OPENAI_BASE_URL\": \"https://example.com\",\n        \"DOC_PATH\": \"your-value-here\",\n        \"LANGCHAIN_PROJECT\": \"your-value-here\",\n        \"IMAGE_GENERATION_ENABLED\": \"your-value-here\",\n        \"IMAGE_GENERATION_MODEL\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"gpt researcher\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"gpt-researcher\"\n      ],\n      \"env\": {\n        \"OPENAI_API_KEY\": \"your-api-key-here\",\n        \"TAVILY_API_KEY\": \"your-api-key-here\",\n        \"LANGCHAIN_API_KEY\": \"your-api-key-here\",\n        \"GITHUB_TOKEN\": \"your-token-here\",\n        \"GOOGLE_API_KEY\": \"your-api-key-here\",\n        \"LANGCHAIN_TRACING_V2\": \"your-value-here\",\n        \"OPENAI_BASE_URL\": \"https://example.com\",\n        \"DOC_PATH\": \"your-value-here\",\n        \"LANGCHAIN_PROJECT\": \"your-value-here\",\n        \"IMAGE_GENERATION_ENABLED\": \"your-value-here\",\n        \"IMAGE_GENERATION_MODEL\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"gpt researcher\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"gpt-researcher\"\n      ],\n      \"env\": {\n        \"OPENAI_API_KEY\": \"your-api-key-here\",\n        \"TAVILY_API_KEY\": \"your-api-key-here\",\n        \"LANGCHAIN_API_KEY\": \"your-api-key-here\",\n        \"GITHUB_TOKEN\": \"your-token-here\",\n        \"GOOGLE_API_KEY\": \"your-api-key-here\",\n        \"LANGCHAIN_TRACING_V2\": \"your-value-here\",\n        \"OPENAI_BASE_URL\": \"https://example.com\",\n        \"DOC_PATH\": \"your-value-here\",\n        \"LANGCHAIN_PROJECT\": \"your-value-here\",\n        \"IMAGE_GENERATION_ENABLED\": \"your-value-here\",\n        \"IMAGE_GENERATION_MODEL\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "serena-mcp",
@@ -254,7 +416,25 @@
         "vibe-coding"
       ],
       "sourceUrl": "https://github.com/oraios/serena",
-      "author": "oraios"
+      "author": "oraios",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"serena agent\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"serena-agent\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"serena agent\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"serena-agent\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"serena agent\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"serena-agent\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"serena agent\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"serena-agent\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "activepieces-mcp",
@@ -278,7 +458,25 @@
         "workflows"
       ],
       "sourceUrl": "https://github.com/activepieces/activepieces",
-      "author": "activepieces"
+      "author": "activepieces",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"activepieces\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"activepieces\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"activepieces\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"activepieces\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"activepieces\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"activepieces\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"activepieces\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"activepieces\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "maxkb-mcp",
@@ -303,7 +501,25 @@
         "rag"
       ],
       "sourceUrl": "https://github.com/1Panel-dev/MaxKB",
-      "author": "1Panel-dev"
+      "author": "1Panel-dev",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"maxkb\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"maxkb\"\n      ],\n      \"env\": {\n        \"README_CN\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"maxkb\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"maxkb\"\n      ],\n      \"env\": {\n        \"README_CN\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"maxkb\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"maxkb\"\n      ],\n      \"env\": {\n        \"README_CN\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"maxkb\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"maxkb\"\n      ],\n      \"env\": {\n        \"README_CN\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "n8n-mcp",
@@ -318,7 +534,25 @@
         "workflows"
       ],
       "sourceUrl": "https://github.com/czlonkowski/n8n-mcp",
-      "author": "czlonkowski"
+      "author": "czlonkowski",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"n8n\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"n8n-mcp\"\n      ],\n      \"env\": {\n        \"YOUR_TOKEN\": \"your-token-here\",\n        \"N8N_API_KEY\": \"your-api-key-here\",\n        \"SELF_HOSTING\": \"https://api.example.com\",\n        \"N8N_DEPLOYMENT\": \"your-value-here\",\n        \"CLAUDE_CODE_SETUP\": \"your-value-here\",\n        \"VS_CODE_PROJECT_SETUP\": \"your-value-here\",\n        \"CURSOR_SETUP\": \"your-value-here\",\n        \"WINDSURF_SETUP\": \"your-value-here\",\n        \"CODEX_SETUP\": \"your-value-here\",\n        \"ANTIGRAVITY_SETUP\": \"your-value-here\",\n        \"N8N_API_URL\": \"https://example.com\",\n        \"SECURITY_HARDENING\": \"your-value-here\",\n        \"DATABASE_CONFIGURATION\": \"your-database-url\",\n        \"HTTP_DEPLOYMENT\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"n8n\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"n8n-mcp\"\n      ],\n      \"env\": {\n        \"YOUR_TOKEN\": \"your-token-here\",\n        \"N8N_API_KEY\": \"your-api-key-here\",\n        \"SELF_HOSTING\": \"https://api.example.com\",\n        \"N8N_DEPLOYMENT\": \"your-value-here\",\n        \"CLAUDE_CODE_SETUP\": \"your-value-here\",\n        \"VS_CODE_PROJECT_SETUP\": \"your-value-here\",\n        \"CURSOR_SETUP\": \"your-value-here\",\n        \"WINDSURF_SETUP\": \"your-value-here\",\n        \"CODEX_SETUP\": \"your-value-here\",\n        \"ANTIGRAVITY_SETUP\": \"your-value-here\",\n        \"N8N_API_URL\": \"https://example.com\",\n        \"SECURITY_HARDENING\": \"your-value-here\",\n        \"DATABASE_CONFIGURATION\": \"your-database-url\",\n        \"HTTP_DEPLOYMENT\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"n8n\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"n8n-mcp\"\n      ],\n      \"env\": {\n        \"YOUR_TOKEN\": \"your-token-here\",\n        \"N8N_API_KEY\": \"your-api-key-here\",\n        \"SELF_HOSTING\": \"https://api.example.com\",\n        \"N8N_DEPLOYMENT\": \"your-value-here\",\n        \"CLAUDE_CODE_SETUP\": \"your-value-here\",\n        \"VS_CODE_PROJECT_SETUP\": \"your-value-here\",\n        \"CURSOR_SETUP\": \"your-value-here\",\n        \"WINDSURF_SETUP\": \"your-value-here\",\n        \"CODEX_SETUP\": \"your-value-here\",\n        \"ANTIGRAVITY_SETUP\": \"your-value-here\",\n        \"N8N_API_URL\": \"https://example.com\",\n        \"SECURITY_HARDENING\": \"your-value-here\",\n        \"DATABASE_CONFIGURATION\": \"your-database-url\",\n        \"HTTP_DEPLOYMENT\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"n8n\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"n8n-mcp\"\n      ],\n      \"env\": {\n        \"YOUR_TOKEN\": \"your-token-here\",\n        \"N8N_API_KEY\": \"your-api-key-here\",\n        \"SELF_HOSTING\": \"https://api.example.com\",\n        \"N8N_DEPLOYMENT\": \"your-value-here\",\n        \"CLAUDE_CODE_SETUP\": \"your-value-here\",\n        \"VS_CODE_PROJECT_SETUP\": \"your-value-here\",\n        \"CURSOR_SETUP\": \"your-value-here\",\n        \"WINDSURF_SETUP\": \"your-value-here\",\n        \"CODEX_SETUP\": \"your-value-here\",\n        \"ANTIGRAVITY_SETUP\": \"your-value-here\",\n        \"N8N_API_URL\": \"https://example.com\",\n        \"SECURITY_HARDENING\": \"your-value-here\",\n        \"DATABASE_CONFIGURATION\": \"your-database-url\",\n        \"HTTP_DEPLOYMENT\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "nuclear-mcp",
@@ -343,7 +577,25 @@
         "windows"
       ],
       "sourceUrl": "https://github.com/nukeop/nuclear",
-      "author": "nukeop"
+      "author": "nukeop",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"nuclear\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"nuclear\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"nuclear\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"nuclear\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"nuclear\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"nuclear\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"nuclear\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"nuclear\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "mcp-for-beginners",
@@ -392,7 +644,25 @@
         "workflows"
       ],
       "sourceUrl": "https://github.com/triggerdotdev/trigger.dev",
-      "author": "triggerdotdev"
+      "author": "triggerdotdev",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"triggerdotdev\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"triggerdotdev\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"triggerdotdev\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"triggerdotdev\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"triggerdotdev\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"triggerdotdev\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"triggerdotdev\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"triggerdotdev\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "xiaohongshu-mcp",
@@ -435,7 +705,25 @@
         "web-scraping"
       ],
       "sourceUrl": "https://github.com/yusufkaraaslan/Skill_Seekers",
-      "author": "yusufkaraaslan"
+      "author": "yusufkaraaslan",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"skill seekers\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"skill-seekers\"\n      ],\n      \"env\": {\n        \"ANTHROPIC_API_KEY\": \"your-api-key-here\",\n        \"GOOGLE_API_KEY\": \"your-api-key-here\",\n        \"OPENAI_API_KEY\": \"your-api-key-here\",\n        \"MINIMAX_API_KEY\": \"your-api-key-here\",\n        \"GITHUB_TOKEN\": \"your-token-here\",\n        \"GITLAB_TOKEN\": \"your-token-here\",\n        \"GITEA_TOKEN\": \"your-token-here\",\n        \"BITBUCKET_TOKEN\": \"your-token-here\",\n        \"ANTHROPIC_BASE_URL\": \"https://example.com\",\n        \"INTERNATIONAL_SYSTEM\": \"your-value-here\",\n        \"CLI_REFERENCE\": \"your-value-here\",\n        \"CONFIG_FORMAT\": \"your-value-here\",\n        \"LLAMA_INDEX\": \"your-value-here\",\n        \"RAG_PIPELINES\": \"your-value-here\",\n        \"CONTINUE_DEV\": \"your-value-here\",\n        \"IMPLEMENTATION_SUMMARY_THREE_STREAM\": \"your-value-here\",\n        \"HOW_TO_GUIDES\": \"your-value-here\",\n        \"FEATURE_MATRIX\": \"your-value-here\",\n        \"VIDEO_GUIDE\": \"your-value-here\",\n        \"UNIFIED_SCRAPING\": \"your-value-here\",\n        \"GIT_CONFIG_SOURCES\": \"your-value-here\",\n        \"UML_ARCHITECTURE\": \"your-value-here\",\n        \"BULLETPROOF_QUICKSTART\": \"your-value-here\",\n        \"MCP_SETUP\": \"your-value-here\",\n        \"QUICK_REFERENCE\": \"your-value-here\",\n        \"LARGE_DOCUMENTATION\": \"your-value-here\",\n        \"ASYNC_SUPPORT\": \"3000\",\n        \"ENHANCEMENT_MODES\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"skill seekers\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"skill-seekers\"\n      ],\n      \"env\": {\n        \"ANTHROPIC_API_KEY\": \"your-api-key-here\",\n        \"GOOGLE_API_KEY\": \"your-api-key-here\",\n        \"OPENAI_API_KEY\": \"your-api-key-here\",\n        \"MINIMAX_API_KEY\": \"your-api-key-here\",\n        \"GITHUB_TOKEN\": \"your-token-here\",\n        \"GITLAB_TOKEN\": \"your-token-here\",\n        \"GITEA_TOKEN\": \"your-token-here\",\n        \"BITBUCKET_TOKEN\": \"your-token-here\",\n        \"ANTHROPIC_BASE_URL\": \"https://example.com\",\n        \"INTERNATIONAL_SYSTEM\": \"your-value-here\",\n        \"CLI_REFERENCE\": \"your-value-here\",\n        \"CONFIG_FORMAT\": \"your-value-here\",\n        \"LLAMA_INDEX\": \"your-value-here\",\n        \"RAG_PIPELINES\": \"your-value-here\",\n        \"CONTINUE_DEV\": \"your-value-here\",\n        \"IMPLEMENTATION_SUMMARY_THREE_STREAM\": \"your-value-here\",\n        \"HOW_TO_GUIDES\": \"your-value-here\",\n        \"FEATURE_MATRIX\": \"your-value-here\",\n        \"VIDEO_GUIDE\": \"your-value-here\",\n        \"UNIFIED_SCRAPING\": \"your-value-here\",\n        \"GIT_CONFIG_SOURCES\": \"your-value-here\",\n        \"UML_ARCHITECTURE\": \"your-value-here\",\n        \"BULLETPROOF_QUICKSTART\": \"your-value-here\",\n        \"MCP_SETUP\": \"your-value-here\",\n        \"QUICK_REFERENCE\": \"your-value-here\",\n        \"LARGE_DOCUMENTATION\": \"your-value-here\",\n        \"ASYNC_SUPPORT\": \"3000\",\n        \"ENHANCEMENT_MODES\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"skill seekers\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"skill-seekers\"\n      ],\n      \"env\": {\n        \"ANTHROPIC_API_KEY\": \"your-api-key-here\",\n        \"GOOGLE_API_KEY\": \"your-api-key-here\",\n        \"OPENAI_API_KEY\": \"your-api-key-here\",\n        \"MINIMAX_API_KEY\": \"your-api-key-here\",\n        \"GITHUB_TOKEN\": \"your-token-here\",\n        \"GITLAB_TOKEN\": \"your-token-here\",\n        \"GITEA_TOKEN\": \"your-token-here\",\n        \"BITBUCKET_TOKEN\": \"your-token-here\",\n        \"ANTHROPIC_BASE_URL\": \"https://example.com\",\n        \"INTERNATIONAL_SYSTEM\": \"your-value-here\",\n        \"CLI_REFERENCE\": \"your-value-here\",\n        \"CONFIG_FORMAT\": \"your-value-here\",\n        \"LLAMA_INDEX\": \"your-value-here\",\n        \"RAG_PIPELINES\": \"your-value-here\",\n        \"CONTINUE_DEV\": \"your-value-here\",\n        \"IMPLEMENTATION_SUMMARY_THREE_STREAM\": \"your-value-here\",\n        \"HOW_TO_GUIDES\": \"your-value-here\",\n        \"FEATURE_MATRIX\": \"your-value-here\",\n        \"VIDEO_GUIDE\": \"your-value-here\",\n        \"UNIFIED_SCRAPING\": \"your-value-here\",\n        \"GIT_CONFIG_SOURCES\": \"your-value-here\",\n        \"UML_ARCHITECTURE\": \"your-value-here\",\n        \"BULLETPROOF_QUICKSTART\": \"your-value-here\",\n        \"MCP_SETUP\": \"your-value-here\",\n        \"QUICK_REFERENCE\": \"your-value-here\",\n        \"LARGE_DOCUMENTATION\": \"your-value-here\",\n        \"ASYNC_SUPPORT\": \"3000\",\n        \"ENHANCEMENT_MODES\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"skill seekers\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"skill-seekers\"\n      ],\n      \"env\": {\n        \"ANTHROPIC_API_KEY\": \"your-api-key-here\",\n        \"GOOGLE_API_KEY\": \"your-api-key-here\",\n        \"OPENAI_API_KEY\": \"your-api-key-here\",\n        \"MINIMAX_API_KEY\": \"your-api-key-here\",\n        \"GITHUB_TOKEN\": \"your-token-here\",\n        \"GITLAB_TOKEN\": \"your-token-here\",\n        \"GITEA_TOKEN\": \"your-token-here\",\n        \"BITBUCKET_TOKEN\": \"your-token-here\",\n        \"ANTHROPIC_BASE_URL\": \"https://example.com\",\n        \"INTERNATIONAL_SYSTEM\": \"your-value-here\",\n        \"CLI_REFERENCE\": \"your-value-here\",\n        \"CONFIG_FORMAT\": \"your-value-here\",\n        \"LLAMA_INDEX\": \"your-value-here\",\n        \"RAG_PIPELINES\": \"your-value-here\",\n        \"CONTINUE_DEV\": \"your-value-here\",\n        \"IMPLEMENTATION_SUMMARY_THREE_STREAM\": \"your-value-here\",\n        \"HOW_TO_GUIDES\": \"your-value-here\",\n        \"FEATURE_MATRIX\": \"your-value-here\",\n        \"VIDEO_GUIDE\": \"your-value-here\",\n        \"UNIFIED_SCRAPING\": \"your-value-here\",\n        \"GIT_CONFIG_SOURCES\": \"your-value-here\",\n        \"UML_ARCHITECTURE\": \"your-value-here\",\n        \"BULLETPROOF_QUICKSTART\": \"your-value-here\",\n        \"MCP_SETUP\": \"your-value-here\",\n        \"QUICK_REFERENCE\": \"your-value-here\",\n        \"LARGE_DOCUMENTATION\": \"your-value-here\",\n        \"ASYNC_SUPPORT\": \"3000\",\n        \"ENHANCEMENT_MODES\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "fastapi-mcp",
@@ -459,7 +747,25 @@
         "windsurf"
       ],
       "sourceUrl": "https://github.com/tadata-org/fastapi_mcp",
-      "author": "tadata-org"
+      "author": "tadata-org",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"fastapi\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"fastapi-mcp\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"fastapi\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"fastapi-mcp\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"fastapi\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"fastapi-mcp\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"fastapi\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"fastapi-mcp\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "openmetadata-mcp",
@@ -490,7 +796,25 @@
         "snowflake"
       ],
       "sourceUrl": "https://github.com/open-metadata/OpenMetadata",
-      "author": "open-metadata"
+      "author": "open-metadata",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"open metadata\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"open-metadata\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"open metadata\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"open-metadata\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"open metadata\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"open-metadata\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"open metadata\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"open-metadata\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "nginx-ui-mcp",
@@ -518,7 +842,25 @@
         "windows"
       ],
       "sourceUrl": "https://github.com/0xJacky/nginx-ui",
-      "author": "0xJacky"
+      "author": "0xJacky",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"nginx ui\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"nginx-ui\"\n      ],\n      \"env\": {\n        \"LD_FLAGS\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"nginx ui\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"nginx-ui\"\n      ],\n      \"env\": {\n        \"LD_FLAGS\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"nginx ui\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"nginx-ui\"\n      ],\n      \"env\": {\n        \"LD_FLAGS\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"nginx ui\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"nginx-ui\"\n      ],\n      \"env\": {\n        \"LD_FLAGS\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "xhs-downloader-mcp",
@@ -549,7 +891,25 @@
         "xiaohongshu"
       ],
       "sourceUrl": "https://github.com/JoeanAmier/XHS-Downloader",
-      "author": "JoeanAmier"
+      "author": "JoeanAmier",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"xhs downloader\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"XHS-Downloader\"\n      ],\n      \"env\": {\n        \"README_EN\": \"your-value-here\",\n        \"ID_\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"xhs downloader\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"XHS-Downloader\"\n      ],\n      \"env\": {\n        \"README_EN\": \"your-value-here\",\n        \"ID_\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"xhs downloader\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"XHS-Downloader\"\n      ],\n      \"env\": {\n        \"README_EN\": \"your-value-here\",\n        \"ID_\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"xhs downloader\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"XHS-Downloader\"\n      ],\n      \"env\": {\n        \"README_EN\": \"your-value-here\",\n        \"ID_\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "mcp-use",
@@ -680,7 +1040,25 @@
         "zed-extension"
       ],
       "sourceUrl": "https://github.com/mksglu/context-mode",
-      "author": "mksglu"
+      "author": "mksglu",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"context mode\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"context-mode\"\n      ],\n      \"env\": {\n        \"OPENCLAW_STATE_DIR\": \"your-value-here\",\n        \"MADV_DONTNEED\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"context mode\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"context-mode\"\n      ],\n      \"env\": {\n        \"OPENCLAW_STATE_DIR\": \"your-value-here\",\n        \"MADV_DONTNEED\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"context mode\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"context-mode\"\n      ],\n      \"env\": {\n        \"OPENCLAW_STATE_DIR\": \"your-value-here\",\n        \"MADV_DONTNEED\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"context mode\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"context-mode\"\n      ],\n      \"env\": {\n        \"OPENCLAW_STATE_DIR\": \"your-value-here\",\n        \"MADV_DONTNEED\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "lamda-mcp",
@@ -731,7 +1109,25 @@
         "reverse-engineering"
       ],
       "sourceUrl": "https://github.com/mrexodia/ida-pro-mcp",
-      "author": "mrexodia"
+      "author": "mrexodia",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"ida pro\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"ida-pro-mcp\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"ida pro\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"ida-pro-mcp\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"ida pro\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"ida-pro-mcp\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"ida pro\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"ida-pro-mcp\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "browser-tools-mcp",
@@ -818,7 +1214,25 @@
         "mcp-server"
       ],
       "sourceUrl": "https://github.com/BrowserMCP/mcp",
-      "author": "BrowserMCP"
+      "author": "BrowserMCP",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"mcp\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"@browsermcp/mcp\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"mcp\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"@browsermcp/mcp\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"mcp\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"@browsermcp/mcp\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"mcp\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"@browsermcp/mcp\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "firecrawl-server-mcp",
@@ -843,7 +1257,25 @@
         "web-scraping"
       ],
       "sourceUrl": "https://github.com/firecrawl/firecrawl-mcp-server",
-      "author": "firecrawl"
+      "author": "firecrawl",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"firecrawl\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"firecrawl-mcp\"\n      ],\n      \"env\": {\n        \"FIRECRAWL_API_KEY\": \"your-api-key-here\",\n        \"YOUR_API_KEY\": \"your-api-key-here\",\n        \"FIRECRAWL_RETRY_MAX_ATTEMPTS\": \"your-value-here\",\n        \"FIRECRAWL_RETRY_INITIAL_DELAY\": \"your-value-here\",\n        \"FIRECRAWL_RETRY_MAX_DELAY\": \"your-value-here\",\n        \"FIRECRAWL_RETRY_BACKOFF_FACTOR\": \"your-value-here\",\n        \"FIRECRAWL_CREDIT_WARNING_THRESHOLD\": \"your-value-here\",\n        \"FIRECRAWL_CREDIT_CRITICAL_THRESHOLD\": \"your-value-here\",\n        \"FIRECRAWL_API_URL\": \"https://example.com\",\n        \"HTTP_STREAMABLE_SERVER\": \"your-value-here\",\n        \"YOUR_API_KEY_HERE\": \"your-api-key-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"firecrawl\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"firecrawl-mcp\"\n      ],\n      \"env\": {\n        \"FIRECRAWL_API_KEY\": \"your-api-key-here\",\n        \"YOUR_API_KEY\": \"your-api-key-here\",\n        \"FIRECRAWL_RETRY_MAX_ATTEMPTS\": \"your-value-here\",\n        \"FIRECRAWL_RETRY_INITIAL_DELAY\": \"your-value-here\",\n        \"FIRECRAWL_RETRY_MAX_DELAY\": \"your-value-here\",\n        \"FIRECRAWL_RETRY_BACKOFF_FACTOR\": \"your-value-here\",\n        \"FIRECRAWL_CREDIT_WARNING_THRESHOLD\": \"your-value-here\",\n        \"FIRECRAWL_CREDIT_CRITICAL_THRESHOLD\": \"your-value-here\",\n        \"FIRECRAWL_API_URL\": \"https://example.com\",\n        \"HTTP_STREAMABLE_SERVER\": \"your-value-here\",\n        \"YOUR_API_KEY_HERE\": \"your-api-key-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"firecrawl\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"firecrawl-mcp\"\n      ],\n      \"env\": {\n        \"FIRECRAWL_API_KEY\": \"your-api-key-here\",\n        \"YOUR_API_KEY\": \"your-api-key-here\",\n        \"FIRECRAWL_RETRY_MAX_ATTEMPTS\": \"your-value-here\",\n        \"FIRECRAWL_RETRY_INITIAL_DELAY\": \"your-value-here\",\n        \"FIRECRAWL_RETRY_MAX_DELAY\": \"your-value-here\",\n        \"FIRECRAWL_RETRY_BACKOFF_FACTOR\": \"your-value-here\",\n        \"FIRECRAWL_CREDIT_WARNING_THRESHOLD\": \"your-value-here\",\n        \"FIRECRAWL_CREDIT_CRITICAL_THRESHOLD\": \"your-value-here\",\n        \"FIRECRAWL_API_URL\": \"https://example.com\",\n        \"HTTP_STREAMABLE_SERVER\": \"your-value-here\",\n        \"YOUR_API_KEY_HERE\": \"your-api-key-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"firecrawl\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"firecrawl-mcp\"\n      ],\n      \"env\": {\n        \"FIRECRAWL_API_KEY\": \"your-api-key-here\",\n        \"YOUR_API_KEY\": \"your-api-key-here\",\n        \"FIRECRAWL_RETRY_MAX_ATTEMPTS\": \"your-value-here\",\n        \"FIRECRAWL_RETRY_INITIAL_DELAY\": \"your-value-here\",\n        \"FIRECRAWL_RETRY_MAX_DELAY\": \"your-value-here\",\n        \"FIRECRAWL_RETRY_BACKOFF_FACTOR\": \"your-value-here\",\n        \"FIRECRAWL_CREDIT_WARNING_THRESHOLD\": \"your-value-here\",\n        \"FIRECRAWL_CREDIT_CRITICAL_THRESHOLD\": \"your-value-here\",\n        \"FIRECRAWL_API_URL\": \"https://example.com\",\n        \"HTTP_STREAMABLE_SERVER\": \"your-value-here\",\n        \"YOUR_API_KEY_HERE\": \"your-api-key-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "klavis-mcp",
@@ -886,7 +1318,25 @@
         "xcodebuild"
       ],
       "sourceUrl": "https://github.com/getsentry/XcodeBuildMCP",
-      "author": "getsentry"
+      "author": "getsentry",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"xcodebuildmcp\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"xcodebuildmcp\"\n      ],\n      \"env\": {\n        \"NVM_DIR\": \"your-value-here\",\n        \"GETTING_STARTED\": \"your-value-here\",\n        \"DEVICE_CODE_SIGNING\": \"your-value-here\",\n        \"THIRD_PARTY_LICENSES\": \"your-value-here\",\n        \"THIRD_PARTY_PACKAGE_LICENSES\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"xcodebuildmcp\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"xcodebuildmcp\"\n      ],\n      \"env\": {\n        \"NVM_DIR\": \"your-value-here\",\n        \"GETTING_STARTED\": \"your-value-here\",\n        \"DEVICE_CODE_SIGNING\": \"your-value-here\",\n        \"THIRD_PARTY_LICENSES\": \"your-value-here\",\n        \"THIRD_PARTY_PACKAGE_LICENSES\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"xcodebuildmcp\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"xcodebuildmcp\"\n      ],\n      \"env\": {\n        \"NVM_DIR\": \"your-value-here\",\n        \"GETTING_STARTED\": \"your-value-here\",\n        \"DEVICE_CODE_SIGNING\": \"your-value-here\",\n        \"THIRD_PARTY_LICENSES\": \"your-value-here\",\n        \"THIRD_PARTY_PACKAGE_LICENSES\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"xcodebuildmcp\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"xcodebuildmcp\"\n      ],\n      \"env\": {\n        \"NVM_DIR\": \"your-value-here\",\n        \"GETTING_STARTED\": \"your-value-here\",\n        \"DEVICE_CODE_SIGNING\": \"your-value-here\",\n        \"THIRD_PARTY_LICENSES\": \"your-value-here\",\n        \"THIRD_PARTY_PACKAGE_LICENSES\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "osaurus-mcp",
@@ -949,7 +1399,25 @@
         "openai"
       ],
       "sourceUrl": "https://github.com/u14app/deep-research",
-      "author": "u14app"
+      "author": "u14app",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"deep research\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"deep-research\"\n      ],\n      \"env\": {\n        \"GOOGLE_GENERATIVE_AI_API_KEY\": \"your-api-key-here\",\n        \"NEXT_PUBLIC_MODEL_LIST\": \"your-value-here\",\n        \"ACCESS_PASSWORD\": \"your-password\",\n        \"YOUR_ACCESS_PASSWORD\": \"your-password\",\n        \"MCP_AI_PROVIDER\": \"your-value-here\",\n        \"MCP_SEARCH_PROVIDER\": \"your-value-here\",\n        \"MCP_THINKING_MODEL\": \"your-value-here\",\n        \"MCP_TASK_MODEL\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"deep research\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"deep-research\"\n      ],\n      \"env\": {\n        \"GOOGLE_GENERATIVE_AI_API_KEY\": \"your-api-key-here\",\n        \"NEXT_PUBLIC_MODEL_LIST\": \"your-value-here\",\n        \"ACCESS_PASSWORD\": \"your-password\",\n        \"YOUR_ACCESS_PASSWORD\": \"your-password\",\n        \"MCP_AI_PROVIDER\": \"your-value-here\",\n        \"MCP_SEARCH_PROVIDER\": \"your-value-here\",\n        \"MCP_THINKING_MODEL\": \"your-value-here\",\n        \"MCP_TASK_MODEL\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"deep research\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"deep-research\"\n      ],\n      \"env\": {\n        \"GOOGLE_GENERATIVE_AI_API_KEY\": \"your-api-key-here\",\n        \"NEXT_PUBLIC_MODEL_LIST\": \"your-value-here\",\n        \"ACCESS_PASSWORD\": \"your-password\",\n        \"YOUR_ACCESS_PASSWORD\": \"your-password\",\n        \"MCP_AI_PROVIDER\": \"your-value-here\",\n        \"MCP_SEARCH_PROVIDER\": \"your-value-here\",\n        \"MCP_THINKING_MODEL\": \"your-value-here\",\n        \"MCP_TASK_MODEL\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"deep research\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"deep-research\"\n      ],\n      \"env\": {\n        \"GOOGLE_GENERATIVE_AI_API_KEY\": \"your-api-key-here\",\n        \"NEXT_PUBLIC_MODEL_LIST\": \"your-value-here\",\n        \"ACCESS_PASSWORD\": \"your-password\",\n        \"YOUR_ACCESS_PASSWORD\": \"your-password\",\n        \"MCP_AI_PROVIDER\": \"your-value-here\",\n        \"MCP_SEARCH_PROVIDER\": \"your-value-here\",\n        \"MCP_THINKING_MODEL\": \"your-value-here\",\n        \"MCP_TASK_MODEL\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "enscan-go-mcp",
@@ -988,7 +1456,25 @@
         "websearch"
       ],
       "sourceUrl": "https://github.com/exa-labs/exa-mcp-server",
-      "author": "exa-labs"
+      "author": "exa-labs",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"exa\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"exa-mcp-server\"\n      ],\n      \"env\": {\n        \"EXA_API_KEY\": \"your-api-key-here\",\n        \"YOUR_KEY\": \"your-api-key-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"exa\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"exa-mcp-server\"\n      ],\n      \"env\": {\n        \"EXA_API_KEY\": \"your-api-key-here\",\n        \"YOUR_KEY\": \"your-api-key-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"exa\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"exa-mcp-server\"\n      ],\n      \"env\": {\n        \"EXA_API_KEY\": \"your-api-key-here\",\n        \"YOUR_KEY\": \"your-api-key-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"exa\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"exa-mcp-server\"\n      ],\n      \"env\": {\n        \"EXA_API_KEY\": \"your-api-key-here\",\n        \"YOUR_KEY\": \"your-api-key-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "httprunner-mcp",
@@ -1042,7 +1528,25 @@
         "openapi"
       ],
       "sourceUrl": "https://github.com/open-webui/mcpo",
-      "author": "open-webui"
+      "author": "open-webui",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"mcpo\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"mcpo\"\n      ],\n      \"env\": {\n        \"OAUTH_GUIDE\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"mcpo\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"mcpo\"\n      ],\n      \"env\": {\n        \"OAUTH_GUIDE\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"mcpo\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"mcpo\"\n      ],\n      \"env\": {\n        \"OAUTH_GUIDE\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"mcpo\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"mcpo\"\n      ],\n      \"env\": {\n        \"OAUTH_GUIDE\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "kubefwd-mcp",
@@ -1085,7 +1589,25 @@
         "visualization"
       ],
       "sourceUrl": "https://github.com/antvis/mcp-server-chart",
-      "author": "antvis"
+      "author": "antvis",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"chart\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"@antv/mcp-server-chart\"\n      ],\n      \"env\": {\n        \"VIS_REQUEST_SERVER\": \"your-value-here\",\n        \"SERVICE_ID\": \"your-value-here\",\n        \"DISABLED_TOOLS\": \"your-value-here\",\n        \"YOUR_VIS_REQUEST_SERVER\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"chart\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"@antv/mcp-server-chart\"\n      ],\n      \"env\": {\n        \"VIS_REQUEST_SERVER\": \"your-value-here\",\n        \"SERVICE_ID\": \"your-value-here\",\n        \"DISABLED_TOOLS\": \"your-value-here\",\n        \"YOUR_VIS_REQUEST_SERVER\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"chart\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"@antv/mcp-server-chart\"\n      ],\n      \"env\": {\n        \"VIS_REQUEST_SERVER\": \"your-value-here\",\n        \"SERVICE_ID\": \"your-value-here\",\n        \"DISABLED_TOOLS\": \"your-value-here\",\n        \"YOUR_VIS_REQUEST_SERVER\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"chart\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"@antv/mcp-server-chart\"\n      ],\n      \"env\": {\n        \"VIS_REQUEST_SERVER\": \"your-value-here\",\n        \"SERVICE_ID\": \"your-value-here\",\n        \"DISABLED_TOOLS\": \"your-value-here\",\n        \"YOUR_VIS_REQUEST_SERVER\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "bifrost-mcp",
@@ -1134,7 +1656,25 @@
         "tui"
       ],
       "sourceUrl": "https://github.com/evalstate/fast-agent",
-      "author": "evalstate"
+      "author": "evalstate",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"fast agent\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"fast-agent-mcp\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"fast agent\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"fast-agent-mcp\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"fast agent\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"fast-agent-mcp\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"fast agent\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"fast-agent-mcp\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "excel-server-mcp",
@@ -1155,7 +1695,25 @@
         "toolcalling"
       ],
       "sourceUrl": "https://github.com/haris-musa/excel-mcp-server",
-      "author": "haris-musa"
+      "author": "haris-musa",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"excel\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"excel-mcp-server\"\n      ],\n      \"env\": {\n        \"EXCEL_FILES_PATH\": \"your-value-here\",\n        \"FASTMCP_PORT\": \"3000\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"excel\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"excel-mcp-server\"\n      ],\n      \"env\": {\n        \"EXCEL_FILES_PATH\": \"your-value-here\",\n        \"FASTMCP_PORT\": \"3000\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"excel\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"excel-mcp-server\"\n      ],\n      \"env\": {\n        \"EXCEL_FILES_PATH\": \"your-value-here\",\n        \"FASTMCP_PORT\": \"3000\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"excel\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"excel-mcp-server\"\n      ],\n      \"env\": {\n        \"EXCEL_FILES_PATH\": \"your-value-here\",\n        \"FASTMCP_PORT\": \"3000\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "lemonade-mcp",
@@ -1272,7 +1830,25 @@
         "subagents"
       ],
       "sourceUrl": "https://github.com/davepoon/buildwithclaude",
-      "author": "davepoon"
+      "author": "davepoon",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"buildwithclaude\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"buildwithclaude\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"buildwithclaude\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"buildwithclaude\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"buildwithclaude\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"buildwithclaude\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"buildwithclaude\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"buildwithclaude\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "solon-mcp",
@@ -1332,7 +1908,25 @@
         "sqlserver"
       ],
       "sourceUrl": "https://github.com/bytebase/dbhub",
-      "author": "bytebase"
+      "author": "bytebase",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"dbhub\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"dbhub\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"dbhub\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"dbhub\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"dbhub\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"dbhub\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"dbhub\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"dbhub\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "arxiv-server-mcp",
@@ -1353,7 +1947,25 @@
         "research"
       ],
       "sourceUrl": "https://github.com/blazickjp/arxiv-mcp-server",
-      "author": "blazickjp"
+      "author": "blazickjp",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"arxiv\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"arxiv-mcp-server\"\n      ],\n      \"env\": {\n        \"ARXIV_STORAGE_PATH\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"arxiv\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"arxiv-mcp-server\"\n      ],\n      \"env\": {\n        \"ARXIV_STORAGE_PATH\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"arxiv\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"arxiv-mcp-server\"\n      ],\n      \"env\": {\n        \"ARXIV_STORAGE_PATH\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"arxiv\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"arxiv-mcp-server\"\n      ],\n      \"env\": {\n        \"ARXIV_STORAGE_PATH\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "nunu-mcp",
@@ -1417,7 +2029,25 @@
         "websearch"
       ],
       "sourceUrl": "https://github.com/deedy5/ddgs",
-      "author": "deedy5"
+      "author": "deedy5",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"ddgs\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"ddgs\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"ddgs\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"ddgs\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"ddgs\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"ddgs\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"ddgs\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"ddgs\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "mcp-proxy",
@@ -1433,7 +2063,25 @@
         "streamable-http"
       ],
       "sourceUrl": "https://github.com/sparfenyuk/mcp-proxy",
-      "author": "sparfenyuk"
+      "author": "sparfenyuk",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"proxy\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"mcp-proxy\"\n      ],\n      \"env\": {\n        \"API_ACCESS_TOKEN\": \"your-token-here\",\n        \"YOUR_TOKEN\": \"your-token-here\",\n        \"GITHUB_PERSONAL_ACCESS_TOKEN\": \"your-token-here\",\n        \"CLIENT_SECRET\": \"your-secret-here\",\n        \"ANOTHER_KEY\": \"your-api-key-here\",\n        \"COMMAND_STRING\": \"your-value-here\",\n        \"FILE_PATH\": \"your-value-here\",\n        \"UV_PYTHON_PREFERENCE\": \"your-value-here\",\n        \"CLIENT_ID\": \"your-value-here\",\n        \"TOKEN_URL\": \"your-token-here\",\n        \"SSE_PORT\": \"3000\",\n        \"SSE_HOST\": \"https://api.example.com\",\n        \"ALLOW_ORIGIN\": \"your-value-here\",\n        \"ANOTHER_VALUE\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"proxy\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"mcp-proxy\"\n      ],\n      \"env\": {\n        \"API_ACCESS_TOKEN\": \"your-token-here\",\n        \"YOUR_TOKEN\": \"your-token-here\",\n        \"GITHUB_PERSONAL_ACCESS_TOKEN\": \"your-token-here\",\n        \"CLIENT_SECRET\": \"your-secret-here\",\n        \"ANOTHER_KEY\": \"your-api-key-here\",\n        \"COMMAND_STRING\": \"your-value-here\",\n        \"FILE_PATH\": \"your-value-here\",\n        \"UV_PYTHON_PREFERENCE\": \"your-value-here\",\n        \"CLIENT_ID\": \"your-value-here\",\n        \"TOKEN_URL\": \"your-token-here\",\n        \"SSE_PORT\": \"3000\",\n        \"SSE_HOST\": \"https://api.example.com\",\n        \"ALLOW_ORIGIN\": \"your-value-here\",\n        \"ANOTHER_VALUE\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"proxy\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"mcp-proxy\"\n      ],\n      \"env\": {\n        \"API_ACCESS_TOKEN\": \"your-token-here\",\n        \"YOUR_TOKEN\": \"your-token-here\",\n        \"GITHUB_PERSONAL_ACCESS_TOKEN\": \"your-token-here\",\n        \"CLIENT_SECRET\": \"your-secret-here\",\n        \"ANOTHER_KEY\": \"your-api-key-here\",\n        \"COMMAND_STRING\": \"your-value-here\",\n        \"FILE_PATH\": \"your-value-here\",\n        \"UV_PYTHON_PREFERENCE\": \"your-value-here\",\n        \"CLIENT_ID\": \"your-value-here\",\n        \"TOKEN_URL\": \"your-token-here\",\n        \"SSE_PORT\": \"3000\",\n        \"SSE_HOST\": \"https://api.example.com\",\n        \"ALLOW_ORIGIN\": \"your-value-here\",\n        \"ANOTHER_VALUE\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"proxy\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"mcp-proxy\"\n      ],\n      \"env\": {\n        \"API_ACCESS_TOKEN\": \"your-token-here\",\n        \"YOUR_TOKEN\": \"your-token-here\",\n        \"GITHUB_PERSONAL_ACCESS_TOKEN\": \"your-token-here\",\n        \"CLIENT_SECRET\": \"your-secret-here\",\n        \"ANOTHER_KEY\": \"your-api-key-here\",\n        \"COMMAND_STRING\": \"your-value-here\",\n        \"FILE_PATH\": \"your-value-here\",\n        \"UV_PYTHON_PREFERENCE\": \"your-value-here\",\n        \"CLIENT_ID\": \"your-value-here\",\n        \"TOKEN_URL\": \"your-token-here\",\n        \"SSE_PORT\": \"3000\",\n        \"SSE_HOST\": \"https://api.example.com\",\n        \"ALLOW_ORIGIN\": \"your-value-here\",\n        \"ANOTHER_VALUE\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "brightdata-mcp",
@@ -1460,7 +2108,25 @@
         "web-scraping"
       ],
       "sourceUrl": "https://github.com/brightdata/brightdata-mcp",
-      "author": "brightdata"
+      "author": "brightdata",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"mcp\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"@brightdata/mcp\"\n      ],\n      \"env\": {\n        \"YOUR_API_TOKEN\": \"your-token-here\",\n        \"API_TOKEN\": \"your-token-here\",\n        \"YOUR_API_TOKEN_HERE\": \"your-token-here\",\n        \"PRO_MODE\": \"your-value-here\",\n        \"RATE_LIMIT\": \"your-value-here\",\n        \"WEB_UNLOCKER_ZONE\": \"your-value-here\",\n        \"BROWSER_ZONE\": \"your-value-here\",\n        \"POLLING_TIMEOUT\": \"your-value-here\",\n        \"BASE_TIMEOUT\": \"your-value-here\",\n        \"BASE_MAX_RETRIES\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"mcp\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"@brightdata/mcp\"\n      ],\n      \"env\": {\n        \"YOUR_API_TOKEN\": \"your-token-here\",\n        \"API_TOKEN\": \"your-token-here\",\n        \"YOUR_API_TOKEN_HERE\": \"your-token-here\",\n        \"PRO_MODE\": \"your-value-here\",\n        \"RATE_LIMIT\": \"your-value-here\",\n        \"WEB_UNLOCKER_ZONE\": \"your-value-here\",\n        \"BROWSER_ZONE\": \"your-value-here\",\n        \"POLLING_TIMEOUT\": \"your-value-here\",\n        \"BASE_TIMEOUT\": \"your-value-here\",\n        \"BASE_MAX_RETRIES\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"mcp\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"@brightdata/mcp\"\n      ],\n      \"env\": {\n        \"YOUR_API_TOKEN\": \"your-token-here\",\n        \"API_TOKEN\": \"your-token-here\",\n        \"YOUR_API_TOKEN_HERE\": \"your-token-here\",\n        \"PRO_MODE\": \"your-value-here\",\n        \"RATE_LIMIT\": \"your-value-here\",\n        \"WEB_UNLOCKER_ZONE\": \"your-value-here\",\n        \"BROWSER_ZONE\": \"your-value-here\",\n        \"POLLING_TIMEOUT\": \"your-value-here\",\n        \"BASE_TIMEOUT\": \"your-value-here\",\n        \"BASE_MAX_RETRIES\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"mcp\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"@brightdata/mcp\"\n      ],\n      \"env\": {\n        \"YOUR_API_TOKEN\": \"your-token-here\",\n        \"API_TOKEN\": \"your-token-here\",\n        \"YOUR_API_TOKEN_HERE\": \"your-token-here\",\n        \"PRO_MODE\": \"your-value-here\",\n        \"RATE_LIMIT\": \"your-value-here\",\n        \"WEB_UNLOCKER_ZONE\": \"your-value-here\",\n        \"BROWSER_ZONE\": \"your-value-here\",\n        \"POLLING_TIMEOUT\": \"your-value-here\",\n        \"BASE_TIMEOUT\": \"your-value-here\",\n        \"BASE_MAX_RETRIES\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "meta-mcp",
@@ -1486,7 +2152,25 @@
         "vibe-coding"
       ],
       "sourceUrl": "https://github.com/metatool-ai/metamcp",
-      "author": "metatool-ai"
+      "author": "metatool-ai",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"metamcp\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"metamcp\"\n      ],\n      \"env\": {\n        \"API_KEY\": \"your-api-key-here\",\n        \"OPENAI_API_KEY\": \"your-api-key-here\",\n        \"API_ACCESS_TOKEN\": \"your-token-here\",\n        \"OIDC_CLIENT_SECRET\": \"your-secret-here\",\n        \"ENV_VAR_NAME\": \"your-value-here\",\n        \"DB_CONNECTION_STRING\": \"your-database-url\",\n        \"VAR_NAME\": \"your-value-here\",\n        \"LOG_LEVEL\": \"your-value-here\",\n        \"DATABASE_URL\": \"https://example.com\",\n        \"APP_URL\": \"https://example.com\",\n        \"YOUR_ENDPOINT_NAME\": \"https://api.example.com\",\n        \"YOUR_API_KEY_HERE\": \"your-api-key-here\",\n        \"OIDC_CLIENT_ID\": \"your-value-here\",\n        \"OIDC_DISCOVERY_URL\": \"https://example.com\",\n        \"OIDC_PROVIDER_ID\": \"your-value-here\",\n        \"OIDC_SCOPES\": \"your-value-here\",\n        \"OIDC_PKCE\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"metamcp\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"metamcp\"\n      ],\n      \"env\": {\n        \"API_KEY\": \"your-api-key-here\",\n        \"OPENAI_API_KEY\": \"your-api-key-here\",\n        \"API_ACCESS_TOKEN\": \"your-token-here\",\n        \"OIDC_CLIENT_SECRET\": \"your-secret-here\",\n        \"ENV_VAR_NAME\": \"your-value-here\",\n        \"DB_CONNECTION_STRING\": \"your-database-url\",\n        \"VAR_NAME\": \"your-value-here\",\n        \"LOG_LEVEL\": \"your-value-here\",\n        \"DATABASE_URL\": \"https://example.com\",\n        \"APP_URL\": \"https://example.com\",\n        \"YOUR_ENDPOINT_NAME\": \"https://api.example.com\",\n        \"YOUR_API_KEY_HERE\": \"your-api-key-here\",\n        \"OIDC_CLIENT_ID\": \"your-value-here\",\n        \"OIDC_DISCOVERY_URL\": \"https://example.com\",\n        \"OIDC_PROVIDER_ID\": \"your-value-here\",\n        \"OIDC_SCOPES\": \"your-value-here\",\n        \"OIDC_PKCE\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"metamcp\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"metamcp\"\n      ],\n      \"env\": {\n        \"API_KEY\": \"your-api-key-here\",\n        \"OPENAI_API_KEY\": \"your-api-key-here\",\n        \"API_ACCESS_TOKEN\": \"your-token-here\",\n        \"OIDC_CLIENT_SECRET\": \"your-secret-here\",\n        \"ENV_VAR_NAME\": \"your-value-here\",\n        \"DB_CONNECTION_STRING\": \"your-database-url\",\n        \"VAR_NAME\": \"your-value-here\",\n        \"LOG_LEVEL\": \"your-value-here\",\n        \"DATABASE_URL\": \"https://example.com\",\n        \"APP_URL\": \"https://example.com\",\n        \"YOUR_ENDPOINT_NAME\": \"https://api.example.com\",\n        \"YOUR_API_KEY_HERE\": \"your-api-key-here\",\n        \"OIDC_CLIENT_ID\": \"your-value-here\",\n        \"OIDC_DISCOVERY_URL\": \"https://example.com\",\n        \"OIDC_PROVIDER_ID\": \"your-value-here\",\n        \"OIDC_SCOPES\": \"your-value-here\",\n        \"OIDC_PKCE\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"metamcp\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"metamcp\"\n      ],\n      \"env\": {\n        \"API_KEY\": \"your-api-key-here\",\n        \"OPENAI_API_KEY\": \"your-api-key-here\",\n        \"API_ACCESS_TOKEN\": \"your-token-here\",\n        \"OIDC_CLIENT_SECRET\": \"your-secret-here\",\n        \"ENV_VAR_NAME\": \"your-value-here\",\n        \"DB_CONNECTION_STRING\": \"your-database-url\",\n        \"VAR_NAME\": \"your-value-here\",\n        \"LOG_LEVEL\": \"your-value-here\",\n        \"DATABASE_URL\": \"https://example.com\",\n        \"APP_URL\": \"https://example.com\",\n        \"YOUR_ENDPOINT_NAME\": \"https://api.example.com\",\n        \"YOUR_API_KEY_HERE\": \"your-api-key-here\",\n        \"OIDC_CLIENT_ID\": \"your-value-here\",\n        \"OIDC_DISCOVERY_URL\": \"https://example.com\",\n        \"OIDC_PROVIDER_ID\": \"your-value-here\",\n        \"OIDC_SCOPES\": \"your-value-here\",\n        \"OIDC_PKCE\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "unity-mcp",
@@ -1547,7 +2231,25 @@
         "workspace"
       ],
       "sourceUrl": "https://github.com/taylorwilsdon/google_workspace_mcp",
-      "author": "taylorwilsdon"
+      "author": "taylorwilsdon",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"workspace\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"workspace-mcp\"\n      ],\n      \"env\": {\n        \"GOOGLE_OAUTH_CLIENT_SECRET\": \"your-secret-here\",\n        \"FASTMCP_SERVER_AUTH_GOOGLE_JWT_SIGNING_KEY\": \"your-api-key-here\",\n        \"GOOGLE_PSE_API_KEY\": \"your-api-key-here\",\n        \"GOOGLE_OAUTH_CLIENT_ID\": \"your-value-here\",\n        \"MCP_ENABLE_OAUTH21\": \"your-value-here\",\n        \"WORKSPACE_MCP_PORT\": \"3000\",\n        \"GOOGLE_OAUTH_REDIRECT_URI\": \"your-value-here\",\n        \"OAUTHLIB_INSECURE_TRANSPORT\": \"3000\",\n        \"GOOGLE_PSE_ENGINE_ID\": \"your-value-here\",\n        \"GOOGLE_CLIENT_SECRET_PATH\": \"your-secret-here\",\n        \"WORKSPACE_ATTACHMENT_DIR\": \"your-value-here\",\n        \"WORKSPACE_MCP_STATELESS_MODE\": \"your-value-here\",\n        \"WORKSPACE_MCP_OAUTH_PROXY_STORAGE_BACKEND\": \"your-value-here\",\n        \"WORKSPACE_MCP_OAUTH_PROXY_DISK_DIRECTORY\": \"your-value-here\",\n        \"WORKSPACE_MCP_OAUTH_PROXY_VALKEY_HOST\": \"your-api-key-here\",\n        \"WORKSPACE_MCP_OAUTH_PROXY_VALKEY_PORT\": \"your-api-key-here\",\n        \"EXTERNAL_OAUTH21_PROVIDER\": \"your-value-here\",\n        \"GOOGLE_SERVICE_ACCOUNT_KEY_FILE\": \"your-api-key-here\",\n        \"USER_GOOGLE_EMAIL\": \"user@example.com\",\n        \"GOOGLE_SERVICE_ACCOUNT_KEY_JSON\": \"your-api-key-here\",\n        \"WORKSPACE_EXTERNAL_URL\": \"https://example.com\",\n        \"GOOGLE_MCP_CREDENTIALS_DIR\": \"your-value-here\",\n        \"ALLOWED_FILE_DIRS\": \"your-value-here\",\n        \"INTERNATIONAL_SYSTEM\": \"your-value-here\",\n        \"WORKSPACE_MCP_BASE_URI\": \"your-value-here\",\n        \"WORKSPACE_MCP_HOST\": \"https://api.example.com\",\n        \"WORKSPACE_MCP_URL\": \"https://example.com\",\n        \"OAUTH_CUSTOM_REDIRECT_URIS\": \"your-value-here\",\n        \"OAUTH_ALLOWED_ORIGINS\": \"your-value-here\",\n        \"TOOL_TIER\": \"your-value-here\",\n        \"WORKSPACE_MCP_OAUTH_PROXY_VALKEY_DB\": \"your-api-key-here\",\n        \"WORKSPACE_MCP_OAUTH_PROXY_VALKEY_USE_TLS\": \"your-api-key-here\",\n        \"WORKSPACE_MCP_OAUTH_PROXY_VALKEY_USERNAME\": \"your-api-key-here\",\n        \"WORKSPACE_MCP_OAUTH_PROXY_VALKEY_PASSWORD\": \"your-api-key-here\",\n        \"WORKSPACE_MCP_OAUTH_PROXY_VALKEY_REQUEST_TIMEOUT_MS\": \"your-api-key-here\",\n        \"WORKSPACE_MCP_OAUTH_PROXY_VALKEY_CONNECTION_TIMEOUT_MS\": \"your-api-key-here\",\n        \"SCOPE_GROUPS\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"workspace\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"workspace-mcp\"\n      ],\n      \"env\": {\n        \"GOOGLE_OAUTH_CLIENT_SECRET\": \"your-secret-here\",\n        \"FASTMCP_SERVER_AUTH_GOOGLE_JWT_SIGNING_KEY\": \"your-api-key-here\",\n        \"GOOGLE_PSE_API_KEY\": \"your-api-key-here\",\n        \"GOOGLE_OAUTH_CLIENT_ID\": \"your-value-here\",\n        \"MCP_ENABLE_OAUTH21\": \"your-value-here\",\n        \"WORKSPACE_MCP_PORT\": \"3000\",\n        \"GOOGLE_OAUTH_REDIRECT_URI\": \"your-value-here\",\n        \"OAUTHLIB_INSECURE_TRANSPORT\": \"3000\",\n        \"GOOGLE_PSE_ENGINE_ID\": \"your-value-here\",\n        \"GOOGLE_CLIENT_SECRET_PATH\": \"your-secret-here\",\n        \"WORKSPACE_ATTACHMENT_DIR\": \"your-value-here\",\n        \"WORKSPACE_MCP_STATELESS_MODE\": \"your-value-here\",\n        \"WORKSPACE_MCP_OAUTH_PROXY_STORAGE_BACKEND\": \"your-value-here\",\n        \"WORKSPACE_MCP_OAUTH_PROXY_DISK_DIRECTORY\": \"your-value-here\",\n        \"WORKSPACE_MCP_OAUTH_PROXY_VALKEY_HOST\": \"your-api-key-here\",\n        \"WORKSPACE_MCP_OAUTH_PROXY_VALKEY_PORT\": \"your-api-key-here\",\n        \"EXTERNAL_OAUTH21_PROVIDER\": \"your-value-here\",\n        \"GOOGLE_SERVICE_ACCOUNT_KEY_FILE\": \"your-api-key-here\",\n        \"USER_GOOGLE_EMAIL\": \"user@example.com\",\n        \"GOOGLE_SERVICE_ACCOUNT_KEY_JSON\": \"your-api-key-here\",\n        \"WORKSPACE_EXTERNAL_URL\": \"https://example.com\",\n        \"GOOGLE_MCP_CREDENTIALS_DIR\": \"your-value-here\",\n        \"ALLOWED_FILE_DIRS\": \"your-value-here\",\n        \"INTERNATIONAL_SYSTEM\": \"your-value-here\",\n        \"WORKSPACE_MCP_BASE_URI\": \"your-value-here\",\n        \"WORKSPACE_MCP_HOST\": \"https://api.example.com\",\n        \"WORKSPACE_MCP_URL\": \"https://example.com\",\n        \"OAUTH_CUSTOM_REDIRECT_URIS\": \"your-value-here\",\n        \"OAUTH_ALLOWED_ORIGINS\": \"your-value-here\",\n        \"TOOL_TIER\": \"your-value-here\",\n        \"WORKSPACE_MCP_OAUTH_PROXY_VALKEY_DB\": \"your-api-key-here\",\n        \"WORKSPACE_MCP_OAUTH_PROXY_VALKEY_USE_TLS\": \"your-api-key-here\",\n        \"WORKSPACE_MCP_OAUTH_PROXY_VALKEY_USERNAME\": \"your-api-key-here\",\n        \"WORKSPACE_MCP_OAUTH_PROXY_VALKEY_PASSWORD\": \"your-api-key-here\",\n        \"WORKSPACE_MCP_OAUTH_PROXY_VALKEY_REQUEST_TIMEOUT_MS\": \"your-api-key-here\",\n        \"WORKSPACE_MCP_OAUTH_PROXY_VALKEY_CONNECTION_TIMEOUT_MS\": \"your-api-key-here\",\n        \"SCOPE_GROUPS\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"workspace\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"workspace-mcp\"\n      ],\n      \"env\": {\n        \"GOOGLE_OAUTH_CLIENT_SECRET\": \"your-secret-here\",\n        \"FASTMCP_SERVER_AUTH_GOOGLE_JWT_SIGNING_KEY\": \"your-api-key-here\",\n        \"GOOGLE_PSE_API_KEY\": \"your-api-key-here\",\n        \"GOOGLE_OAUTH_CLIENT_ID\": \"your-value-here\",\n        \"MCP_ENABLE_OAUTH21\": \"your-value-here\",\n        \"WORKSPACE_MCP_PORT\": \"3000\",\n        \"GOOGLE_OAUTH_REDIRECT_URI\": \"your-value-here\",\n        \"OAUTHLIB_INSECURE_TRANSPORT\": \"3000\",\n        \"GOOGLE_PSE_ENGINE_ID\": \"your-value-here\",\n        \"GOOGLE_CLIENT_SECRET_PATH\": \"your-secret-here\",\n        \"WORKSPACE_ATTACHMENT_DIR\": \"your-value-here\",\n        \"WORKSPACE_MCP_STATELESS_MODE\": \"your-value-here\",\n        \"WORKSPACE_MCP_OAUTH_PROXY_STORAGE_BACKEND\": \"your-value-here\",\n        \"WORKSPACE_MCP_OAUTH_PROXY_DISK_DIRECTORY\": \"your-value-here\",\n        \"WORKSPACE_MCP_OAUTH_PROXY_VALKEY_HOST\": \"your-api-key-here\",\n        \"WORKSPACE_MCP_OAUTH_PROXY_VALKEY_PORT\": \"your-api-key-here\",\n        \"EXTERNAL_OAUTH21_PROVIDER\": \"your-value-here\",\n        \"GOOGLE_SERVICE_ACCOUNT_KEY_FILE\": \"your-api-key-here\",\n        \"USER_GOOGLE_EMAIL\": \"user@example.com\",\n        \"GOOGLE_SERVICE_ACCOUNT_KEY_JSON\": \"your-api-key-here\",\n        \"WORKSPACE_EXTERNAL_URL\": \"https://example.com\",\n        \"GOOGLE_MCP_CREDENTIALS_DIR\": \"your-value-here\",\n        \"ALLOWED_FILE_DIRS\": \"your-value-here\",\n        \"INTERNATIONAL_SYSTEM\": \"your-value-here\",\n        \"WORKSPACE_MCP_BASE_URI\": \"your-value-here\",\n        \"WORKSPACE_MCP_HOST\": \"https://api.example.com\",\n        \"WORKSPACE_MCP_URL\": \"https://example.com\",\n        \"OAUTH_CUSTOM_REDIRECT_URIS\": \"your-value-here\",\n        \"OAUTH_ALLOWED_ORIGINS\": \"your-value-here\",\n        \"TOOL_TIER\": \"your-value-here\",\n        \"WORKSPACE_MCP_OAUTH_PROXY_VALKEY_DB\": \"your-api-key-here\",\n        \"WORKSPACE_MCP_OAUTH_PROXY_VALKEY_USE_TLS\": \"your-api-key-here\",\n        \"WORKSPACE_MCP_OAUTH_PROXY_VALKEY_USERNAME\": \"your-api-key-here\",\n        \"WORKSPACE_MCP_OAUTH_PROXY_VALKEY_PASSWORD\": \"your-api-key-here\",\n        \"WORKSPACE_MCP_OAUTH_PROXY_VALKEY_REQUEST_TIMEOUT_MS\": \"your-api-key-here\",\n        \"WORKSPACE_MCP_OAUTH_PROXY_VALKEY_CONNECTION_TIMEOUT_MS\": \"your-api-key-here\",\n        \"SCOPE_GROUPS\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"workspace\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"workspace-mcp\"\n      ],\n      \"env\": {\n        \"GOOGLE_OAUTH_CLIENT_SECRET\": \"your-secret-here\",\n        \"FASTMCP_SERVER_AUTH_GOOGLE_JWT_SIGNING_KEY\": \"your-api-key-here\",\n        \"GOOGLE_PSE_API_KEY\": \"your-api-key-here\",\n        \"GOOGLE_OAUTH_CLIENT_ID\": \"your-value-here\",\n        \"MCP_ENABLE_OAUTH21\": \"your-value-here\",\n        \"WORKSPACE_MCP_PORT\": \"3000\",\n        \"GOOGLE_OAUTH_REDIRECT_URI\": \"your-value-here\",\n        \"OAUTHLIB_INSECURE_TRANSPORT\": \"3000\",\n        \"GOOGLE_PSE_ENGINE_ID\": \"your-value-here\",\n        \"GOOGLE_CLIENT_SECRET_PATH\": \"your-secret-here\",\n        \"WORKSPACE_ATTACHMENT_DIR\": \"your-value-here\",\n        \"WORKSPACE_MCP_STATELESS_MODE\": \"your-value-here\",\n        \"WORKSPACE_MCP_OAUTH_PROXY_STORAGE_BACKEND\": \"your-value-here\",\n        \"WORKSPACE_MCP_OAUTH_PROXY_DISK_DIRECTORY\": \"your-value-here\",\n        \"WORKSPACE_MCP_OAUTH_PROXY_VALKEY_HOST\": \"your-api-key-here\",\n        \"WORKSPACE_MCP_OAUTH_PROXY_VALKEY_PORT\": \"your-api-key-here\",\n        \"EXTERNAL_OAUTH21_PROVIDER\": \"your-value-here\",\n        \"GOOGLE_SERVICE_ACCOUNT_KEY_FILE\": \"your-api-key-here\",\n        \"USER_GOOGLE_EMAIL\": \"user@example.com\",\n        \"GOOGLE_SERVICE_ACCOUNT_KEY_JSON\": \"your-api-key-here\",\n        \"WORKSPACE_EXTERNAL_URL\": \"https://example.com\",\n        \"GOOGLE_MCP_CREDENTIALS_DIR\": \"your-value-here\",\n        \"ALLOWED_FILE_DIRS\": \"your-value-here\",\n        \"INTERNATIONAL_SYSTEM\": \"your-value-here\",\n        \"WORKSPACE_MCP_BASE_URI\": \"your-value-here\",\n        \"WORKSPACE_MCP_HOST\": \"https://api.example.com\",\n        \"WORKSPACE_MCP_URL\": \"https://example.com\",\n        \"OAUTH_CUSTOM_REDIRECT_URIS\": \"your-value-here\",\n        \"OAUTH_ALLOWED_ORIGINS\": \"your-value-here\",\n        \"TOOL_TIER\": \"your-value-here\",\n        \"WORKSPACE_MCP_OAUTH_PROXY_VALKEY_DB\": \"your-api-key-here\",\n        \"WORKSPACE_MCP_OAUTH_PROXY_VALKEY_USE_TLS\": \"your-api-key-here\",\n        \"WORKSPACE_MCP_OAUTH_PROXY_VALKEY_USERNAME\": \"your-api-key-here\",\n        \"WORKSPACE_MCP_OAUTH_PROXY_VALKEY_PASSWORD\": \"your-api-key-here\",\n        \"WORKSPACE_MCP_OAUTH_PROXY_VALKEY_REQUEST_TIMEOUT_MS\": \"your-api-key-here\",\n        \"WORKSPACE_MCP_OAUTH_PROXY_VALKEY_CONNECTION_TIMEOUT_MS\": \"your-api-key-here\",\n        \"SCOPE_GROUPS\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "unla-mcp",
@@ -1615,7 +2317,25 @@
         "windsurf-ai"
       ],
       "sourceUrl": "https://github.com/cjo4m06/mcp-shrimp-task-manager",
-      "author": "cjo4m06"
+      "author": "cjo4m06",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"shrimp task manager\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"mcp-shrimp-task-manager\"\n      ],\n      \"env\": {\n        \"DATA_DIR\": \"your-value-here\",\n        \"TEMPLATES_USE\": \"your-value-here\",\n        \"ENABLE_GUI\": \"your-value-here\",\n        \"WEB_PORT\": \"3000\",\n        \"PROMPT_LANGUAGE\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"shrimp task manager\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"mcp-shrimp-task-manager\"\n      ],\n      \"env\": {\n        \"DATA_DIR\": \"your-value-here\",\n        \"TEMPLATES_USE\": \"your-value-here\",\n        \"ENABLE_GUI\": \"your-value-here\",\n        \"WEB_PORT\": \"3000\",\n        \"PROMPT_LANGUAGE\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"shrimp task manager\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"mcp-shrimp-task-manager\"\n      ],\n      \"env\": {\n        \"DATA_DIR\": \"your-value-here\",\n        \"TEMPLATES_USE\": \"your-value-here\",\n        \"ENABLE_GUI\": \"your-value-here\",\n        \"WEB_PORT\": \"3000\",\n        \"PROMPT_LANGUAGE\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"shrimp task manager\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"mcp-shrimp-task-manager\"\n      ],\n      \"env\": {\n        \"DATA_DIR\": \"your-value-here\",\n        \"TEMPLATES_USE\": \"your-value-here\",\n        \"ENABLE_GUI\": \"your-value-here\",\n        \"WEB_PORT\": \"3000\",\n        \"PROMPT_LANGUAGE\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "fli-mcp",
@@ -1632,7 +2352,25 @@
         "mcp-server"
       ],
       "sourceUrl": "https://github.com/punitarani/fli",
-      "author": "punitarani"
+      "author": "punitarani",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"flights\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"flights\"\n      ],\n      \"env\": {\n        \"PREMIUM_ECONOMY\": \"your-value-here\",\n        \"NON_STOP\": \"your-value-here\",\n        \"ONE_STOP\": \"your-value-here\",\n        \"TWO_PLUS_STOPS\": \"your-value-here\",\n        \"DEPARTURE_TIME\": \"your-value-here\",\n        \"ARRIVAL_TIME\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"flights\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"flights\"\n      ],\n      \"env\": {\n        \"PREMIUM_ECONOMY\": \"your-value-here\",\n        \"NON_STOP\": \"your-value-here\",\n        \"ONE_STOP\": \"your-value-here\",\n        \"TWO_PLUS_STOPS\": \"your-value-here\",\n        \"DEPARTURE_TIME\": \"your-value-here\",\n        \"ARRIVAL_TIME\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"flights\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"flights\"\n      ],\n      \"env\": {\n        \"PREMIUM_ECONOMY\": \"your-value-here\",\n        \"NON_STOP\": \"your-value-here\",\n        \"ONE_STOP\": \"your-value-here\",\n        \"TWO_PLUS_STOPS\": \"your-value-here\",\n        \"DEPARTURE_TIME\": \"your-value-here\",\n        \"ARRIVAL_TIME\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"flights\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"flights\"\n      ],\n      \"env\": {\n        \"PREMIUM_ECONOMY\": \"your-value-here\",\n        \"NON_STOP\": \"your-value-here\",\n        \"ONE_STOP\": \"your-value-here\",\n        \"TWO_PLUS_STOPS\": \"your-value-here\",\n        \"DEPARTURE_TIME\": \"your-value-here\",\n        \"ARRIVAL_TIME\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "hub-mcp",
@@ -1648,7 +2386,25 @@
         "mcp-server"
       ],
       "sourceUrl": "https://github.com/samanhappy/mcphub",
-      "author": "samanhappy"
+      "author": "samanhappy",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"mcphub\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"@samanhappy/mcphub\"\n      ],\n      \"env\": {\n        \"ADMIN_PASSWORD\": \"your-password\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"mcphub\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"@samanhappy/mcphub\"\n      ],\n      \"env\": {\n        \"ADMIN_PASSWORD\": \"your-password\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"mcphub\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"@samanhappy/mcphub\"\n      ],\n      \"env\": {\n        \"ADMIN_PASSWORD\": \"your-password\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"mcphub\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"@samanhappy/mcphub\"\n      ],\n      \"env\": {\n        \"ADMIN_PASSWORD\": \"your-password\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "tradingview-mcp",
@@ -1668,7 +2424,25 @@
         "tradingview"
       ],
       "sourceUrl": "https://github.com/atilaahmettaner/tradingview-mcp",
-      "author": "atilaahmettaner"
+      "author": "atilaahmettaner",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"tradingview\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"tradingview-mcp-server\"\n      ],\n      \"env\": {\n        \"YOUR_USERNAME\": \"your-username\",\n        \"YOUR_BOT_TOKEN_HERE\": \"your-token-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"tradingview\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"tradingview-mcp-server\"\n      ],\n      \"env\": {\n        \"YOUR_USERNAME\": \"your-username\",\n        \"YOUR_BOT_TOKEN_HERE\": \"your-token-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"tradingview\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"tradingview-mcp-server\"\n      ],\n      \"env\": {\n        \"YOUR_USERNAME\": \"your-username\",\n        \"YOUR_BOT_TOKEN_HERE\": \"your-token-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"tradingview\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"tradingview-mcp-server\"\n      ],\n      \"env\": {\n        \"YOUR_USERNAME\": \"your-username\",\n        \"YOUR_BOT_TOKEN_HERE\": \"your-token-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "mcp-router",
@@ -1688,7 +2462,25 @@
         "mcp-tools"
       ],
       "sourceUrl": "https://github.com/mcp-router/mcp-router",
-      "author": "mcp-router"
+      "author": "mcp-router",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"router\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"mcp-router\"\n      ],\n      \"env\": {\n        \"MCPR_TOKEN\": \"your-token-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"router\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"mcp-router\"\n      ],\n      \"env\": {\n        \"MCPR_TOKEN\": \"your-token-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"router\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"mcp-router\"\n      ],\n      \"env\": {\n        \"MCPR_TOKEN\": \"your-token-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"router\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"mcp-router\"\n      ],\n      \"env\": {\n        \"MCPR_TOKEN\": \"your-token-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "esp32-nat-router-mcp",
@@ -1742,7 +2534,25 @@
         "tracing"
       ],
       "sourceUrl": "https://github.com/MCPJam/inspector",
-      "author": "MCPJam"
+      "author": "MCPJam",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"mcpjam workspace\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"mcpjam-workspace\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"mcpjam workspace\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"mcpjam-workspace\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"mcpjam workspace\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"mcpjam-workspace\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"mcpjam workspace\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"mcpjam-workspace\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "jadx-ai-mcp",
@@ -1787,7 +2597,25 @@
         "ollama-ui"
       ],
       "sourceUrl": "https://github.com/OpenAgentPlatform/Dive",
-      "author": "OpenAgentPlatform"
+      "author": "OpenAgentPlatform",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"dive\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"dive\"\n      ],\n      \"env\": {\n        \"MCP_SETUP\": \"your-value-here\",\n        \"YOUR_USERNAME\": \"your-username\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"dive\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"dive\"\n      ],\n      \"env\": {\n        \"MCP_SETUP\": \"your-value-here\",\n        \"YOUR_USERNAME\": \"your-username\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"dive\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"dive\"\n      ],\n      \"env\": {\n        \"MCP_SETUP\": \"your-value-here\",\n        \"YOUR_USERNAME\": \"your-username\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"dive\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"dive\"\n      ],\n      \"env\": {\n        \"MCP_SETUP\": \"your-value-here\",\n        \"YOUR_USERNAME\": \"your-username\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "contextplus-mcp",
@@ -1799,7 +2627,25 @@
         "mcp-server"
       ],
       "sourceUrl": "https://github.com/ForLoopCodes/contextplus",
-      "author": "ForLoopCodes"
+      "author": "ForLoopCodes",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"contextplus\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"contextplus\"\n      ],\n      \"env\": {\n        \"OLLAMA_API_KEY\": \"your-api-key-here\",\n        \"YOUR_OLLAMA_API_KEY\": \"your-api-key-here\",\n        \"CONTEXTPLUS_OPENAI_API_KEY\": \"your-api-key-here\",\n        \"YOUR_GEMINI_API_KEY\": \"your-api-key-here\",\n        \"OPENAI_API_KEY\": \"your-api-key-here\",\n        \"YOUR_KEY\": \"your-api-key-here\",\n        \"OLLAMA_EMBED_MODEL\": \"your-value-here\",\n        \"OLLAMA_CHAT_MODEL\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_PROVIDER\": \"your-value-here\",\n        \"CONTEXTPLUS_OPENAI_BASE_URL\": \"https://example.com\",\n        \"CONTEXTPLUS_OPENAI_EMBED_MODEL\": \"your-value-here\",\n        \"OPENAI_EMBED_MODEL\": \"your-value-here\",\n        \"CONTEXTPLUS_OPENAI_CHAT_MODEL\": \"your-value-here\",\n        \"OPENAI_BASE_URL\": \"https://example.com\",\n        \"OPENAI_CHAT_MODEL\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_BATCH_SIZE\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_CHUNK_CHARS\": \"your-value-here\",\n        \"CONTEXTPLUS_MAX_EMBED_FILE_SIZE\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_NUM_GPU\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_MAIN_GPU\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_NUM_THREAD\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_NUM_BATCH\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_NUM_CTX\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_LOW_VRAM\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_TRACKER\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_TRACKER_MAX_FILES\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_TRACKER_DEBOUNCE_MS\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"contextplus\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"contextplus\"\n      ],\n      \"env\": {\n        \"OLLAMA_API_KEY\": \"your-api-key-here\",\n        \"YOUR_OLLAMA_API_KEY\": \"your-api-key-here\",\n        \"CONTEXTPLUS_OPENAI_API_KEY\": \"your-api-key-here\",\n        \"YOUR_GEMINI_API_KEY\": \"your-api-key-here\",\n        \"OPENAI_API_KEY\": \"your-api-key-here\",\n        \"YOUR_KEY\": \"your-api-key-here\",\n        \"OLLAMA_EMBED_MODEL\": \"your-value-here\",\n        \"OLLAMA_CHAT_MODEL\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_PROVIDER\": \"your-value-here\",\n        \"CONTEXTPLUS_OPENAI_BASE_URL\": \"https://example.com\",\n        \"CONTEXTPLUS_OPENAI_EMBED_MODEL\": \"your-value-here\",\n        \"OPENAI_EMBED_MODEL\": \"your-value-here\",\n        \"CONTEXTPLUS_OPENAI_CHAT_MODEL\": \"your-value-here\",\n        \"OPENAI_BASE_URL\": \"https://example.com\",\n        \"OPENAI_CHAT_MODEL\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_BATCH_SIZE\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_CHUNK_CHARS\": \"your-value-here\",\n        \"CONTEXTPLUS_MAX_EMBED_FILE_SIZE\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_NUM_GPU\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_MAIN_GPU\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_NUM_THREAD\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_NUM_BATCH\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_NUM_CTX\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_LOW_VRAM\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_TRACKER\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_TRACKER_MAX_FILES\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_TRACKER_DEBOUNCE_MS\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"contextplus\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"contextplus\"\n      ],\n      \"env\": {\n        \"OLLAMA_API_KEY\": \"your-api-key-here\",\n        \"YOUR_OLLAMA_API_KEY\": \"your-api-key-here\",\n        \"CONTEXTPLUS_OPENAI_API_KEY\": \"your-api-key-here\",\n        \"YOUR_GEMINI_API_KEY\": \"your-api-key-here\",\n        \"OPENAI_API_KEY\": \"your-api-key-here\",\n        \"YOUR_KEY\": \"your-api-key-here\",\n        \"OLLAMA_EMBED_MODEL\": \"your-value-here\",\n        \"OLLAMA_CHAT_MODEL\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_PROVIDER\": \"your-value-here\",\n        \"CONTEXTPLUS_OPENAI_BASE_URL\": \"https://example.com\",\n        \"CONTEXTPLUS_OPENAI_EMBED_MODEL\": \"your-value-here\",\n        \"OPENAI_EMBED_MODEL\": \"your-value-here\",\n        \"CONTEXTPLUS_OPENAI_CHAT_MODEL\": \"your-value-here\",\n        \"OPENAI_BASE_URL\": \"https://example.com\",\n        \"OPENAI_CHAT_MODEL\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_BATCH_SIZE\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_CHUNK_CHARS\": \"your-value-here\",\n        \"CONTEXTPLUS_MAX_EMBED_FILE_SIZE\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_NUM_GPU\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_MAIN_GPU\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_NUM_THREAD\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_NUM_BATCH\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_NUM_CTX\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_LOW_VRAM\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_TRACKER\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_TRACKER_MAX_FILES\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_TRACKER_DEBOUNCE_MS\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"contextplus\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"contextplus\"\n      ],\n      \"env\": {\n        \"OLLAMA_API_KEY\": \"your-api-key-here\",\n        \"YOUR_OLLAMA_API_KEY\": \"your-api-key-here\",\n        \"CONTEXTPLUS_OPENAI_API_KEY\": \"your-api-key-here\",\n        \"YOUR_GEMINI_API_KEY\": \"your-api-key-here\",\n        \"OPENAI_API_KEY\": \"your-api-key-here\",\n        \"YOUR_KEY\": \"your-api-key-here\",\n        \"OLLAMA_EMBED_MODEL\": \"your-value-here\",\n        \"OLLAMA_CHAT_MODEL\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_PROVIDER\": \"your-value-here\",\n        \"CONTEXTPLUS_OPENAI_BASE_URL\": \"https://example.com\",\n        \"CONTEXTPLUS_OPENAI_EMBED_MODEL\": \"your-value-here\",\n        \"OPENAI_EMBED_MODEL\": \"your-value-here\",\n        \"CONTEXTPLUS_OPENAI_CHAT_MODEL\": \"your-value-here\",\n        \"OPENAI_BASE_URL\": \"https://example.com\",\n        \"OPENAI_CHAT_MODEL\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_BATCH_SIZE\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_CHUNK_CHARS\": \"your-value-here\",\n        \"CONTEXTPLUS_MAX_EMBED_FILE_SIZE\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_NUM_GPU\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_MAIN_GPU\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_NUM_THREAD\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_NUM_BATCH\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_NUM_CTX\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_LOW_VRAM\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_TRACKER\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_TRACKER_MAX_FILES\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_TRACKER_DEBOUNCE_MS\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "unreal-mcp",
@@ -1867,7 +2713,25 @@
         "skills"
       ],
       "sourceUrl": "https://github.com/timescale/pg-aiguide",
-      "author": "timescale"
+      "author": "timescale",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"pg aiguide\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"@tigerdata/pg-aiguide\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"pg aiguide\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"@tigerdata/pg-aiguide\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"pg aiguide\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"@tigerdata/pg-aiguide\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"pg aiguide\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"@tigerdata/pg-aiguide\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "mcp-memory-service",
@@ -1898,7 +2762,25 @@
         "vector-storage"
       ],
       "sourceUrl": "https://github.com/doobidoo/mcp-memory-service",
-      "author": "doobidoo"
+      "author": "doobidoo",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"memory service\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"mcp-memory-service\"\n      ],\n      \"env\": {\n        \"MCP_STREAMABLE_HTTP_MODE\": \"your-value-here\",\n        \"MCP_SSE_HOST\": \"https://api.example.com\",\n        \"MCP_SSE_PORT\": \"3000\",\n        \"MCP_OAUTH_ENABLED\": \"your-value-here\",\n        \"MCP_ALLOW_ANONYMOUS_ACCESS\": \"your-value-here\",\n        \"BASE_URL\": \"https://example.com\",\n        \"MCP_OAUTH_ACCESS_TOKEN_EXPIRE_MINUTES\": \"your-token-here\",\n        \"OPENCODE_MEMORY_ENDPOINT\": \"https://api.example.com\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"memory service\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"mcp-memory-service\"\n      ],\n      \"env\": {\n        \"MCP_STREAMABLE_HTTP_MODE\": \"your-value-here\",\n        \"MCP_SSE_HOST\": \"https://api.example.com\",\n        \"MCP_SSE_PORT\": \"3000\",\n        \"MCP_OAUTH_ENABLED\": \"your-value-here\",\n        \"MCP_ALLOW_ANONYMOUS_ACCESS\": \"your-value-here\",\n        \"BASE_URL\": \"https://example.com\",\n        \"MCP_OAUTH_ACCESS_TOKEN_EXPIRE_MINUTES\": \"your-token-here\",\n        \"OPENCODE_MEMORY_ENDPOINT\": \"https://api.example.com\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"memory service\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"mcp-memory-service\"\n      ],\n      \"env\": {\n        \"MCP_STREAMABLE_HTTP_MODE\": \"your-value-here\",\n        \"MCP_SSE_HOST\": \"https://api.example.com\",\n        \"MCP_SSE_PORT\": \"3000\",\n        \"MCP_OAUTH_ENABLED\": \"your-value-here\",\n        \"MCP_ALLOW_ANONYMOUS_ACCESS\": \"your-value-here\",\n        \"BASE_URL\": \"https://example.com\",\n        \"MCP_OAUTH_ACCESS_TOKEN_EXPIRE_MINUTES\": \"your-token-here\",\n        \"OPENCODE_MEMORY_ENDPOINT\": \"https://api.example.com\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"memory service\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"mcp-memory-service\"\n      ],\n      \"env\": {\n        \"MCP_STREAMABLE_HTTP_MODE\": \"your-value-here\",\n        \"MCP_SSE_HOST\": \"https://api.example.com\",\n        \"MCP_SSE_PORT\": \"3000\",\n        \"MCP_OAUTH_ENABLED\": \"your-value-here\",\n        \"MCP_ALLOW_ANONYMOUS_ACCESS\": \"your-value-here\",\n        \"BASE_URL\": \"https://example.com\",\n        \"MCP_OAUTH_ACCESS_TOKEN_EXPIRE_MINUTES\": \"your-token-here\",\n        \"OPENCODE_MEMORY_ENDPOINT\": \"https://api.example.com\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "zenfeed-mcp",
@@ -1981,7 +2863,25 @@
         "python"
       ],
       "sourceUrl": "https://github.com/stickerdaniel/linkedin-mcp-server",
-      "author": "stickerdaniel"
+      "author": "stickerdaniel",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"linkedin scraper\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"linkedin-scraper-mcp\"\n      ],\n      \"env\": {\n        \"UV_HTTP_TIMEOUT\": \"your-value-here\",\n        \"CHROME_PATH\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"linkedin scraper\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"linkedin-scraper-mcp\"\n      ],\n      \"env\": {\n        \"UV_HTTP_TIMEOUT\": \"your-value-here\",\n        \"CHROME_PATH\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"linkedin scraper\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"linkedin-scraper-mcp\"\n      ],\n      \"env\": {\n        \"UV_HTTP_TIMEOUT\": \"your-value-here\",\n        \"CHROME_PATH\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"linkedin scraper\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"linkedin-scraper-mcp\"\n      ],\n      \"env\": {\n        \"UV_HTTP_TIMEOUT\": \"your-value-here\",\n        \"CHROME_PATH\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "tools-mcp",
@@ -2058,7 +2958,25 @@
         "typescript"
       ],
       "sourceUrl": "https://github.com/chrisryugj/korean-law-mcp",
-      "author": "chrisryugj"
+      "author": "chrisryugj",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"korean law\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"korean-law-mcp\"\n      ],\n      \"env\": {\n        \"LAW_OC\": \"your-value-here\",\n        \"NOT_FOUND\": \"your-value-here\",\n        \"HALLUCINATION_DETECTED\": \"your-value-here\",\n        \"V3_EXPOSED\": \"your-value-here\",\n        \"LITE_TOOLS\": \"your-value-here\",\n        \"TRUST_PROXY\": \"your-value-here\",\n        \"LAW_ALIAS_ENTRIES\": \"your-value-here\",\n        \"MAX_SESSIONS\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"korean law\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"korean-law-mcp\"\n      ],\n      \"env\": {\n        \"LAW_OC\": \"your-value-here\",\n        \"NOT_FOUND\": \"your-value-here\",\n        \"HALLUCINATION_DETECTED\": \"your-value-here\",\n        \"V3_EXPOSED\": \"your-value-here\",\n        \"LITE_TOOLS\": \"your-value-here\",\n        \"TRUST_PROXY\": \"your-value-here\",\n        \"LAW_ALIAS_ENTRIES\": \"your-value-here\",\n        \"MAX_SESSIONS\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"korean law\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"korean-law-mcp\"\n      ],\n      \"env\": {\n        \"LAW_OC\": \"your-value-here\",\n        \"NOT_FOUND\": \"your-value-here\",\n        \"HALLUCINATION_DETECTED\": \"your-value-here\",\n        \"V3_EXPOSED\": \"your-value-here\",\n        \"LITE_TOOLS\": \"your-value-here\",\n        \"TRUST_PROXY\": \"your-value-here\",\n        \"LAW_ALIAS_ENTRIES\": \"your-value-here\",\n        \"MAX_SESSIONS\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"korean law\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"korean-law-mcp\"\n      ],\n      \"env\": {\n        \"LAW_OC\": \"your-value-here\",\n        \"NOT_FOUND\": \"your-value-here\",\n        \"HALLUCINATION_DETECTED\": \"your-value-here\",\n        \"V3_EXPOSED\": \"your-value-here\",\n        \"LITE_TOOLS\": \"your-value-here\",\n        \"TRUST_PROXY\": \"your-value-here\",\n        \"LAW_ALIAS_ENTRIES\": \"your-value-here\",\n        \"MAX_SESSIONS\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "rulego-mcp",
@@ -2133,7 +3051,25 @@
         "voice-cloning"
       ],
       "sourceUrl": "https://github.com/MiniMax-AI/MiniMax-MCP",
-      "author": "MiniMax-AI"
+      "author": "MiniMax-AI",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"minimax\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"minimax-mcp\"\n      ],\n      \"env\": {\n        \"MINIMAX_API_KEY\": \"your-api-key-here\",\n        \"MINIMAX_API_HOST\": \"https://api.example.com\",\n        \"MINIMAX_MCP_BASE_PATH\": \"your-value-here\",\n        \"MINIMAX_API_RESOURCE_MODE\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"minimax\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"minimax-mcp\"\n      ],\n      \"env\": {\n        \"MINIMAX_API_KEY\": \"your-api-key-here\",\n        \"MINIMAX_API_HOST\": \"https://api.example.com\",\n        \"MINIMAX_MCP_BASE_PATH\": \"your-value-here\",\n        \"MINIMAX_API_RESOURCE_MODE\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"minimax\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"minimax-mcp\"\n      ],\n      \"env\": {\n        \"MINIMAX_API_KEY\": \"your-api-key-here\",\n        \"MINIMAX_API_HOST\": \"https://api.example.com\",\n        \"MINIMAX_MCP_BASE_PATH\": \"your-value-here\",\n        \"MINIMAX_API_RESOURCE_MODE\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"minimax\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"minimax-mcp\"\n      ],\n      \"env\": {\n        \"MINIMAX_API_KEY\": \"your-api-key-here\",\n        \"MINIMAX_API_HOST\": \"https://api.example.com\",\n        \"MINIMAX_MCP_BASE_PATH\": \"your-value-here\",\n        \"MINIMAX_API_RESOURCE_MODE\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "mcp-brasil",
@@ -2154,7 +3090,25 @@
         "python"
       ],
       "sourceUrl": "https://github.com/jxnxts/mcp-brasil",
-      "author": "jxnxts"
+      "author": "jxnxts",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"brasil\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"mcp-brasil\"\n      ],\n      \"env\": {\n        \"TRANSPARENCIA_API_KEY\": \"your-api-key-here\",\n        \"DATAJUD_API_KEY\": \"your-api-key-here\",\n        \"META_ACCESS_TOKEN\": \"your-token-here\",\n        \"MCP_BRASIL_TOOL_SEARCH\": \"your-value-here\",\n        \"MCP_BRASIL_HTTP_TIMEOUT\": \"your-value-here\",\n        \"MCP_BRASIL_HTTP_MAX_RETRIES\": \"your-value-here\",\n        \"FEATURE_META\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"brasil\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"mcp-brasil\"\n      ],\n      \"env\": {\n        \"TRANSPARENCIA_API_KEY\": \"your-api-key-here\",\n        \"DATAJUD_API_KEY\": \"your-api-key-here\",\n        \"META_ACCESS_TOKEN\": \"your-token-here\",\n        \"MCP_BRASIL_TOOL_SEARCH\": \"your-value-here\",\n        \"MCP_BRASIL_HTTP_TIMEOUT\": \"your-value-here\",\n        \"MCP_BRASIL_HTTP_MAX_RETRIES\": \"your-value-here\",\n        \"FEATURE_META\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"brasil\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"mcp-brasil\"\n      ],\n      \"env\": {\n        \"TRANSPARENCIA_API_KEY\": \"your-api-key-here\",\n        \"DATAJUD_API_KEY\": \"your-api-key-here\",\n        \"META_ACCESS_TOKEN\": \"your-token-here\",\n        \"MCP_BRASIL_TOOL_SEARCH\": \"your-value-here\",\n        \"MCP_BRASIL_HTTP_TIMEOUT\": \"your-value-here\",\n        \"MCP_BRASIL_HTTP_MAX_RETRIES\": \"your-value-here\",\n        \"FEATURE_META\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"brasil\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"mcp-brasil\"\n      ],\n      \"env\": {\n        \"TRANSPARENCIA_API_KEY\": \"your-api-key-here\",\n        \"DATAJUD_API_KEY\": \"your-api-key-here\",\n        \"META_ACCESS_TOKEN\": \"your-token-here\",\n        \"MCP_BRASIL_TOOL_SEARCH\": \"your-value-here\",\n        \"MCP_BRASIL_HTTP_TIMEOUT\": \"your-value-here\",\n        \"MCP_BRASIL_HTTP_MAX_RETRIES\": \"your-value-here\",\n        \"FEATURE_META\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "data-api-builder-mcp",
@@ -2192,7 +3146,25 @@
         "windsurf"
       ],
       "sourceUrl": "https://github.com/qdrant/mcp-server-qdrant",
-      "author": "qdrant"
+      "author": "qdrant",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"qdrant\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"mcp-server-qdrant\"\n      ],\n      \"env\": {\n        \"QDRANT_API_KEY\": \"your-api-key-here\",\n        \"QDRANT_URL\": \"https://example.com\",\n        \"COLLECTION_NAME\": \"your-value-here\",\n        \"QDRANT_LOCAL_PATH\": \"your-value-here\",\n        \"EMBEDDING_PROVIDER\": \"your-value-here\",\n        \"EMBEDDING_MODEL\": \"your-value-here\",\n        \"TOOL_STORE_DESCRIPTION\": \"your-value-here\",\n        \"TOOL_FIND_DESCRIPTION\": \"your-value-here\",\n        \"FASTMCP_DEBUG\": \"your-value-here\",\n        \"FASTMCP_LOG_LEVEL\": \"your-value-here\",\n        \"FASTMCP_HOST\": \"https://api.example.com\",\n        \"FASTMCP_PORT\": \"3000\",\n        \"FASTMCP_WARN_ON_DUPLICATE_RESOURCES\": \"your-value-here\",\n        \"FASTMCP_WARN_ON_DUPLICATE_TOOLS\": \"your-value-here\",\n        \"FASTMCP_WARN_ON_DUPLICATE_PROMPTS\": \"your-value-here\",\n        \"FASTMCP_DEPENDENCIES\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"qdrant\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"mcp-server-qdrant\"\n      ],\n      \"env\": {\n        \"QDRANT_API_KEY\": \"your-api-key-here\",\n        \"QDRANT_URL\": \"https://example.com\",\n        \"COLLECTION_NAME\": \"your-value-here\",\n        \"QDRANT_LOCAL_PATH\": \"your-value-here\",\n        \"EMBEDDING_PROVIDER\": \"your-value-here\",\n        \"EMBEDDING_MODEL\": \"your-value-here\",\n        \"TOOL_STORE_DESCRIPTION\": \"your-value-here\",\n        \"TOOL_FIND_DESCRIPTION\": \"your-value-here\",\n        \"FASTMCP_DEBUG\": \"your-value-here\",\n        \"FASTMCP_LOG_LEVEL\": \"your-value-here\",\n        \"FASTMCP_HOST\": \"https://api.example.com\",\n        \"FASTMCP_PORT\": \"3000\",\n        \"FASTMCP_WARN_ON_DUPLICATE_RESOURCES\": \"your-value-here\",\n        \"FASTMCP_WARN_ON_DUPLICATE_TOOLS\": \"your-value-here\",\n        \"FASTMCP_WARN_ON_DUPLICATE_PROMPTS\": \"your-value-here\",\n        \"FASTMCP_DEPENDENCIES\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"qdrant\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"mcp-server-qdrant\"\n      ],\n      \"env\": {\n        \"QDRANT_API_KEY\": \"your-api-key-here\",\n        \"QDRANT_URL\": \"https://example.com\",\n        \"COLLECTION_NAME\": \"your-value-here\",\n        \"QDRANT_LOCAL_PATH\": \"your-value-here\",\n        \"EMBEDDING_PROVIDER\": \"your-value-here\",\n        \"EMBEDDING_MODEL\": \"your-value-here\",\n        \"TOOL_STORE_DESCRIPTION\": \"your-value-here\",\n        \"TOOL_FIND_DESCRIPTION\": \"your-value-here\",\n        \"FASTMCP_DEBUG\": \"your-value-here\",\n        \"FASTMCP_LOG_LEVEL\": \"your-value-here\",\n        \"FASTMCP_HOST\": \"https://api.example.com\",\n        \"FASTMCP_PORT\": \"3000\",\n        \"FASTMCP_WARN_ON_DUPLICATE_RESOURCES\": \"your-value-here\",\n        \"FASTMCP_WARN_ON_DUPLICATE_TOOLS\": \"your-value-here\",\n        \"FASTMCP_WARN_ON_DUPLICATE_PROMPTS\": \"your-value-here\",\n        \"FASTMCP_DEPENDENCIES\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"qdrant\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"mcp-server-qdrant\"\n      ],\n      \"env\": {\n        \"QDRANT_API_KEY\": \"your-api-key-here\",\n        \"QDRANT_URL\": \"https://example.com\",\n        \"COLLECTION_NAME\": \"your-value-here\",\n        \"QDRANT_LOCAL_PATH\": \"your-value-here\",\n        \"EMBEDDING_PROVIDER\": \"your-value-here\",\n        \"EMBEDDING_MODEL\": \"your-value-here\",\n        \"TOOL_STORE_DESCRIPTION\": \"your-value-here\",\n        \"TOOL_FIND_DESCRIPTION\": \"your-value-here\",\n        \"FASTMCP_DEBUG\": \"your-value-here\",\n        \"FASTMCP_LOG_LEVEL\": \"your-value-here\",\n        \"FASTMCP_HOST\": \"https://api.example.com\",\n        \"FASTMCP_PORT\": \"3000\",\n        \"FASTMCP_WARN_ON_DUPLICATE_RESOURCES\": \"your-value-here\",\n        \"FASTMCP_WARN_ON_DUPLICATE_TOOLS\": \"your-value-here\",\n        \"FASTMCP_WARN_ON_DUPLICATE_PROMPTS\": \"your-value-here\",\n        \"FASTMCP_DEPENDENCIES\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "datagouv-mcp",
@@ -2207,7 +3179,25 @@
         "opendata"
       ],
       "sourceUrl": "https://github.com/datagouv/datagouv-mcp",
-      "author": "datagouv"
+      "author": "datagouv",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"datagouv\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"datagouv-mcp\"\n      ],\n      \"env\": {\n        \"MCP_PORT\": \"3000\",\n        \"DATAGOUV_API_ENV\": \"your-value-here\",\n        \"LOG_LEVEL\": \"your-value-here\",\n        \"MCP_HOST\": \"https://api.example.com\",\n        \"MCP_ENV\": \"your-value-here\",\n        \"SENTRY_DSN\": \"your-value-here\",\n        \"SENTRY_SAMPLE_RATE\": \"your-value-here\",\n        \"RESOURCE_ID\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"datagouv\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"datagouv-mcp\"\n      ],\n      \"env\": {\n        \"MCP_PORT\": \"3000\",\n        \"DATAGOUV_API_ENV\": \"your-value-here\",\n        \"LOG_LEVEL\": \"your-value-here\",\n        \"MCP_HOST\": \"https://api.example.com\",\n        \"MCP_ENV\": \"your-value-here\",\n        \"SENTRY_DSN\": \"your-value-here\",\n        \"SENTRY_SAMPLE_RATE\": \"your-value-here\",\n        \"RESOURCE_ID\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"datagouv\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"datagouv-mcp\"\n      ],\n      \"env\": {\n        \"MCP_PORT\": \"3000\",\n        \"DATAGOUV_API_ENV\": \"your-value-here\",\n        \"LOG_LEVEL\": \"your-value-here\",\n        \"MCP_HOST\": \"https://api.example.com\",\n        \"MCP_ENV\": \"your-value-here\",\n        \"SENTRY_DSN\": \"your-value-here\",\n        \"SENTRY_SAMPLE_RATE\": \"your-value-here\",\n        \"RESOURCE_ID\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"datagouv\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"datagouv-mcp\"\n      ],\n      \"env\": {\n        \"MCP_PORT\": \"3000\",\n        \"DATAGOUV_API_ENV\": \"your-value-here\",\n        \"LOG_LEVEL\": \"your-value-here\",\n        \"MCP_HOST\": \"https://api.example.com\",\n        \"MCP_ENV\": \"your-value-here\",\n        \"SENTRY_DSN\": \"your-value-here\",\n        \"SENTRY_SAMPLE_RATE\": \"your-value-here\",\n        \"RESOURCE_ID\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "litterbox-mcp",
@@ -2258,7 +3248,25 @@
         "vlm"
       ],
       "sourceUrl": "https://github.com/llmsresearch/paperbanana",
-      "author": "llmsresearch"
+      "author": "llmsresearch",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"paperbanana\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"paperbanana\"\n      ],\n      \"env\": {\n        \"OPENAI_API_KEY\": \"your-api-key-here\",\n        \"GOOGLE_API_KEY\": \"your-api-key-here\",\n        \"OPENAI_BASE_URL\": \"https://example.com\",\n        \"GOOGLE_BASE_URL\": \"https://example.com\",\n        \"GOOGLE_VLM_MODEL\": \"your-value-here\",\n        \"GOOGLE_IMAGE_MODEL\": \"your-value-here\",\n        \"OPENAI_VLM_MODEL\": \"your-value-here\",\n        \"OPENAI_IMAGE_MODEL\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"paperbanana\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"paperbanana\"\n      ],\n      \"env\": {\n        \"OPENAI_API_KEY\": \"your-api-key-here\",\n        \"GOOGLE_API_KEY\": \"your-api-key-here\",\n        \"OPENAI_BASE_URL\": \"https://example.com\",\n        \"GOOGLE_BASE_URL\": \"https://example.com\",\n        \"GOOGLE_VLM_MODEL\": \"your-value-here\",\n        \"GOOGLE_IMAGE_MODEL\": \"your-value-here\",\n        \"OPENAI_VLM_MODEL\": \"your-value-here\",\n        \"OPENAI_IMAGE_MODEL\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"paperbanana\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"paperbanana\"\n      ],\n      \"env\": {\n        \"OPENAI_API_KEY\": \"your-api-key-here\",\n        \"GOOGLE_API_KEY\": \"your-api-key-here\",\n        \"OPENAI_BASE_URL\": \"https://example.com\",\n        \"GOOGLE_BASE_URL\": \"https://example.com\",\n        \"GOOGLE_VLM_MODEL\": \"your-value-here\",\n        \"GOOGLE_IMAGE_MODEL\": \"your-value-here\",\n        \"OPENAI_VLM_MODEL\": \"your-value-here\",\n        \"OPENAI_IMAGE_MODEL\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"paperbanana\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"paperbanana\"\n      ],\n      \"env\": {\n        \"OPENAI_API_KEY\": \"your-api-key-here\",\n        \"GOOGLE_API_KEY\": \"your-api-key-here\",\n        \"OPENAI_BASE_URL\": \"https://example.com\",\n        \"GOOGLE_BASE_URL\": \"https://example.com\",\n        \"GOOGLE_VLM_MODEL\": \"your-value-here\",\n        \"GOOGLE_IMAGE_MODEL\": \"your-value-here\",\n        \"OPENAI_VLM_MODEL\": \"your-value-here\",\n        \"OPENAI_IMAGE_MODEL\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
     },
     {
       "id": "awesome-hacking-lists-mcp",

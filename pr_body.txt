@@ -126,4 +126,4 @@ The following fields are manually maintained and were preserved during the updat
 
 **Note:** Please review the changes carefully before merging. The discovery process automatically fetches data from GitHub repositories with the `mcp-server` topic and at least 10 stars.
 
-**Discovery Date:** 2026-04-19 07:09:42 UTC
+**Discovery Date:** 2026-04-19 12:22:40 UTC
