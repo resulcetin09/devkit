@@ -69,5 +69,32 @@ export const RAW_ENTRIES: unknown[] = [
   { id: 'writing-plans', name: 'Writing Plans', shortDescription: 'Creates implementation plans from specs or requirements before touching any code.', fullDescription: 'Writing Plans is used when you have a spec or requirements for a multi-step task, before touching code. It produces a detailed implementation plan with sequenced tasks, dependency mapping, and risk identification.', category: 'skill', tags: ['planning', 'spec', 'workflow', 'engineering', 'methodology'], sourceUrl: 'https://github.com/resulcetin09/devkit', author: 'Kiro' },
   { id: 'writing-skills', name: 'Writing Skills', shortDescription: 'Creates new skills, edits existing ones, and verifies skills work before deployment.', fullDescription: 'Writing Skills covers the full lifecycle of Claude skill authoring: creating new skills from scratch, editing and improving existing skills, testing skill behavior, and verifying skills trigger correctly before deployment.', category: 'skill', tags: ['skills', 'meta', 'writing', 'claude', 'productivity'], sourceUrl: 'https://github.com/resulcetin09/devkit', author: 'Kiro' },
   { id: 'xlsx', name: 'XLSX', shortDescription: 'Opens, reads, edits, creates, and converts spreadsheet files — .xlsx, .xlsm, .csv, .tsv.', fullDescription: 'XLSX handles all spreadsheet operations: opening and reading existing files, adding columns and computing formulas, formatting and charting, cleaning messy tabular data, creating new spreadsheets from scratch, and converting between tabular formats.', category: 'skill', tags: ['excel', 'xlsx', 'spreadsheet', 'csv', 'data', 'office'], sourceUrl: 'https://github.com/resulcetin09/devkit', author: 'Kiro' },
-  { id: 'figma-mcp', name: 'Figma MCP', shortDescription: 'Connects Claude to Figma files — read designs, extract components, download assets via MCP.', fullDescription: 'Figma MCP is a Model Context Protocol server that gives Claude direct access to Figma files. It exposes tools for reading file structure and layout, extracting component data, downloading SVG and PNG assets, and inspecting design tokens. Enables design-to-code workflows without manual export steps.', category: 'mcp-server', tags: ['figma', 'design', 'mcp', 'assets', 'design-to-code'], sourceUrl: 'https://github.com/resulcetin09/devkit', author: 'Kiro' },
+  { 
+    id: 'figma-mcp', 
+    name: 'Figma MCP', 
+    shortDescription: 'Connects Claude to Figma files — read designs, extract components, download assets via MCP.', 
+    fullDescription: 'Figma MCP is a Model Context Protocol server that gives Claude direct access to Figma files. It exposes tools for reading file structure and layout, extracting component data, downloading SVG and PNG assets, and inspecting design tokens. Enables design-to-code workflows without manual export steps.', 
+    category: 'mcp-server', 
+    tags: ['figma', 'design', 'mcp', 'assets', 'design-to-code'], 
+    sourceUrl: 'https://github.com/resulcetin09/devkit', 
+    author: 'Kiro',
+    installConfig: {
+      cursor: {
+        configSnippet: '{\n  "mcpServers": {\n    "figma": {\n      "command": "npx",\n      "args": [\n        "-y",\n        "@modelcontextprotocol/server-figma"\n      ],\n      "env": {\n        "FIGMA_PERSONAL_ACCESS_TOKEN": "your-figma-token-here"\n      }\n    }\n  }\n}',
+        filePath: '~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json'
+      },
+      claudeDesktop: {
+        configSnippet: '{\n  "mcpServers": {\n    "figma": {\n      "command": "npx",\n      "args": [\n        "-y",\n        "@modelcontextprotocol/server-figma"\n      ],\n      "env": {\n        "FIGMA_PERSONAL_ACCESS_TOKEN": "your-figma-token-here"\n      }\n    }\n  }\n}',
+        filePath: '~/Library/Application Support/Claude/claude_desktop_config.json'
+      },
+      antigravity: {
+        configSnippet: '{\n  "mcpServers": {\n    "figma": {\n      "command": "npx",\n      "args": [\n        "-y",\n        "@modelcontextprotocol/server-figma"\n      ],\n      "env": {\n        "FIGMA_PERSONAL_ACCESS_TOKEN": "your-figma-token-here"\n      }\n    }\n  }\n}',
+        filePath: '~/.config/antigravity/mcp_config.json'
+      },
+      kiro: {
+        configSnippet: '{\n  "mcpServers": {\n    "figma": {\n      "command": "npx",\n      "args": [\n        "-y",\n        "@modelcontextprotocol/server-figma"\n      ],\n      "env": {\n        "FIGMA_PERSONAL_ACCESS_TOKEN": "your-figma-token-here"\n      }\n    }\n  }\n}',
+        filePath: '~/.kiro/settings/mcp.json'
+      }
+    }
+  },
 ] satisfies Entry[];
