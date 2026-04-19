@@ -84,8 +84,8 @@ export function writeEntriesFile(entries: Entry[], filePath?: string): void {
   // Format entries array
   const formattedEntries = sortedEntries.map(entry => `  ${formatEntry(entry)}`).join(',\n');
   
-  // Build complete file content
-  const fileContent = `${header}export const RAW_ENTRIES: unknown[] = [\n${formattedEntries}\n];\n`;
+  // Build complete file content with satisfies operator for type safety
+  const fileContent = `${header}export const RAW_ENTRIES: unknown[] = [\n${formattedEntries}\n] satisfies Entry[];\n`;
   
   // Write to file
   fs.writeFileSync(entriesPath, fileContent, 'utf-8');
@@ -104,5 +104,5 @@ export function previewEntriesFile(entries: Entry[]): string {
   
   const formattedEntries = sortedEntries.map(entry => `  ${formatEntry(entry)}`).join(',\n');
   
-  return `export const RAW_ENTRIES: unknown[] = [\n${formattedEntries}\n];\n`;
+  return `export const RAW_ENTRIES: unknown[] = [\n${formattedEntries}\n] satisfies Entry[];\n`;
 }

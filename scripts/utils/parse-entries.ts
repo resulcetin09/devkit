@@ -16,12 +16,17 @@ export function parseEntriesFile(filePath?: string): Entry[] {
   const content = fs.readFileSync(entriesPath, 'utf-8');
   
   // Extract RAW_ENTRIES array using regex
-  const match = content.match(/export const RAW_ENTRIES: unknown\[\] = \[([\s\S]*?)\];/);
+  // Match the array content, handling both with and without 'satisfies' operator
+  const match = content.match(/export const RAW_ENTRIES: unknown\[\] = \[([\s\S]*?)\](?:\s+satisfies\s+\w+\[\])?;/);
   if (!match) {
     throw new Error('Could not parse RAW_ENTRIES from entries.ts');
   }
   
-  const arrayContent = match[1];
+  let arrayContent = match[1];
+  
+  // Remove any TypeScript-specific syntax that might remain
+  // Remove 'satisfies' operator if it somehow got included
+  arrayContent = arrayContent.replace(/\s+satisfies\s+\w+\[\]\s*$/g, '');
   
   try {
     // Use eval to parse the array (safe in this context as we control the input)
