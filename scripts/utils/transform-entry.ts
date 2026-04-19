@@ -1,6 +1,8 @@
 import type { Entry } from '../../src/types/entry.js';
 import { transformRepoName, generateId } from './transform-name.js';
 import { extractFirstParagraph } from './parse-readme.js';
+import { generateInstallConfig } from './generate-install-config.js';
+import type { Octokit } from '@octokit/rest';
 
 /**
  * GitHub repository data structure from Octokit
@@ -20,10 +22,12 @@ export interface GitHubRepo {
 /**
  * Transform GitHub repository data into Entry format
  */
-export function transformRepoToEntry(
+export async function transformRepoToEntry(
   repo: GitHubRepo,
-  readmeContent?: string
-): Entry {
+  readmeContent?: string,
+  octokit?: Octokit,
+  existingEntries: Entry[] = []
+): Promise<Entry> {
   // Generate name and ID
   const name = transformRepoName(repo.name);
   const id = generateId(repo.name);
@@ -62,6 +66,25 @@ export function transformRepoToEntry(
     sourceUrl: repo.html_url,
     author,
   };
+
+  // Generate installConfig if octokit is provided
+  if (octokit && readmeContent !== undefined) {
+    try {
+      const installConfig = await generateInstallConfig(
+        octokit,
+        repo,
+        readmeContent || '',
+        existingEntries
+      );
+      
+      if (installConfig) {
+        entry.installConfig = installConfig;
+      }
+    } catch (error) {
+      console.log(`[transform-entry] Failed to generate installConfig for ${repo.full_name}:`, error instanceof Error ? error.message : error);
+      // Continue without installConfig
+    }
+  }
 
   return entry;
 }

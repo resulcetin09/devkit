@@ -30,6 +30,33 @@ interface DiscoveryResult {
 }
 
 /**
+ * Check if repository should be skipped
+ */
+function shouldSkipRepo(repo: any): { skip: boolean; reason?: string } {
+  // Skip archived repos
+  if (repo.archived) {
+    return { skip: true, reason: 'archived' };
+  }
+  
+  // Skip repos with inactive indicators in description
+  const description = (repo.description || '').toLowerCase();
+  const inactivePatterns = [
+    'no longer active',
+    'deprecated',
+    'unmaintained',
+    'not maintained',
+  ];
+  
+  for (const pattern of inactivePatterns) {
+    if (description.includes(pattern)) {
+      return { skip: true, reason: 'inactive' };
+    }
+  }
+  
+  return { skip: false };
+}
+
+/**
  * Error context for logging
  */
 interface ErrorContext {
@@ -251,6 +278,9 @@ async function discoverMCPServers(dryRun: boolean = false): Promise<DiscoveryRes
   
   console.log(`Found ${searchResponse.data.items.length} repositories`);
   
+  // Load existing entries for installConfig uniqueness checking
+  const existingEntries = parseExistingEntries();
+  
   // Track errors and skipped repos
   let errorCount = 0;
   const skippedRepos: string[] = [];
@@ -260,6 +290,14 @@ async function discoverMCPServers(dryRun: boolean = false): Promise<DiscoveryRes
   
   for (const repo of searchResponse.data.items) {
     console.log(`Processing: ${repo.full_name}`);
+    
+    // Check if repo should be skipped
+    const skipCheck = shouldSkipRepo(repo);
+    if (skipCheck.skip) {
+      console.log(`  ⏭️  Skipping ${repo.full_name} (${skipCheck.reason})`);
+      skippedRepos.push(`${repo.full_name} (${skipCheck.reason})`);
+      continue;
+    }
     
     try {
       // Fetch README with retry logic
@@ -303,7 +341,7 @@ async function discoverMCPServers(dryRun: boolean = false): Promise<DiscoveryRes
         stargazers_count: repo.stargazers_count,
       };
       
-      const entry = transformRepoToEntry(githubRepo, readmeContent);
+      const entry = await transformRepoToEntry(githubRepo, readmeContent, octokit, existingEntries);
       discoveredEntries.push(entry);
       console.log(`  ✅ Successfully processed ${repo.full_name}`);
       
@@ -326,7 +364,6 @@ async function discoverMCPServers(dryRun: boolean = false): Promise<DiscoveryRes
   }
   
   // Load existing entries
-  const existingEntries = parseExistingEntries();
   const existingById = new Map(existingEntries.map(e => [e.id, e]));
   
   // Compare and categorize
