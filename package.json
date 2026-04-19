@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "preview": "vite preview",
     "test": "vitest --run",
-    "deploy": "npm run build && npx gh-pages -d dist"
+    "deploy": "npm run build && npx gh-pages -d dist",
+    "discover-mcp": "node --loader ts-node/esm scripts/discover-mcp-servers.ts"
   },
   "dependencies": {
     "@octokit/rest": "^22.0.1",

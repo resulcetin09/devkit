@@ -3,53 +3,53 @@
 ## Phase 1: Setup and Dependencies
 
 ### Task 1: Install Dependencies
-- [ ] Add @octokit/rest to package.json dependencies
-- [ ] Add @types/node to devDependencies
-- [ ] Run npm install
-- [ ] Commit: "chore: add dependencies for MCP auto-discovery"
+- [x] Add @octokit/rest to package.json dependencies
+- [x] Add @types/node to devDependencies
+- [x] Run npm install
+- [x] Commit: "chore: add dependencies for MCP auto-discovery"
 
 ## Phase 2: Discovery Script
 
 ### Task 2: Create Name Transformation Utilities
-- [ ] Create scripts/utils/transform-name.ts
-- [ ] Implement transformRepoName function (mcp-server-figma → Figma MCP)
-- [ ] Implement generateId function (Figma MCP → figma-mcp)
+- [x] Create scripts/utils/transform-name.ts
+- [x] Implement transformRepoName function (mcp-server-figma → Figma MCP)
+- [x] Implement generateId function (Figma MCP → figma-mcp)
 - [ ] Write unit tests in scripts/utils/transform-name.test.ts
 - [ ] Run tests: npm test
 - [ ] Commit: "feat: add repo name transformation utilities"
 
 ### Task 3: Create README Parser
-- [ ] Create scripts/utils/parse-readme.ts
-- [ ] Implement extractFirstParagraph function
-- [ ] Implement stripMarkdown function
+- [x] Create scripts/utils/parse-readme.ts
+- [x] Implement extractFirstParagraph function
+- [x] Implement stripMarkdown function
 - [ ] Write unit tests in scripts/utils/parse-readme.test.ts
 - [ ] Run tests: npm test
 - [ ] Commit: "feat: add README parsing utilities"
 
 ### Task 4: Create Entry Transformer
-- [ ] Create scripts/utils/transform-entry.ts
-- [ ] Implement transformRepoToEntry function
-- [ ] Map GitHub repo data to Entry format
-- [ ] Handle all field mappings (name, description, tags, etc)
+- [x] Create scripts/utils/transform-entry.ts
+- [x] Implement transformRepoToEntry function
+- [x] Map GitHub repo data to Entry format
+- [x] Handle all field mappings (name, description, tags, etc)
 - [ ] Write unit tests with mock repo data
 - [ ] Run tests: npm test
 - [ ] Commit: "feat: add GitHub repo to Entry transformer"
 
 ### Task 5: Create Discovery Script
-- [ ] Create scripts/discover-mcp-servers.ts
-- [ ] Initialize Octokit client
-- [ ] Implement GitHub API search (topic:mcp-server stars:>=10)
-- [ ] Fetch README for each repo
-- [ ] Transform repos to entries using utilities
-- [ ] Compare with existing entries.ts
-- [ ] Generate DiscoveryResult output
-- [ ] Add --dry-run flag support
+- [x] Create scripts/discover-mcp-servers.ts
+- [x] Initialize Octokit client
+- [x] Implement GitHub API search (topic:mcp-server stars:>=10)
+- [x] Fetch README for each repo
+- [x] Transform repos to entries using utilities
+- [x] Compare with existing entries.ts
+- [x] Generate DiscoveryResult output
+- [x] Add --dry-run flag support
 - [ ] Write integration tests with mocked Octokit
 - [ ] Run tests: npm test
 - [ ] Commit: "feat: add MCP server discovery script"
 
 ### Task 6: Add Discovery npm Script
-- [ ] Add "discover-mcp" script to package.json
+- [x] Add "discover-mcp" script to package.json
 - [ ] Test locally: npm run discover-mcp -- --dry-run
 - [ ] Verify output format
 - [ ] Commit: "chore: add discover-mcp npm script"
