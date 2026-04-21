@@ -52,12 +52,22 @@ export function DirectoryPage() {
       {/* Directory section */}
       <div
         ref={directoryRef}
-        className="mx-auto max-w-7xl scroll-mt-16 px-6 pb-24 pt-16"
+        className="relative mx-auto max-w-7xl scroll-mt-16 px-6 pb-24 pt-16"
       >
-        {/* Section heading */}
-        <div className="mb-12 flex items-end justify-between gap-4">
+        {/* Subtle background gradient */}
+        <div 
+          className="absolute inset-0 pointer-events-none noise-texture"
+          style={{
+            background: 'radial-gradient(ellipse 80% 50% at 50% 0%, rgba(124,106,247,0.03) 0%, transparent 60%)',
+          }}
+          aria-hidden="true"
+        />
+
+        {/* Section heading with decorative lines */}
+        <div className="relative mb-12 flex items-center justify-center gap-6">
+          <div className="h-px flex-1 max-w-24 bg-gradient-to-r from-transparent to-border-default" aria-hidden="true" />
           <h2
-            className="text-text-primary"
+            className="text-text-primary text-center"
             style={{
               fontFamily: 'var(--font-display)',
               fontSize: 'clamp(1.75rem, 3vw, 2.5rem)',
@@ -67,6 +77,11 @@ export function DirectoryPage() {
           >
             Browse the directory
           </h2>
+          <div className="h-px flex-1 max-w-24 bg-gradient-to-l from-transparent to-border-default" aria-hidden="true" />
+        </div>
+
+        {/* Result count - positioned below heading */}
+        <div className="mb-8 flex justify-center">
           <ResultCount count={visibleEntries.length} total={ALL_ENTRIES.length} />
         </div>
 

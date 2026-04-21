@@ -50,7 +50,7 @@ export function FilterPanel({
               type="button"
               onClick={() => onCategoryChange(value)}
               aria-pressed={active}
-              className={`relative rounded-full px-4 py-1.5 text-sm font-medium transition-all duration-200 ${
+              className={`relative rounded-full px-4 py-1.5 text-sm font-medium transition-all duration-300 ${
                 active
                   ? 'text-text-primary'
                   : 'text-text-muted hover:text-text-secondary'
@@ -59,6 +59,9 @@ export function FilterPanel({
               {active && (
                 <span
                   className="absolute inset-0 rounded-full border border-border-default bg-bg-surface"
+                  style={{
+                    boxShadow: '0 2px 8px rgba(124,106,247,0.08), inset 0 1px 0 rgba(124,106,247,0.1)',
+                  }}
                   aria-hidden="true"
                 />
               )}
@@ -72,7 +75,7 @@ export function FilterPanel({
           <button
             type="button"
             onClick={onClear}
-            className="ml-auto flex items-center gap-1 text-xs text-text-muted hover:text-text-secondary transition-colors"
+            className="ml-auto flex items-center gap-1 text-xs text-text-muted hover:text-accent-primary transition-colors duration-200"
             style={{ fontFamily: 'var(--font-mono)' }}
           >
             <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" aria-hidden="true">
@@ -98,12 +101,15 @@ export function FilterPanel({
                 type="button"
                 onClick={() => toggleTag(tag)}
                 aria-pressed={active}
-                className={`shrink-0 rounded-full px-3 py-1 text-xs transition-all duration-200 ${
+                className={`shrink-0 rounded-full px-3 py-1.5 text-xs font-medium transition-all duration-300 ${
                   active
-                    ? 'bg-accent-primary/15 border border-accent-primary/50 text-accent-primary'
-                    : 'border border-border-subtle text-text-muted hover:border-border-default hover:text-text-secondary'
+                    ? 'bg-accent-primary/15 border border-accent-primary/50 text-accent-primary shadow-sm'
+                    : 'border border-border-subtle text-text-muted hover:border-border-default hover:text-text-secondary hover:bg-bg-elevated'
                 }`}
-                style={{ fontFamily: 'var(--font-mono)' }}
+                style={{ 
+                  fontFamily: 'var(--font-mono)',
+                  boxShadow: active ? '0 2px 8px rgba(124,106,247,0.15)' : undefined,
+                }}
               >
                 {tag}
               </button>
