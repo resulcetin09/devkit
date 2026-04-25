@@ -145,11 +145,11 @@
       "action": "added"
     },
     {
-      "id": "slackdump-mcp",
+      "id": "nunu-mcp",
       "action": "added"
     },
     {
-      "id": "nunu-mcp",
+      "id": "slackdump-mcp",
       "action": "added"
     },
     {
@@ -157,11 +157,11 @@
       "action": "added"
     },
     {
-      "id": "brightdata-mcp",
+      "id": "unity-mcp",
       "action": "added"
     },
     {
-      "id": "unity-mcp",
+      "id": "brightdata-mcp",
       "action": "added"
     },
     {
@@ -205,15 +205,15 @@
       "action": "added"
     },
     {
+      "id": "codebase-memory-mcp",
+      "action": "added"
+    },
+    {
       "id": "dive-mcp",
       "action": "added"
     },
     {
       "id": "contextplus-mcp",
-      "action": "added"
-    },
-    {
-      "id": "codebase-memory-mcp",
       "action": "added"
     },
     {
@@ -225,15 +225,19 @@
       "action": "added"
     },
     {
-      "id": "tools-mcp",
-      "action": "added"
-    },
-    {
       "id": "korean-law-mcp",
       "action": "added"
     },
     {
+      "id": "tools-mcp",
+      "action": "added"
+    },
+    {
       "id": "slack-server-mcp",
+      "action": "added"
+    },
+    {
+      "id": "design-extract-mcp",
       "action": "added"
     },
     {
@@ -245,10 +249,6 @@
       "action": "added"
     },
     {
-      "id": "design-extract-mcp",
-      "action": "added"
-    },
-    {
       "id": "datagouv-mcp",
       "action": "added"
     },
@@ -257,11 +257,11 @@
       "action": "added"
     },
     {
-      "id": "litterbox-mcp",
+      "id": "paperbanana-mcp",
       "action": "added"
     },
     {
-      "id": "paperbanana-mcp",
+      "id": "litterbox-mcp",
       "action": "added"
     }
   ]

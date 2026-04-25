@@ -1207,6 +1207,26 @@
       }
     },
     {
+      "id": "nunu-mcp",
+      "name": "Nunu MCP",
+      "shortDescription": "A CLI tool for building Go applications.",
+      "fullDescription": "A CLI tool for building Go applications.",
+      "category": "mcp-server",
+      "tags": [
+        "ddd",
+        "gin",
+        "go",
+        "golang",
+        "golang-cli",
+        "mcp",
+        "mcp-client",
+        "mcp-server",
+        "scaffold"
+      ],
+      "sourceUrl": "https://github.com/go-nunu/nunu",
+      "author": "go-nunu"
+    },
+    {
       "id": "slackdump-mcp",
       "name": "Slackdump MCP",
       "shortDescription": "Save or export your private and public Slack messages, threads, files, and users locally without admin privileges.",
@@ -1228,26 +1248,6 @@
       ],
       "sourceUrl": "https://github.com/rusq/slackdump",
       "author": "rusq"
-    },
-    {
-      "id": "nunu-mcp",
-      "name": "Nunu MCP",
-      "shortDescription": "A CLI tool for building Go applications.",
-      "fullDescription": "A CLI tool for building Go applications.",
-      "category": "mcp-server",
-      "tags": [
-        "ddd",
-        "gin",
-        "go",
-        "golang",
-        "golang-cli",
-        "mcp",
-        "mcp-client",
-        "mcp-server",
-        "scaffold"
-      ],
-      "sourceUrl": "https://github.com/go-nunu/nunu",
-      "author": "go-nunu"
     },
     {
       "id": "mcp-proxy",
@@ -1282,6 +1282,36 @@
           "filePath": "~/.kiro/mcp_settings.json"
         }
       }
+    },
+    {
+      "id": "unity-mcp",
+      "name": "Unity Mcp",
+      "shortDescription": "AI Skills, MCP Tools, and CLI for Unity Engine. Full AI develop and test loop. Use cli for quick setup. Efficient token usage, advanced tools. Any C# method may be turned into a tool by a single line. Works with Claude Code, Gemini, Copilot, Cursor and any other absolutely for free.",
+      "fullDescription": "✨ AI Game Developer — Unity SKILLS, MCP",
+      "category": "mcp-server",
+      "tags": [
+        "ai",
+        "ai-integration",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "claude-desktop",
+        "cli",
+        "copilot",
+        "cursor",
+        "game-development",
+        "gamedev",
+        "gemini",
+        "llm",
+        "mcp",
+        "mcp-server",
+        "model-context-protocol",
+        "openai",
+        "unity",
+        "windsurf"
+      ],
+      "sourceUrl": "https://github.com/IvanMurzak/Unity-MCP",
+      "author": "IvanMurzak"
     },
     {
       "id": "brightdata-mcp",
@@ -1327,36 +1357,6 @@
           "filePath": "~/.kiro/mcp_settings.json"
         }
       }
-    },
-    {
-      "id": "unity-mcp",
-      "name": "Unity Mcp",
-      "shortDescription": "AI Skills, MCP Tools, and CLI for Unity Engine. Full AI develop and test loop. Use cli for quick setup. Efficient token usage, advanced tools. Any C# method may be turned into a tool by a single line. Works with Claude Code, Gemini, Copilot, Cursor and any other absolutely for free.",
-      "fullDescription": "✨ AI Game Developer — Unity SKILLS, MCP",
-      "category": "mcp-server",
-      "tags": [
-        "ai",
-        "ai-integration",
-        "anthropic",
-        "claude",
-        "claude-code",
-        "claude-desktop",
-        "cli",
-        "copilot",
-        "cursor",
-        "game-development",
-        "gamedev",
-        "gemini",
-        "llm",
-        "mcp",
-        "mcp-server",
-        "model-context-protocol",
-        "openai",
-        "unity",
-        "windsurf"
-      ],
-      "sourceUrl": "https://github.com/IvanMurzak/Unity-MCP",
-      "author": "IvanMurzak"
     },
     {
       "id": "meta-mcp",
@@ -1695,6 +1695,37 @@
       "author": "zinja-coder"
     },
     {
+      "id": "codebase-memory-mcp",
+      "name": "Codebase Memory MCP",
+      "shortDescription": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 66 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "fullDescription": "GitHub Release License CI [![Tests](https://img.shields.io/badge/tests-2586_passing-bri",
+      "category": "mcp-server",
+      "tags": [
+        "aider",
+        "c",
+        "claude-code",
+        "code-analysis",
+        "code-intelligence",
+        "codex",
+        "cursor",
+        "developer-tools",
+        "gemini-cli",
+        "graph-visualization",
+        "kilocode",
+        "knowledge-graph",
+        "mcp",
+        "mcp-server",
+        "model-context-protocol",
+        "opencode",
+        "performance",
+        "sqlite",
+        "tree-sitter",
+        "windsurf"
+      ],
+      "sourceUrl": "https://github.com/DeusData/codebase-memory-mcp",
+      "author": "DeusData"
+    },
+    {
       "id": "dive-mcp",
       "name": "Dive MCP",
       "shortDescription": "Dive is an open-source MCP Host Desktop Application that seamlessly integrates with any LLMs supporting function calling capabilities. ✨",
@@ -1762,37 +1793,6 @@
           "filePath": "~/.kiro/mcp_settings.json"
         }
       }
-    },
-    {
-      "id": "codebase-memory-mcp",
-      "name": "Codebase Memory MCP",
-      "shortDescription": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 66 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
-      "fullDescription": "GitHub Release License CI [![Tests](https://img.shields.io/badge/tests-2586_passing-bri",
-      "category": "mcp-server",
-      "tags": [
-        "aider",
-        "c",
-        "claude-code",
-        "code-analysis",
-        "code-intelligence",
-        "codex",
-        "cursor",
-        "developer-tools",
-        "gemini-cli",
-        "graph-visualization",
-        "kilocode",
-        "knowledge-graph",
-        "mcp",
-        "mcp-server",
-        "model-context-protocol",
-        "opencode",
-        "performance",
-        "sqlite",
-        "tree-sitter",
-        "windsurf"
-      ],
-      "sourceUrl": "https://github.com/DeusData/codebase-memory-mcp",
-      "author": "DeusData"
     },
     {
       "id": "mcp-memory-service",
@@ -1892,20 +1892,6 @@
       }
     },
     {
-      "id": "tools-mcp",
-      "name": "Mcptools",
-      "shortDescription": "A command-line interface for interacting with MCP (Model Context Protocol) servers using both stdio and HTTP transport.",
-      "fullDescription": "A command-line interface for interacting with MCP (Model Context Protocol) servers using both stdio and HTTP transport.",
-      "category": "mcp-server",
-      "tags": [
-        "mcp",
-        "mcp-server",
-        "modelcontextprotocol"
-      ],
-      "sourceUrl": "https://github.com/f/mcptools",
-      "author": "f"
-    },
-    {
       "id": "korean-law-mcp",
       "name": "Korean Law MCP",
       "shortDescription": "국가법령정보MCP | 법제처 41개 API → 16개 MCP 도구. 법령·판례·조례·조약을 AI로 검색·조회·분석 + LLM 환각 방지 인용 검증 | 41 Korean legal APIs → 16 MCP tools with AI citation hallucination guard",
@@ -1953,6 +1939,20 @@
       }
     },
     {
+      "id": "tools-mcp",
+      "name": "Mcptools",
+      "shortDescription": "A command-line interface for interacting with MCP (Model Context Protocol) servers using both stdio and HTTP transport.",
+      "fullDescription": "A command-line interface for interacting with MCP (Model Context Protocol) servers using both stdio and HTTP transport.",
+      "category": "mcp-server",
+      "tags": [
+        "mcp",
+        "mcp-server",
+        "modelcontextprotocol"
+      ],
+      "sourceUrl": "https://github.com/f/mcptools",
+      "author": "f"
+    },
+    {
       "id": "slack-server-mcp",
       "name": "Slack MCP",
       "shortDescription": "The most powerful MCP Slack Server with no permission requirements, Apps support, GovSlack, DMs, Group DMs and smart history fetch logic.",
@@ -1969,84 +1969,6 @@
       ],
       "sourceUrl": "https://github.com/korotovsky/slack-mcp-server",
       "author": "korotovsky"
-    },
-    {
-      "id": "mcp-brasil",
-      "name": "Brasil MCP",
-      "shortDescription": "MCP Server para 41 APIs públicas brasileiras",
-      "fullDescription": "MCP Server para 41 APIs públicas brasileiras",
-      "category": "mcp-server",
-      "tags": [
-        "ai-agents",
-        "apis-publicas",
-        "brazil",
-        "claude",
-        "fastmcp",
-        "governo",
-        "llm",
-        "mcp",
-        "mcp-server",
-        "python"
-      ],
-      "sourceUrl": "https://github.com/jxnxts/mcp-brasil",
-      "author": "jxnxts",
-      "installConfig": {
-        "cursor": {
-          "configSnippet": "{\n  \"mcpServers\": {\n    \"brasil\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"mcp-brasil\"\n      ],\n      \"env\": {\n        \"TRANSPARENCIA_API_KEY\": \"your-api-key-here\",\n        \"DATAJUD_API_KEY\": \"your-api-key-here\",\n        \"META_ACCESS_TOKEN\": \"your-token-here\",\n        \"MCP_BRASIL_TOOL_SEARCH\": \"your-value-here\",\n        \"MCP_BRASIL_HTTP_TIMEOUT\": \"your-value-here\",\n        \"MCP_BRASIL_HTTP_MAX_RETRIES\": \"your-value-here\",\n        \"FEATURE_META\": \"your-value-here\"\n      }\n    }\n  }\n}",
-          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
-        },
-        "claudeDesktop": {
-          "configSnippet": "{\n  \"mcpServers\": {\n    \"brasil\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"mcp-brasil\"\n      ],\n      \"env\": {\n        \"TRANSPARENCIA_API_KEY\": \"your-api-key-here\",\n        \"DATAJUD_API_KEY\": \"your-api-key-here\",\n        \"META_ACCESS_TOKEN\": \"your-token-here\",\n        \"MCP_BRASIL_TOOL_SEARCH\": \"your-value-here\",\n        \"MCP_BRASIL_HTTP_TIMEOUT\": \"your-value-here\",\n        \"MCP_BRASIL_HTTP_MAX_RETRIES\": \"your-value-here\",\n        \"FEATURE_META\": \"your-value-here\"\n      }\n    }\n  }\n}",
-          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
-        },
-        "antigravity": {
-          "configSnippet": "{\n  \"mcpServers\": {\n    \"brasil\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"mcp-brasil\"\n      ],\n      \"env\": {\n        \"TRANSPARENCIA_API_KEY\": \"your-api-key-here\",\n        \"DATAJUD_API_KEY\": \"your-api-key-here\",\n        \"META_ACCESS_TOKEN\": \"your-token-here\",\n        \"MCP_BRASIL_TOOL_SEARCH\": \"your-value-here\",\n        \"MCP_BRASIL_HTTP_TIMEOUT\": \"your-value-here\",\n        \"MCP_BRASIL_HTTP_MAX_RETRIES\": \"your-value-here\",\n        \"FEATURE_META\": \"your-value-here\"\n      }\n    }\n  }\n}",
-          "filePath": "~/.config/antigravity/config.json"
-        },
-        "kiro": {
-          "configSnippet": "{\n  \"mcpServers\": {\n    \"brasil\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"mcp-brasil\"\n      ],\n      \"env\": {\n        \"TRANSPARENCIA_API_KEY\": \"your-api-key-here\",\n        \"DATAJUD_API_KEY\": \"your-api-key-here\",\n        \"META_ACCESS_TOKEN\": \"your-token-here\",\n        \"MCP_BRASIL_TOOL_SEARCH\": \"your-value-here\",\n        \"MCP_BRASIL_HTTP_TIMEOUT\": \"your-value-here\",\n        \"MCP_BRASIL_HTTP_MAX_RETRIES\": \"your-value-here\",\n        \"FEATURE_META\": \"your-value-here\"\n      }\n    }\n  }\n}",
-          "filePath": "~/.kiro/mcp_settings.json"
-        }
-      }
-    },
-    {
-      "id": "minimax-mcp",
-      "name": "Minimax Mcp",
-      "shortDescription": "Official MiniMax Model Context Protocol (MCP) server that enables interaction with powerful Text to Speech, image generation and video generation APIs.",
-      "fullDescription": "!export",
-      "category": "mcp-server",
-      "tags": [
-        "image-generation",
-        "image-to-video",
-        "mcp",
-        "mcp-server",
-        "mcp-tools",
-        "text-to-image",
-        "text-to-speech",
-        "text-to-video",
-        "video-generation",
-        "voice-cloning"
-      ],
-      "sourceUrl": "https://github.com/MiniMax-AI/MiniMax-MCP",
-      "author": "MiniMax-AI",
-      "installConfig": {
-        "cursor": {
-          "configSnippet": "{\n  \"mcpServers\": {\n    \"minimax\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"minimax-mcp\"\n      ],\n      \"env\": {\n        \"MINIMAX_API_KEY\": \"your-api-key-here\",\n        \"MINIMAX_API_HOST\": \"https://api.example.com\",\n        \"MINIMAX_MCP_BASE_PATH\": \"your-value-here\",\n        \"MINIMAX_API_RESOURCE_MODE\": \"your-value-here\"\n      }\n    }\n  }\n}",
-          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
-        },
-        "claudeDesktop": {
-          "configSnippet": "{\n  \"mcpServers\": {\n    \"minimax\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"minimax-mcp\"\n      ],\n      \"env\": {\n        \"MINIMAX_API_KEY\": \"your-api-key-here\",\n        \"MINIMAX_API_HOST\": \"https://api.example.com\",\n        \"MINIMAX_MCP_BASE_PATH\": \"your-value-here\",\n        \"MINIMAX_API_RESOURCE_MODE\": \"your-value-here\"\n      }\n    }\n  }\n}",
-          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
-        },
-        "antigravity": {
-          "configSnippet": "{\n  \"mcpServers\": {\n    \"minimax\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"minimax-mcp\"\n      ],\n      \"env\": {\n        \"MINIMAX_API_KEY\": \"your-api-key-here\",\n        \"MINIMAX_API_HOST\": \"https://api.example.com\",\n        \"MINIMAX_MCP_BASE_PATH\": \"your-value-here\",\n        \"MINIMAX_API_RESOURCE_MODE\": \"your-value-here\"\n      }\n    }\n  }\n}",
-          "filePath": "~/.config/antigravity/config.json"
-        },
-        "kiro": {
-          "configSnippet": "{\n  \"mcpServers\": {\n    \"minimax\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"minimax-mcp\"\n      ],\n      \"env\": {\n        \"MINIMAX_API_KEY\": \"your-api-key-here\",\n        \"MINIMAX_API_HOST\": \"https://api.example.com\",\n        \"MINIMAX_MCP_BASE_PATH\": \"your-value-here\",\n        \"MINIMAX_API_RESOURCE_MODE\": \"your-value-here\"\n      }\n    }\n  }\n}",
-          "filePath": "~/.kiro/mcp_settings.json"
-        }
-      }
     },
     {
       "id": "design-extract-mcp",
@@ -2093,6 +2015,84 @@
         },
         "kiro": {
           "configSnippet": "{\n  \"mcpServers\": {\n    \"designlang\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"designlang\"\n      ],\n      \"env\": {\n        \"OPENAI_API_KEY\": \"your-api-key-here\",\n        \"ANTHROPIC_API_KEY\": \"your-api-key-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
+    },
+    {
+      "id": "mcp-brasil",
+      "name": "Brasil MCP",
+      "shortDescription": "MCP Server para 41 APIs públicas brasileiras",
+      "fullDescription": "MCP Server para 41 APIs públicas brasileiras",
+      "category": "mcp-server",
+      "tags": [
+        "ai-agents",
+        "apis-publicas",
+        "brazil",
+        "claude",
+        "fastmcp",
+        "governo",
+        "llm",
+        "mcp",
+        "mcp-server",
+        "python"
+      ],
+      "sourceUrl": "https://github.com/jxnxts/mcp-brasil",
+      "author": "jxnxts",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"brasil\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"mcp-brasil\"\n      ],\n      \"env\": {\n        \"TRANSPARENCIA_API_KEY\": \"your-api-key-here\",\n        \"DATAJUD_API_KEY\": \"your-api-key-here\",\n        \"META_ACCESS_TOKEN\": \"your-token-here\",\n        \"MCP_BRASIL_DATASETS\": \"your-value-here\",\n        \"MCP_BRASIL_TOOL_SEARCH\": \"your-value-here\",\n        \"MCP_BRASIL_HTTP_TIMEOUT\": \"your-value-here\",\n        \"MCP_BRASIL_HTTP_MAX_RETRIES\": \"your-value-here\",\n        \"MCP_BRASIL_DATASET_CACHE_DIR\": \"your-value-here\",\n        \"MCP_BRASIL_DATASET_REFRESH\": \"your-value-here\",\n        \"MCP_BRASIL_DATASET_TIMEOUT\": \"your-value-here\",\n        \"MCP_BRASIL_LGPD_ALLOW_PII\": \"your-value-here\",\n        \"FEATURE_META\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"brasil\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"mcp-brasil\"\n      ],\n      \"env\": {\n        \"TRANSPARENCIA_API_KEY\": \"your-api-key-here\",\n        \"DATAJUD_API_KEY\": \"your-api-key-here\",\n        \"META_ACCESS_TOKEN\": \"your-token-here\",\n        \"MCP_BRASIL_DATASETS\": \"your-value-here\",\n        \"MCP_BRASIL_TOOL_SEARCH\": \"your-value-here\",\n        \"MCP_BRASIL_HTTP_TIMEOUT\": \"your-value-here\",\n        \"MCP_BRASIL_HTTP_MAX_RETRIES\": \"your-value-here\",\n        \"MCP_BRASIL_DATASET_CACHE_DIR\": \"your-value-here\",\n        \"MCP_BRASIL_DATASET_REFRESH\": \"your-value-here\",\n        \"MCP_BRASIL_DATASET_TIMEOUT\": \"your-value-here\",\n        \"MCP_BRASIL_LGPD_ALLOW_PII\": \"your-value-here\",\n        \"FEATURE_META\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"brasil\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"mcp-brasil\"\n      ],\n      \"env\": {\n        \"TRANSPARENCIA_API_KEY\": \"your-api-key-here\",\n        \"DATAJUD_API_KEY\": \"your-api-key-here\",\n        \"META_ACCESS_TOKEN\": \"your-token-here\",\n        \"MCP_BRASIL_DATASETS\": \"your-value-here\",\n        \"MCP_BRASIL_TOOL_SEARCH\": \"your-value-here\",\n        \"MCP_BRASIL_HTTP_TIMEOUT\": \"your-value-here\",\n        \"MCP_BRASIL_HTTP_MAX_RETRIES\": \"your-value-here\",\n        \"MCP_BRASIL_DATASET_CACHE_DIR\": \"your-value-here\",\n        \"MCP_BRASIL_DATASET_REFRESH\": \"your-value-here\",\n        \"MCP_BRASIL_DATASET_TIMEOUT\": \"your-value-here\",\n        \"MCP_BRASIL_LGPD_ALLOW_PII\": \"your-value-here\",\n        \"FEATURE_META\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"brasil\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"mcp-brasil\"\n      ],\n      \"env\": {\n        \"TRANSPARENCIA_API_KEY\": \"your-api-key-here\",\n        \"DATAJUD_API_KEY\": \"your-api-key-here\",\n        \"META_ACCESS_TOKEN\": \"your-token-here\",\n        \"MCP_BRASIL_DATASETS\": \"your-value-here\",\n        \"MCP_BRASIL_TOOL_SEARCH\": \"your-value-here\",\n        \"MCP_BRASIL_HTTP_TIMEOUT\": \"your-value-here\",\n        \"MCP_BRASIL_HTTP_MAX_RETRIES\": \"your-value-here\",\n        \"MCP_BRASIL_DATASET_CACHE_DIR\": \"your-value-here\",\n        \"MCP_BRASIL_DATASET_REFRESH\": \"your-value-here\",\n        \"MCP_BRASIL_DATASET_TIMEOUT\": \"your-value-here\",\n        \"MCP_BRASIL_LGPD_ALLOW_PII\": \"your-value-here\",\n        \"FEATURE_META\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
+    },
+    {
+      "id": "minimax-mcp",
+      "name": "Minimax Mcp",
+      "shortDescription": "Official MiniMax Model Context Protocol (MCP) server that enables interaction with powerful Text to Speech, image generation and video generation APIs.",
+      "fullDescription": "!export",
+      "category": "mcp-server",
+      "tags": [
+        "image-generation",
+        "image-to-video",
+        "mcp",
+        "mcp-server",
+        "mcp-tools",
+        "text-to-image",
+        "text-to-speech",
+        "text-to-video",
+        "video-generation",
+        "voice-cloning"
+      ],
+      "sourceUrl": "https://github.com/MiniMax-AI/MiniMax-MCP",
+      "author": "MiniMax-AI",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"minimax\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"minimax-mcp\"\n      ],\n      \"env\": {\n        \"MINIMAX_API_KEY\": \"your-api-key-here\",\n        \"MINIMAX_API_HOST\": \"https://api.example.com\",\n        \"MINIMAX_MCP_BASE_PATH\": \"your-value-here\",\n        \"MINIMAX_API_RESOURCE_MODE\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"minimax\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"minimax-mcp\"\n      ],\n      \"env\": {\n        \"MINIMAX_API_KEY\": \"your-api-key-here\",\n        \"MINIMAX_API_HOST\": \"https://api.example.com\",\n        \"MINIMAX_MCP_BASE_PATH\": \"your-value-here\",\n        \"MINIMAX_API_RESOURCE_MODE\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"minimax\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"minimax-mcp\"\n      ],\n      \"env\": {\n        \"MINIMAX_API_KEY\": \"your-api-key-here\",\n        \"MINIMAX_API_HOST\": \"https://api.example.com\",\n        \"MINIMAX_MCP_BASE_PATH\": \"your-value-here\",\n        \"MINIMAX_API_RESOURCE_MODE\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"minimax\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"minimax-mcp\"\n      ],\n      \"env\": {\n        \"MINIMAX_API_KEY\": \"your-api-key-here\",\n        \"MINIMAX_API_HOST\": \"https://api.example.com\",\n        \"MINIMAX_MCP_BASE_PATH\": \"your-value-here\",\n        \"MINIMAX_API_RESOURCE_MODE\": \"your-value-here\"\n      }\n    }\n  }\n}",
           "filePath": "~/.kiro/mcp_settings.json"
         }
       }
@@ -2167,26 +2167,6 @@
       }
     },
     {
-      "id": "litterbox-mcp",
-      "name": "Litterbox MCP",
-      "shortDescription": "A secure sandbox environment for malware developers and red teamers to test payloads against detection mechanisms before deployment. Integrates with LLM agents via MCP for enhanced analysis capabilities.",
-      "fullDescription": "!LitterBox Logo",
-      "category": "mcp-server",
-      "tags": [
-        "ai",
-        "docker-compose",
-        "malware-analysis",
-        "malware-development",
-        "mcp",
-        "mcp-server",
-        "offensive-security",
-        "redteam",
-        "sandbox"
-      ],
-      "sourceUrl": "https://github.com/BlackSnufkin/LitterBox",
-      "author": "BlackSnufkin"
-    },
-    {
       "id": "paperbanana-mcp",
       "name": "Paperbanana MCP",
       "shortDescription": "Open source implementation and extension of Google Research’s PaperBanana for automated academic figures, diagrams, and research visuals, expanded to new domains like slide generation.",
@@ -2234,6 +2214,26 @@
           "filePath": "~/.kiro/mcp_settings.json"
         }
       }
+    },
+    {
+      "id": "litterbox-mcp",
+      "name": "Litterbox MCP",
+      "shortDescription": "A secure sandbox environment for malware developers and red teamers to test payloads against detection mechanisms before deployment. Integrates with LLM agents via MCP for enhanced analysis capabilities.",
+      "fullDescription": "!LitterBox Logo",
+      "category": "mcp-server",
+      "tags": [
+        "ai",
+        "docker-compose",
+        "malware-analysis",
+        "malware-development",
+        "mcp",
+        "mcp-server",
+        "offensive-security",
+        "redteam",
+        "sandbox"
+      ],
+      "sourceUrl": "https://github.com/BlackSnufkin/LitterBox",
+      "author": "BlackSnufkin"
     }
   ],
   "updatedEntries": [],
@@ -2250,8 +2250,8 @@
       "nukeop/nuclear (quality-score: 25)",
       "microsoft/mcp-for-beginners (quality-filter: Description contains excluded keyword: example)",
       "triggerdotdev/trigger.dev (quality-score: 25)",
-      "yusufkaraaslan/Skill_Seekers (quality-filter: Description contains excluded keyword: documentation)",
       "open-metadata/OpenMetadata (quality-score: 15)",
+      "yusufkaraaslan/Skill_Seekers (quality-filter: Description contains excluded keyword: documentation)",
       "mcp-use/mcp-use (quality-filter: Description contains excluded keyword: framework)",
       "xinnan-tech/xiaozhi-esp32-server (quality-score: 0)",
       "firerpa/lamda (quality-filter: Description contains excluded keyword: framework)",
