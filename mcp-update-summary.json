@@ -105,11 +105,11 @@
       "action": "added"
     },
     {
-      "id": "exa-server-mcp",
+      "id": "bifrost-mcp",
       "action": "added"
     },
     {
-      "id": "bifrost-mcp",
+      "id": "exa-server-mcp",
       "action": "added"
     },
     {
@@ -121,11 +121,11 @@
       "action": "added"
     },
     {
-      "id": "fast-agent-mcp",
+      "id": "excel-server-mcp",
       "action": "added"
     },
     {
-      "id": "excel-server-mcp",
+      "id": "fast-agent-mcp",
       "action": "added"
     },
     {
@@ -157,11 +157,11 @@
       "action": "added"
     },
     {
-      "id": "brightdata-mcp",
+      "id": "unity-mcp",
       "action": "added"
     },
     {
-      "id": "unity-mcp",
+      "id": "brightdata-mcp",
       "action": "added"
     },
     {
@@ -197,11 +197,15 @@
       "action": "added"
     },
     {
-      "id": "inspector-mcp",
+      "id": "codebase-memory-mcp",
       "action": "added"
     },
     {
       "id": "jadx-ai-mcp",
+      "action": "added"
+    },
+    {
+      "id": "inspector-mcp",
       "action": "added"
     },
     {
@@ -213,7 +217,7 @@
       "action": "added"
     },
     {
-      "id": "codebase-memory-mcp",
+      "id": "design-extract-mcp",
       "action": "added"
     },
     {
@@ -225,11 +229,11 @@
       "action": "added"
     },
     {
-      "id": "tools-mcp",
+      "id": "korean-law-mcp",
       "action": "added"
     },
     {
-      "id": "korean-law-mcp",
+      "id": "tools-mcp",
       "action": "added"
     },
     {
@@ -245,11 +249,11 @@
       "action": "added"
     },
     {
-      "id": "design-extract-mcp",
+      "id": "datagouv-mcp",
       "action": "added"
     },
     {
-      "id": "datagouv-mcp",
+      "id": "paperbanana-mcp",
       "action": "added"
     },
     {
@@ -258,10 +262,6 @@
     },
     {
       "id": "litterbox-mcp",
-      "action": "added"
-    },
-    {
-      "id": "paperbanana-mcp",
       "action": "added"
     }
   ]
