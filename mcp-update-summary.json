@@ -1,7 +1,7 @@
 {
-  "entriesAdded": 64,
+  "entriesAdded": 66,
   "entriesUpdated": 0,
-  "entriesPreserved": 80,
+  "entriesPreserved": 83,
   "fieldsPreserved": [
     "installConfig",
     "usageSnippet",
@@ -18,10 +18,6 @@
     },
     {
       "id": "chrome-devtools-mcp",
-      "action": "added"
-    },
-    {
-      "id": "ruflo-mcp",
       "action": "added"
     },
     {
@@ -45,11 +41,19 @@
       "action": "added"
     },
     {
+      "id": "n8n-mcp",
+      "action": "added"
+    },
+    {
       "id": "maxkb-mcp",
       "action": "added"
     },
     {
-      "id": "n8n-mcp",
+      "id": "context-mode-mcp",
+      "action": "added"
+    },
+    {
+      "id": "openmetadata-mcp",
       "action": "added"
     },
     {
@@ -61,15 +65,11 @@
       "action": "added"
     },
     {
-      "id": "nginx-ui-mcp",
-      "action": "added"
-    },
-    {
       "id": "xhs-downloader-mcp",
       "action": "added"
     },
     {
-      "id": "context-mode-mcp",
+      "id": "nginx-ui-mcp",
       "action": "added"
     },
     {
@@ -97,7 +97,15 @@
       "action": "added"
     },
     {
+      "id": "quantdinger-mcp",
+      "action": "added"
+    },
+    {
       "id": "osaurus-mcp",
+      "action": "added"
+    },
+    {
+      "id": "bifrost-mcp",
       "action": "added"
     },
     {
@@ -109,10 +117,6 @@
       "action": "added"
     },
     {
-      "id": "bifrost-mcp",
-      "action": "added"
-    },
-    {
       "id": "o-mcp",
       "action": "added"
     },
@@ -121,11 +125,11 @@
       "action": "added"
     },
     {
-      "id": "fast-agent-mcp",
+      "id": "excel-server-mcp",
       "action": "added"
     },
     {
-      "id": "excel-server-mcp",
+      "id": "fast-agent-mcp",
       "action": "added"
     },
     {
@@ -137,11 +141,23 @@
       "action": "added"
     },
     {
+      "id": "unity-mcp",
+      "action": "added"
+    },
+    {
       "id": "dbhub-mcp",
       "action": "added"
     },
     {
       "id": "arxiv-server-mcp",
+      "action": "added"
+    },
+    {
+      "id": "tradingview-mcp",
+      "action": "added"
+    },
+    {
+      "id": "design-extract-mcp",
       "action": "added"
     },
     {
@@ -157,11 +173,11 @@
       "action": "added"
     },
     {
-      "id": "brightdata-mcp",
+      "id": "codebase-memory-mcp",
       "action": "added"
     },
     {
-      "id": "unity-mcp",
+      "id": "brightdata-mcp",
       "action": "added"
     },
     {
@@ -169,7 +185,7 @@
       "action": "added"
     },
     {
-      "id": "tradingview-mcp",
+      "id": "md2wechat-skill-mcp",
       "action": "added"
     },
     {
@@ -189,6 +205,10 @@
       "action": "added"
     },
     {
+      "id": "jadx-ai-mcp",
+      "action": "added"
+    },
+    {
       "id": "mcp-router",
       "action": "added"
     },
@@ -197,27 +217,11 @@
       "action": "added"
     },
     {
+      "id": "radar-mcp",
+      "action": "added"
+    },
+    {
       "id": "inspector-mcp",
-      "action": "added"
-    },
-    {
-      "id": "jadx-ai-mcp",
-      "action": "added"
-    },
-    {
-      "id": "dive-mcp",
-      "action": "added"
-    },
-    {
-      "id": "contextplus-mcp",
-      "action": "added"
-    },
-    {
-      "id": "codebase-memory-mcp",
-      "action": "added"
-    },
-    {
-      "id": "mcp-memory-service",
       "action": "added"
     },
     {
@@ -225,7 +229,15 @@
       "action": "added"
     },
     {
-      "id": "tools-mcp",
+      "id": "contextplus-mcp",
+      "action": "added"
+    },
+    {
+      "id": "mcp-memory-service",
+      "action": "added"
+    },
+    {
+      "id": "dive-mcp",
       "action": "added"
     },
     {
@@ -233,7 +245,19 @@
       "action": "added"
     },
     {
+      "id": "lean-ctx-mcp",
+      "action": "added"
+    },
+    {
       "id": "slack-server-mcp",
+      "action": "added"
+    },
+    {
+      "id": "tools-mcp",
+      "action": "added"
+    },
+    {
+      "id": "paperbanana-mcp",
       "action": "added"
     },
     {
@@ -241,27 +265,11 @@
       "action": "added"
     },
     {
+      "id": "prismercloud-mcp",
+      "action": "added"
+    },
+    {
       "id": "minimax-mcp",
-      "action": "added"
-    },
-    {
-      "id": "design-extract-mcp",
-      "action": "added"
-    },
-    {
-      "id": "datagouv-mcp",
-      "action": "added"
-    },
-    {
-      "id": "qdrant-mcp",
-      "action": "added"
-    },
-    {
-      "id": "litterbox-mcp",
-      "action": "added"
-    },
-    {
-      "id": "paperbanana-mcp",
       "action": "added"
     }
   ]
