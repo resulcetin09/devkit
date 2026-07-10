@@ -217,6 +217,37 @@
       "author": "github"
     },
     {
+      "id": "codebase-memory-mcp",
+      "name": "Codebase Memory MCP",
+      "shortDescription": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "fullDescription": "GitHub Release License CI [![Tests](https://img.shields.io/badge/tests-5604_passing-bri",
+      "category": "mcp-server",
+      "tags": [
+        "aider",
+        "ast",
+        "claude-code",
+        "code-analysis",
+        "code-intelligence",
+        "codex",
+        "cursor",
+        "cypher",
+        "developer-tools",
+        "gemini-cli",
+        "graph-visualization",
+        "kilocode",
+        "knowledge-graph",
+        "mcp",
+        "mcp-server",
+        "model-context-protocol",
+        "opencode",
+        "sqlite",
+        "tree-sitter",
+        "windsurf"
+      ],
+      "sourceUrl": "https://github.com/DeusData/codebase-memory-mcp",
+      "author": "DeusData"
+    },
+    {
       "id": "gpt-researcher-mcp",
       "name": "Gpt Researcher MCP",
       "shortDescription": "An autonomous agent that conducts deep research on any data using any LLM providers",
@@ -255,37 +286,6 @@
           "filePath": "~/.kiro/mcp_settings.json"
         }
       }
-    },
-    {
-      "id": "codebase-memory-mcp",
-      "name": "Codebase Memory MCP",
-      "shortDescription": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
-      "fullDescription": "GitHub Release License CI [![Tests](https://img.shields.io/badge/tests-5604_passing-bri",
-      "category": "mcp-server",
-      "tags": [
-        "aider",
-        "ast",
-        "claude-code",
-        "code-analysis",
-        "code-intelligence",
-        "codex",
-        "cursor",
-        "cypher",
-        "developer-tools",
-        "gemini-cli",
-        "graph-visualization",
-        "kilocode",
-        "knowledge-graph",
-        "mcp",
-        "mcp-server",
-        "model-context-protocol",
-        "opencode",
-        "sqlite",
-        "tree-sitter",
-        "windsurf"
-      ],
-      "sourceUrl": "https://github.com/DeusData/codebase-memory-mcp",
-      "author": "DeusData"
     },
     {
       "id": "serena-mcp",
@@ -386,19 +386,19 @@
       "author": "czlonkowski",
       "installConfig": {
         "cursor": {
-          "configSnippet": "{\n  \"mcpServers\": {\n    \"n8n\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"n8n-mcp\"\n      ],\n      \"env\": {\n        \"YOUR_TOKEN\": \"your-token-here\",\n        \"N8N_API_KEY\": \"your-api-key-here\",\n        \"SELF_HOSTING\": \"https://api.example.com\",\n        \"N8N_DEPLOYMENT\": \"your-value-here\",\n        \"CLAUDE_CODE_SETUP\": \"your-value-here\",\n        \"VS_CODE_PROJECT_SETUP\": \"your-value-here\",\n        \"CURSOR_SETUP\": \"your-value-here\",\n        \"WINDSURF_SETUP\": \"your-value-here\",\n        \"CODEX_SETUP\": \"your-value-here\",\n        \"ANTIGRAVITY_SETUP\": \"your-value-here\",\n        \"N8N_API_URL\": \"https://example.com\",\n        \"DISABLED_TOOLS\": \"your-value-here\",\n        \"DISABLED_TOOL_OPERATIONS\": \"your-value-here\",\n        \"HTTP_DEPLOYMENT\": \"your-value-here\",\n        \"SECURITY_HARDENING\": \"your-value-here\",\n        \"DATABASE_CONFIGURATION\": \"your-database-url\"\n      }\n    }\n  }\n}",
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"n8n\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"n8n-mcp\"\n      ],\n      \"env\": {\n        \"YOUR_TOKEN\": \"your-token-here\",\n        \"N8N_CF_CLIENT_SECRET\": \"your-secret-here\",\n        \"N8N_API_KEY\": \"your-api-key-here\",\n        \"SELF_HOSTING\": \"https://api.example.com\",\n        \"N8N_DEPLOYMENT\": \"your-value-here\",\n        \"N8N_CF_CLIENT_ID\": \"your-value-here\",\n        \"N8N_API_URL\": \"https://example.com\",\n        \"WEBHOOK_URL\": \"https://example.com\",\n        \"CLAUDE_CODE_SETUP\": \"your-value-here\",\n        \"VS_CODE_PROJECT_SETUP\": \"your-value-here\",\n        \"CURSOR_SETUP\": \"your-value-here\",\n        \"WINDSURF_SETUP\": \"your-value-here\",\n        \"CODEX_SETUP\": \"your-value-here\",\n        \"ANTIGRAVITY_SETUP\": \"your-value-here\",\n        \"DISABLED_TOOLS\": \"your-value-here\",\n        \"DISABLED_TOOL_OPERATIONS\": \"your-value-here\",\n        \"HTTP_DEPLOYMENT\": \"your-value-here\",\n        \"SECURITY_HARDENING\": \"your-value-here\",\n        \"DATABASE_CONFIGURATION\": \"your-database-url\"\n      }\n    }\n  }\n}",
           "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
         },
         "claudeDesktop": {
-          "configSnippet": "{\n  \"mcpServers\": {\n    \"n8n\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"n8n-mcp\"\n      ],\n      \"env\": {\n        \"YOUR_TOKEN\": \"your-token-here\",\n        \"N8N_API_KEY\": \"your-api-key-here\",\n        \"SELF_HOSTING\": \"https://api.example.com\",\n        \"N8N_DEPLOYMENT\": \"your-value-here\",\n        \"CLAUDE_CODE_SETUP\": \"your-value-here\",\n        \"VS_CODE_PROJECT_SETUP\": \"your-value-here\",\n        \"CURSOR_SETUP\": \"your-value-here\",\n        \"WINDSURF_SETUP\": \"your-value-here\",\n        \"CODEX_SETUP\": \"your-value-here\",\n        \"ANTIGRAVITY_SETUP\": \"your-value-here\",\n        \"N8N_API_URL\": \"https://example.com\",\n        \"DISABLED_TOOLS\": \"your-value-here\",\n        \"DISABLED_TOOL_OPERATIONS\": \"your-value-here\",\n        \"HTTP_DEPLOYMENT\": \"your-value-here\",\n        \"SECURITY_HARDENING\": \"your-value-here\",\n        \"DATABASE_CONFIGURATION\": \"your-database-url\"\n      }\n    }\n  }\n}",
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"n8n\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"n8n-mcp\"\n      ],\n      \"env\": {\n        \"YOUR_TOKEN\": \"your-token-here\",\n        \"N8N_CF_CLIENT_SECRET\": \"your-secret-here\",\n        \"N8N_API_KEY\": \"your-api-key-here\",\n        \"SELF_HOSTING\": \"https://api.example.com\",\n        \"N8N_DEPLOYMENT\": \"your-value-here\",\n        \"N8N_CF_CLIENT_ID\": \"your-value-here\",\n        \"N8N_API_URL\": \"https://example.com\",\n        \"WEBHOOK_URL\": \"https://example.com\",\n        \"CLAUDE_CODE_SETUP\": \"your-value-here\",\n        \"VS_CODE_PROJECT_SETUP\": \"your-value-here\",\n        \"CURSOR_SETUP\": \"your-value-here\",\n        \"WINDSURF_SETUP\": \"your-value-here\",\n        \"CODEX_SETUP\": \"your-value-here\",\n        \"ANTIGRAVITY_SETUP\": \"your-value-here\",\n        \"DISABLED_TOOLS\": \"your-value-here\",\n        \"DISABLED_TOOL_OPERATIONS\": \"your-value-here\",\n        \"HTTP_DEPLOYMENT\": \"your-value-here\",\n        \"SECURITY_HARDENING\": \"your-value-here\",\n        \"DATABASE_CONFIGURATION\": \"your-database-url\"\n      }\n    }\n  }\n}",
           "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
         },
         "antigravity": {
-          "configSnippet": "{\n  \"mcpServers\": {\n    \"n8n\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"n8n-mcp\"\n      ],\n      \"env\": {\n        \"YOUR_TOKEN\": \"your-token-here\",\n        \"N8N_API_KEY\": \"your-api-key-here\",\n        \"SELF_HOSTING\": \"https://api.example.com\",\n        \"N8N_DEPLOYMENT\": \"your-value-here\",\n        \"CLAUDE_CODE_SETUP\": \"your-value-here\",\n        \"VS_CODE_PROJECT_SETUP\": \"your-value-here\",\n        \"CURSOR_SETUP\": \"your-value-here\",\n        \"WINDSURF_SETUP\": \"your-value-here\",\n        \"CODEX_SETUP\": \"your-value-here\",\n        \"ANTIGRAVITY_SETUP\": \"your-value-here\",\n        \"N8N_API_URL\": \"https://example.com\",\n        \"DISABLED_TOOLS\": \"your-value-here\",\n        \"DISABLED_TOOL_OPERATIONS\": \"your-value-here\",\n        \"HTTP_DEPLOYMENT\": \"your-value-here\",\n        \"SECURITY_HARDENING\": \"your-value-here\",\n        \"DATABASE_CONFIGURATION\": \"your-database-url\"\n      }\n    }\n  }\n}",
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"n8n\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"n8n-mcp\"\n      ],\n      \"env\": {\n        \"YOUR_TOKEN\": \"your-token-here\",\n        \"N8N_CF_CLIENT_SECRET\": \"your-secret-here\",\n        \"N8N_API_KEY\": \"your-api-key-here\",\n        \"SELF_HOSTING\": \"https://api.example.com\",\n        \"N8N_DEPLOYMENT\": \"your-value-here\",\n        \"N8N_CF_CLIENT_ID\": \"your-value-here\",\n        \"N8N_API_URL\": \"https://example.com\",\n        \"WEBHOOK_URL\": \"https://example.com\",\n        \"CLAUDE_CODE_SETUP\": \"your-value-here\",\n        \"VS_CODE_PROJECT_SETUP\": \"your-value-here\",\n        \"CURSOR_SETUP\": \"your-value-here\",\n        \"WINDSURF_SETUP\": \"your-value-here\",\n        \"CODEX_SETUP\": \"your-value-here\",\n        \"ANTIGRAVITY_SETUP\": \"your-value-here\",\n        \"DISABLED_TOOLS\": \"your-value-here\",\n        \"DISABLED_TOOL_OPERATIONS\": \"your-value-here\",\n        \"HTTP_DEPLOYMENT\": \"your-value-here\",\n        \"SECURITY_HARDENING\": \"your-value-here\",\n        \"DATABASE_CONFIGURATION\": \"your-database-url\"\n      }\n    }\n  }\n}",
           "filePath": "~/.config/antigravity/config.json"
         },
         "kiro": {
-          "configSnippet": "{\n  \"mcpServers\": {\n    \"n8n\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"n8n-mcp\"\n      ],\n      \"env\": {\n        \"YOUR_TOKEN\": \"your-token-here\",\n        \"N8N_API_KEY\": \"your-api-key-here\",\n        \"SELF_HOSTING\": \"https://api.example.com\",\n        \"N8N_DEPLOYMENT\": \"your-value-here\",\n        \"CLAUDE_CODE_SETUP\": \"your-value-here\",\n        \"VS_CODE_PROJECT_SETUP\": \"your-value-here\",\n        \"CURSOR_SETUP\": \"your-value-here\",\n        \"WINDSURF_SETUP\": \"your-value-here\",\n        \"CODEX_SETUP\": \"your-value-here\",\n        \"ANTIGRAVITY_SETUP\": \"your-value-here\",\n        \"N8N_API_URL\": \"https://example.com\",\n        \"DISABLED_TOOLS\": \"your-value-here\",\n        \"DISABLED_TOOL_OPERATIONS\": \"your-value-here\",\n        \"HTTP_DEPLOYMENT\": \"your-value-here\",\n        \"SECURITY_HARDENING\": \"your-value-here\",\n        \"DATABASE_CONFIGURATION\": \"your-database-url\"\n      }\n    }\n  }\n}",
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"n8n\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"n8n-mcp\"\n      ],\n      \"env\": {\n        \"YOUR_TOKEN\": \"your-token-here\",\n        \"N8N_CF_CLIENT_SECRET\": \"your-secret-here\",\n        \"N8N_API_KEY\": \"your-api-key-here\",\n        \"SELF_HOSTING\": \"https://api.example.com\",\n        \"N8N_DEPLOYMENT\": \"your-value-here\",\n        \"N8N_CF_CLIENT_ID\": \"your-value-here\",\n        \"N8N_API_URL\": \"https://example.com\",\n        \"WEBHOOK_URL\": \"https://example.com\",\n        \"CLAUDE_CODE_SETUP\": \"your-value-here\",\n        \"VS_CODE_PROJECT_SETUP\": \"your-value-here\",\n        \"CURSOR_SETUP\": \"your-value-here\",\n        \"WINDSURF_SETUP\": \"your-value-here\",\n        \"CODEX_SETUP\": \"your-value-here\",\n        \"ANTIGRAVITY_SETUP\": \"your-value-here\",\n        \"DISABLED_TOOLS\": \"your-value-here\",\n        \"DISABLED_TOOL_OPERATIONS\": \"your-value-here\",\n        \"HTTP_DEPLOYMENT\": \"your-value-here\",\n        \"SECURITY_HARDENING\": \"your-value-here\",\n        \"DATABASE_CONFIGURATION\": \"your-database-url\"\n      }\n    }\n  }\n}",
           "filePath": "~/.kiro/mcp_settings.json"
         }
       }
@@ -1362,37 +1362,6 @@
       }
     },
     {
-      "id": "dagu-mcp",
-      "name": "Dagu MCP",
-      "shortDescription": "Local-first workflow engine with a Web UI for small teams. Define DAGs in a declarative YAML format. Self-contained and no DBMS required. Use any AI agent to manage your DAGs.",
-      "fullDescription": "Community",
-      "category": "mcp-server",
-      "tags": [
-        "agentic-workflow",
-        "cron",
-        "data-pipeline",
-        "devops",
-        "durable-execution",
-        "durable-workflows",
-        "human-in-the-loop",
-        "job-scheduler",
-        "mcp-server",
-        "multiplayer-agent",
-        "on-premise",
-        "private-runners",
-        "self-hosted",
-        "self-service",
-        "selfservice-portal",
-        "task-automation",
-        "task-scheduler",
-        "workflow-engine",
-        "workflow-orchestration",
-        "workflow-scheduler"
-      ],
-      "sourceUrl": "https://github.com/dagucloud/dagu",
-      "author": "dagucloud"
-    },
-    {
       "id": "tabularis-mcp",
       "name": "Tabularis MCP",
       "shortDescription": "Open-source desktop SQL workspace for PostgreSQL, MySQL/MariaDB, SQLite and 13+ more databases like DuckDB, ClickHouse, Redis and Firestore. Built-in MCP server for Claude, Cursor and Devin, SQL notebooks and visual EXPLAIN.",
@@ -1440,6 +1409,37 @@
           "filePath": "~/.kiro/mcp_settings.json"
         }
       }
+    },
+    {
+      "id": "dagu-mcp",
+      "name": "Dagu MCP",
+      "shortDescription": "Local-first workflow engine with a Web UI for small teams. Define DAGs in a declarative YAML format. Self-contained and no DBMS required. Use any AI agent to manage your DAGs.",
+      "fullDescription": "Community",
+      "category": "mcp-server",
+      "tags": [
+        "agentic-workflow",
+        "cron",
+        "data-pipeline",
+        "devops",
+        "durable-execution",
+        "durable-workflows",
+        "human-in-the-loop",
+        "job-scheduler",
+        "mcp-server",
+        "multiplayer-agent",
+        "on-premise",
+        "private-runners",
+        "self-hosted",
+        "self-service",
+        "selfservice-portal",
+        "task-automation",
+        "task-scheduler",
+        "workflow-engine",
+        "workflow-orchestration",
+        "workflow-scheduler"
+      ],
+      "sourceUrl": "https://github.com/dagucloud/dagu",
+      "author": "dagucloud"
     },
     {
       "id": "mcp-chinese-getting-started-guide",
@@ -2132,24 +2132,6 @@
       }
     },
     {
-      "id": "unla-mcp",
-      "name": "Unla MCP",
-      "shortDescription": "🧩 MCP Gateway - A lightweight gateway service that instantly transforms existing MCP Servers and APIs into MCP servers with zero code changes. Features Docker deployment and management UI, requiring no infrastructure modifications.",
-      "fullDescription": "> 🚀 Instantly transform your existing MCP Servers and APIs into MCP endpoints — without changing a line of code.",
-      "category": "mcp-server",
-      "tags": [
-        "awesome",
-        "mcp",
-        "mcp-adapter",
-        "mcp-gateway",
-        "mcp-server",
-        "rest-to-mcp",
-        "restful-to-mcp"
-      ],
-      "sourceUrl": "https://github.com/AmoyLab/Unla",
-      "author": "AmoyLab"
-    },
-    {
       "id": "korean-law-mcp",
       "name": "Korean Law MCP",
       "shortDescription": "법제처 국가법령정보 MCP — 법령·판례·조례 조회부터 인용 환각 검증까지 · Korean law MCP for LLMs",
@@ -2187,6 +2169,64 @@
         },
         "kiro": {
           "configSnippet": "{\n  \"mcpServers\": {\n    \"korean law\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"korean-law-mcp\"\n      ],\n      \"env\": {\n        \"LAW_OC\": \"your-value-here\",\n        \"LAW_API_PROTOCOL\": \"your-value-here\",\n        \"MCP_MAX_BATCH_CALLS\": \"your-value-here\",\n        \"CONTENT_MISMATCH\": \"your-value-here\",\n        \"LAW_REFERER\": \"your-value-here\",\n        \"LAW_EXTERNAL_HTTPS_PROXY\": \"your-value-here\",\n        \"LAW_EXTERNAL_TLS_REJECT_UNAUTHORIZED\": \"your-value-here\",\n        \"EXTERNAL_API_ERROR\": \"your-value-here\",\n        \"LAW_USER_AGENT\": \"your-username\",\n        \"NOT_FOUND\": \"your-value-here\",\n        \"HALLUCINATION_DETECTED\": \"your-value-here\",\n        \"V3_EXPOSED\": \"your-value-here\",\n        \"LITE_TOOLS\": \"your-value-here\",\n        \"TRUST_PROXY\": \"your-value-here\",\n        \"LAW_ALIAS_ENTRIES\": \"your-value-here\",\n        \"MAX_SESSIONS\": \"your-value-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
+    },
+    {
+      "id": "unla-mcp",
+      "name": "Unla MCP",
+      "shortDescription": "🧩 MCP Gateway - A lightweight gateway service that instantly transforms existing MCP Servers and APIs into MCP servers with zero code changes. Features Docker deployment and management UI, requiring no infrastructure modifications.",
+      "fullDescription": "> 🚀 Instantly transform your existing MCP Servers and APIs into MCP endpoints — without changing a line of code.",
+      "category": "mcp-server",
+      "tags": [
+        "awesome",
+        "mcp",
+        "mcp-adapter",
+        "mcp-gateway",
+        "mcp-server",
+        "rest-to-mcp",
+        "restful-to-mcp"
+      ],
+      "sourceUrl": "https://github.com/AmoyLab/Unla",
+      "author": "AmoyLab"
+    },
+    {
+      "id": "js-reverse-mcp",
+      "name": "Js Reverse MCP",
+      "shortDescription": "AI Agent-first JS 逆向 MCP Server：有头 Chrome 调试、断点、网络/WebSocket 分析、Patchright 反检测，可选 CloakBrowser。",
+      "fullDescription": "English | 中文",
+      "category": "mcp-server",
+      "tags": [
+        "anti-detection",
+        "browser-automation",
+        "cdp",
+        "chrome-devtools",
+        "debugging",
+        "javascript",
+        "mcp",
+        "mcp-server",
+        "patchright",
+        "reverse-engineering",
+        "websocket"
+      ],
+      "sourceUrl": "https://github.com/zhizhuodemao/js-reverse-mcp",
+      "author": "zhizhuodemao",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"js reverse\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"js-reverse-mcp\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"js reverse\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"js-reverse-mcp\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"js reverse\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"js-reverse-mcp\"\n      ]\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"js reverse\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"js-reverse-mcp\"\n      ]\n    }\n  }\n}",
           "filePath": "~/.kiro/mcp_settings.json"
         }
       }
@@ -2236,46 +2276,6 @@
       }
     },
     {
-      "id": "js-reverse-mcp",
-      "name": "Js Reverse MCP",
-      "shortDescription": "AI Agent-first JS 逆向 MCP Server：有头 Chrome 调试、断点、网络/WebSocket 分析、Patchright 反检测，可选 CloakBrowser。",
-      "fullDescription": "English | 中文",
-      "category": "mcp-server",
-      "tags": [
-        "anti-detection",
-        "browser-automation",
-        "cdp",
-        "chrome-devtools",
-        "debugging",
-        "javascript",
-        "mcp",
-        "mcp-server",
-        "patchright",
-        "reverse-engineering",
-        "websocket"
-      ],
-      "sourceUrl": "https://github.com/zhizhuodemao/js-reverse-mcp",
-      "author": "zhizhuodemao",
-      "installConfig": {
-        "cursor": {
-          "configSnippet": "{\n  \"mcpServers\": {\n    \"js reverse\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"js-reverse-mcp\"\n      ]\n    }\n  }\n}",
-          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
-        },
-        "claudeDesktop": {
-          "configSnippet": "{\n  \"mcpServers\": {\n    \"js reverse\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"js-reverse-mcp\"\n      ]\n    }\n  }\n}",
-          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
-        },
-        "antigravity": {
-          "configSnippet": "{\n  \"mcpServers\": {\n    \"js reverse\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"js-reverse-mcp\"\n      ]\n    }\n  }\n}",
-          "filePath": "~/.config/antigravity/config.json"
-        },
-        "kiro": {
-          "configSnippet": "{\n  \"mcpServers\": {\n    \"js reverse\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"js-reverse-mcp\"\n      ]\n    }\n  }\n}",
-          "filePath": "~/.kiro/mcp_settings.json"
-        }
-      }
-    },
-    {
       "id": "fusio-mcp",
       "name": "Fusio MCP",
       "shortDescription": "Self-Hosted API Management for Builders",
@@ -2298,44 +2298,6 @@
       ],
       "sourceUrl": "https://github.com/apioo/fusio",
       "author": "apioo"
-    },
-    {
-      "id": "mcp-router",
-      "name": "Router MCP",
-      "shortDescription": "A Unified MCP Server Management App (MCP Manager).",
-      "fullDescription": "MCP Router A Unified MCP Server Management App",
-      "category": "mcp-server",
-      "tags": [
-        "llm",
-        "llmops",
-        "mcp",
-        "mcp-client",
-        "mcp-manager",
-        "mcp-router",
-        "mcp-server",
-        "mcp-servers",
-        "mcp-tools"
-      ],
-      "sourceUrl": "https://github.com/mcp-router/mcp-router",
-      "author": "mcp-router",
-      "installConfig": {
-        "cursor": {
-          "configSnippet": "{\n  \"mcpServers\": {\n    \"router\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"mcp-router\"\n      ],\n      \"env\": {\n        \"MCPR_TOKEN\": \"your-token-here\"\n      }\n    }\n  }\n}",
-          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
-        },
-        "claudeDesktop": {
-          "configSnippet": "{\n  \"mcpServers\": {\n    \"router\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"mcp-router\"\n      ],\n      \"env\": {\n        \"MCPR_TOKEN\": \"your-token-here\"\n      }\n    }\n  }\n}",
-          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
-        },
-        "antigravity": {
-          "configSnippet": "{\n  \"mcpServers\": {\n    \"router\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"mcp-router\"\n      ],\n      \"env\": {\n        \"MCPR_TOKEN\": \"your-token-here\"\n      }\n    }\n  }\n}",
-          "filePath": "~/.config/antigravity/config.json"
-        },
-        "kiro": {
-          "configSnippet": "{\n  \"mcpServers\": {\n    \"router\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"mcp-router\"\n      ],\n      \"env\": {\n        \"MCPR_TOKEN\": \"your-token-here\"\n      }\n    }\n  }\n}",
-          "filePath": "~/.kiro/mcp_settings.json"
-        }
-      }
     },
     {
       "id": "paper-search-mcp",
@@ -2420,6 +2382,44 @@
       }
     },
     {
+      "id": "mcp-router",
+      "name": "Router MCP",
+      "shortDescription": "A Unified MCP Server Management App (MCP Manager).",
+      "fullDescription": "MCP Router A Unified MCP Server Management App",
+      "category": "mcp-server",
+      "tags": [
+        "llm",
+        "llmops",
+        "mcp",
+        "mcp-client",
+        "mcp-manager",
+        "mcp-router",
+        "mcp-server",
+        "mcp-servers",
+        "mcp-tools"
+      ],
+      "sourceUrl": "https://github.com/mcp-router/mcp-router",
+      "author": "mcp-router",
+      "installConfig": {
+        "cursor": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"router\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"mcp-router\"\n      ],\n      \"env\": {\n        \"MCPR_TOKEN\": \"your-token-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
+        },
+        "claudeDesktop": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"router\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"mcp-router\"\n      ],\n      \"env\": {\n        \"MCPR_TOKEN\": \"your-token-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
+        },
+        "antigravity": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"router\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"mcp-router\"\n      ],\n      \"env\": {\n        \"MCPR_TOKEN\": \"your-token-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.config/antigravity/config.json"
+        },
+        "kiro": {
+          "configSnippet": "{\n  \"mcpServers\": {\n    \"router\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"mcp-router\"\n      ],\n      \"env\": {\n        \"MCPR_TOKEN\": \"your-token-here\"\n      }\n    }\n  }\n}",
+          "filePath": "~/.kiro/mcp_settings.json"
+        }
+      }
+    },
+    {
       "id": "inspector-mcp",
       "name": "Inspector MCP",
       "shortDescription": "Testing and evaluation platform to chat, inspect, and debug MCP servers, MCP apps, and ChatGPT apps.",
@@ -2490,42 +2490,12 @@
       ],
       "sourceUrl": "https://github.com/martin-ger/esp32_nat_router",
       "author": "martin-ger"
-    },
-    {
-      "id": "contextplus-mcp",
-      "name": "Contextplus MCP",
-      "shortDescription": "Semantic Intelligence for Large-Scale Engineering. Context+ is an MCP server designed for developers who demand 99% accuracy. By combining RAG, Tree-sitter AST, Spectral Clustering, and Obsidian-style linking, Context+ turns a massive codebase into a searchable, hierarchical feature graph.",
-      "fullDescription": "Semantic Intelligence for Large-Scale Engineering.",
-      "category": "mcp-server",
-      "tags": [
-        "mcp-server"
-      ],
-      "sourceUrl": "https://github.com/forloopcodes/contextplus",
-      "author": "forloopcodes",
-      "installConfig": {
-        "cursor": {
-          "configSnippet": "{\n  \"mcpServers\": {\n    \"contextplus\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"contextplus\"\n      ],\n      \"env\": {\n        \"OLLAMA_API_KEY\": \"your-api-key-here\",\n        \"YOUR_OLLAMA_API_KEY\": \"your-api-key-here\",\n        \"CONTEXTPLUS_OPENAI_API_KEY\": \"your-api-key-here\",\n        \"YOUR_GEMINI_API_KEY\": \"your-api-key-here\",\n        \"OPENAI_API_KEY\": \"your-api-key-here\",\n        \"YOUR_KEY\": \"your-api-key-here\",\n        \"OLLAMA_EMBED_MODEL\": \"your-value-here\",\n        \"OLLAMA_CHAT_MODEL\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_PROVIDER\": \"your-value-here\",\n        \"CONTEXTPLUS_OPENAI_BASE_URL\": \"https://example.com\",\n        \"CONTEXTPLUS_OPENAI_EMBED_MODEL\": \"your-value-here\",\n        \"OPENAI_EMBED_MODEL\": \"your-value-here\",\n        \"CONTEXTPLUS_OPENAI_CHAT_MODEL\": \"your-value-here\",\n        \"OPENAI_BASE_URL\": \"https://example.com\",\n        \"OPENAI_CHAT_MODEL\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_BATCH_SIZE\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_CHUNK_CHARS\": \"your-value-here\",\n        \"CONTEXTPLUS_MAX_EMBED_FILE_SIZE\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_NUM_GPU\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_MAIN_GPU\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_NUM_THREAD\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_NUM_BATCH\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_NUM_CTX\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_LOW_VRAM\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_TRACKER\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_TRACKER_MAX_FILES\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_TRACKER_DEBOUNCE_MS\": \"your-value-here\"\n      }\n    }\n  }\n}",
-          "filePath": "~/Library/Application Support/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json"
-        },
-        "claudeDesktop": {
-          "configSnippet": "{\n  \"mcpServers\": {\n    \"contextplus\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"contextplus\"\n      ],\n      \"env\": {\n        \"OLLAMA_API_KEY\": \"your-api-key-here\",\n        \"YOUR_OLLAMA_API_KEY\": \"your-api-key-here\",\n        \"CONTEXTPLUS_OPENAI_API_KEY\": \"your-api-key-here\",\n        \"YOUR_GEMINI_API_KEY\": \"your-api-key-here\",\n        \"OPENAI_API_KEY\": \"your-api-key-here\",\n        \"YOUR_KEY\": \"your-api-key-here\",\n        \"OLLAMA_EMBED_MODEL\": \"your-value-here\",\n        \"OLLAMA_CHAT_MODEL\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_PROVIDER\": \"your-value-here\",\n        \"CONTEXTPLUS_OPENAI_BASE_URL\": \"https://example.com\",\n        \"CONTEXTPLUS_OPENAI_EMBED_MODEL\": \"your-value-here\",\n        \"OPENAI_EMBED_MODEL\": \"your-value-here\",\n        \"CONTEXTPLUS_OPENAI_CHAT_MODEL\": \"your-value-here\",\n        \"OPENAI_BASE_URL\": \"https://example.com\",\n        \"OPENAI_CHAT_MODEL\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_BATCH_SIZE\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_CHUNK_CHARS\": \"your-value-here\",\n        \"CONTEXTPLUS_MAX_EMBED_FILE_SIZE\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_NUM_GPU\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_MAIN_GPU\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_NUM_THREAD\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_NUM_BATCH\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_NUM_CTX\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_LOW_VRAM\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_TRACKER\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_TRACKER_MAX_FILES\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_TRACKER_DEBOUNCE_MS\": \"your-value-here\"\n      }\n    }\n  }\n}",
-          "filePath": "~/Library/Application Support/Claude/claude_desktop_config.json"
-        },
-        "antigravity": {
-          "configSnippet": "{\n  \"mcpServers\": {\n    \"contextplus\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"contextplus\"\n      ],\n      \"env\": {\n        \"OLLAMA_API_KEY\": \"your-api-key-here\",\n        \"YOUR_OLLAMA_API_KEY\": \"your-api-key-here\",\n        \"CONTEXTPLUS_OPENAI_API_KEY\": \"your-api-key-here\",\n        \"YOUR_GEMINI_API_KEY\": \"your-api-key-here\",\n        \"OPENAI_API_KEY\": \"your-api-key-here\",\n        \"YOUR_KEY\": \"your-api-key-here\",\n        \"OLLAMA_EMBED_MODEL\": \"your-value-here\",\n        \"OLLAMA_CHAT_MODEL\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_PROVIDER\": \"your-value-here\",\n        \"CONTEXTPLUS_OPENAI_BASE_URL\": \"https://example.com\",\n        \"CONTEXTPLUS_OPENAI_EMBED_MODEL\": \"your-value-here\",\n        \"OPENAI_EMBED_MODEL\": \"your-value-here\",\n        \"CONTEXTPLUS_OPENAI_CHAT_MODEL\": \"your-value-here\",\n        \"OPENAI_BASE_URL\": \"https://example.com\",\n        \"OPENAI_CHAT_MODEL\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_BATCH_SIZE\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_CHUNK_CHARS\": \"your-value-here\",\n        \"CONTEXTPLUS_MAX_EMBED_FILE_SIZE\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_NUM_GPU\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_MAIN_GPU\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_NUM_THREAD\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_NUM_BATCH\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_NUM_CTX\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_LOW_VRAM\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_TRACKER\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_TRACKER_MAX_FILES\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_TRACKER_DEBOUNCE_MS\": \"your-value-here\"\n      }\n    }\n  }\n}",
-          "filePath": "~/.config/antigravity/config.json"
-        },
-        "kiro": {
-          "configSnippet": "{\n  \"mcpServers\": {\n    \"contextplus\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"contextplus\"\n      ],\n      \"env\": {\n        \"OLLAMA_API_KEY\": \"your-api-key-here\",\n        \"YOUR_OLLAMA_API_KEY\": \"your-api-key-here\",\n        \"CONTEXTPLUS_OPENAI_API_KEY\": \"your-api-key-here\",\n        \"YOUR_GEMINI_API_KEY\": \"your-api-key-here\",\n        \"OPENAI_API_KEY\": \"your-api-key-here\",\n        \"YOUR_KEY\": \"your-api-key-here\",\n        \"OLLAMA_EMBED_MODEL\": \"your-value-here\",\n        \"OLLAMA_CHAT_MODEL\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_PROVIDER\": \"your-value-here\",\n        \"CONTEXTPLUS_OPENAI_BASE_URL\": \"https://example.com\",\n        \"CONTEXTPLUS_OPENAI_EMBED_MODEL\": \"your-value-here\",\n        \"OPENAI_EMBED_MODEL\": \"your-value-here\",\n        \"CONTEXTPLUS_OPENAI_CHAT_MODEL\": \"your-value-here\",\n        \"OPENAI_BASE_URL\": \"https://example.com\",\n        \"OPENAI_CHAT_MODEL\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_BATCH_SIZE\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_CHUNK_CHARS\": \"your-value-here\",\n        \"CONTEXTPLUS_MAX_EMBED_FILE_SIZE\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_NUM_GPU\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_MAIN_GPU\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_NUM_THREAD\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_NUM_BATCH\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_NUM_CTX\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_LOW_VRAM\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_TRACKER\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_TRACKER_MAX_FILES\": \"your-value-here\",\n        \"CONTEXTPLUS_EMBED_TRACKER_DEBOUNCE_MS\": \"your-value-here\"\n      }\n    }\n  }\n}",
-          "filePath": "~/.kiro/mcp_settings.json"
-        }
-      }
     }
   ],
   "updatedEntries": [],
   "summary": {
-    "totalFound": 70,
-    "newCount": 70,
+    "totalFound": 69,
+    "newCount": 69,
     "updatedCount": 0,
     "unchangedCount": 0,
     "errors": 0,
@@ -2546,6 +2516,7 @@
       "Klavis-AI/klavis (quality-score: 25)",
       "FunnyWolf/Viper (quality-score: 0)",
       "lemonade-sdk/lemonade (quality-score: 25)",
+      "prest/prest (quality-score: 25)",
       "wgpsec/ENScan_GO (quality-score: 0)",
       "modelcontextprotocol/csharp-sdk (quality-filter: Description contains excluded keyword: sdk)",
       "httprunner/httprunner (quality-score: 20)",
