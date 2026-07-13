@@ -1,7 +1,7 @@
 {
   "entriesAdded": 70,
   "entriesUpdated": 0,
-  "entriesPreserved": 91,
+  "entriesPreserved": 92,
   "fieldsPreserved": [
     "installConfig",
     "usageSnippet",
@@ -33,11 +33,11 @@
       "action": "added"
     },
     {
-      "id": "gpt-researcher-mcp",
+      "id": "codebase-memory-mcp",
       "action": "added"
     },
     {
-      "id": "codebase-memory-mcp",
+      "id": "gpt-researcher-mcp",
       "action": "added"
     },
     {
@@ -93,11 +93,11 @@
       "action": "added"
     },
     {
-      "id": "mcp",
+      "id": "quantdinger-mcp",
       "action": "added"
     },
     {
-      "id": "quantdinger-mcp",
+      "id": "mcp",
       "action": "added"
     },
     {
@@ -145,6 +145,10 @@
       "action": "added"
     },
     {
+      "id": "prest-mcp",
+      "action": "added"
+    },
+    {
       "id": "o-mcp",
       "action": "added"
     },
@@ -161,11 +165,11 @@
       "action": "added"
     },
     {
-      "id": "dagu-mcp",
+      "id": "tabularis-mcp",
       "action": "added"
     },
     {
-      "id": "tabularis-mcp",
+      "id": "dagu-mcp",
       "action": "added"
     },
     {
@@ -245,15 +249,7 @@
       "action": "added"
     },
     {
-      "id": "unla-mcp",
-      "action": "added"
-    },
-    {
       "id": "korean-law-mcp",
-      "action": "added"
-    },
-    {
-      "id": "mcp-shrimp-task-manager",
       "action": "added"
     },
     {
@@ -261,11 +257,11 @@
       "action": "added"
     },
     {
-      "id": "fusio-mcp",
+      "id": "unla-mcp",
       "action": "added"
     },
     {
-      "id": "mcp-router",
+      "id": "mcp-shrimp-task-manager",
       "action": "added"
     },
     {
@@ -277,15 +273,19 @@
       "action": "added"
     },
     {
+      "id": "fusio-mcp",
+      "action": "added"
+    },
+    {
+      "id": "mcp-router",
+      "action": "added"
+    },
+    {
       "id": "inspector-mcp",
       "action": "added"
     },
     {
       "id": "esp32-nat-router-mcp",
-      "action": "added"
-    },
-    {
-      "id": "contextplus-mcp",
       "action": "added"
     }
   ]
