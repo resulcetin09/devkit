@@ -1,7 +1,7 @@
 {
   "entriesAdded": 70,
   "entriesUpdated": 0,
-  "entriesPreserved": 91,
+  "entriesPreserved": 95,
   "fieldsPreserved": [
     "installConfig",
     "usageSnippet",
@@ -29,6 +29,10 @@
       "action": "added"
     },
     {
+      "id": "codebase-memory-mcp",
+      "action": "added"
+    },
+    {
       "id": "github-server-mcp",
       "action": "added"
     },
@@ -37,15 +41,7 @@
       "action": "added"
     },
     {
-      "id": "codebase-memory-mcp",
-      "action": "added"
-    },
-    {
       "id": "serena-mcp",
-      "action": "added"
-    },
-    {
-      "id": "activepieces-mcp",
       "action": "added"
     },
     {
@@ -73,11 +69,11 @@
       "action": "added"
     },
     {
-      "id": "fastapi-mcp",
+      "id": "xhs-downloader-mcp",
       "action": "added"
     },
     {
-      "id": "xhs-downloader-mcp",
+      "id": "fastapi-mcp",
       "action": "added"
     },
     {
@@ -85,15 +81,11 @@
       "action": "added"
     },
     {
-      "id": "hexstrike-ai-mcp",
-      "action": "added"
-    },
-    {
       "id": "ida-pro-mcp",
       "action": "added"
     },
     {
-      "id": "mcp",
+      "id": "hexstrike-ai-mcp",
       "action": "added"
     },
     {
@@ -101,15 +93,19 @@
       "action": "added"
     },
     {
+      "id": "mcp",
+      "action": "added"
+    },
+    {
       "id": "lamda-mcp",
       "action": "added"
     },
     {
-      "id": "browser-tools-mcp",
+      "id": "osaurus-mcp",
       "action": "added"
     },
     {
-      "id": "osaurus-mcp",
+      "id": "browser-tools-mcp",
       "action": "added"
     },
     {
@@ -137,6 +133,10 @@
       "action": "added"
     },
     {
+      "id": "whodb-mcp",
+      "action": "added"
+    },
+    {
       "id": "exa-server-mcp",
       "action": "added"
     },
@@ -161,15 +161,11 @@
       "action": "added"
     },
     {
-      "id": "dagu-mcp",
-      "action": "added"
-    },
-    {
       "id": "tabularis-mcp",
       "action": "added"
     },
     {
-      "id": "mcp-chinese-getting-started-guide",
+      "id": "dagu-mcp",
       "action": "added"
     },
     {
@@ -177,11 +173,15 @@
       "action": "added"
     },
     {
-      "id": "py-xiaozhi-mcp",
+      "id": "mcp-chinese-getting-started-guide",
       "action": "added"
     },
     {
-      "id": "neo-mcp",
+      "id": "wigolo-mcp",
+      "action": "added"
+    },
+    {
+      "id": "py-xiaozhi-mcp",
       "action": "added"
     },
     {
@@ -190,6 +190,10 @@
     },
     {
       "id": "md2wechat-skill-mcp",
+      "action": "added"
+    },
+    {
+      "id": "neo-mcp",
       "action": "added"
     },
     {
@@ -217,11 +221,11 @@
       "action": "added"
     },
     {
-      "id": "nunu-mcp",
+      "id": "radar-mcp",
       "action": "added"
     },
     {
-      "id": "radar-mcp",
+      "id": "nunu-mcp",
       "action": "added"
     },
     {
@@ -241,11 +245,7 @@
       "action": "added"
     },
     {
-      "id": "hub-mcp",
-      "action": "added"
-    },
-    {
-      "id": "unla-mcp",
+      "id": "js-reverse-mcp",
       "action": "added"
     },
     {
@@ -253,19 +253,7 @@
       "action": "added"
     },
     {
-      "id": "mcp-shrimp-task-manager",
-      "action": "added"
-    },
-    {
-      "id": "js-reverse-mcp",
-      "action": "added"
-    },
-    {
-      "id": "fusio-mcp",
-      "action": "added"
-    },
-    {
-      "id": "mcp-router",
+      "id": "hub-mcp",
       "action": "added"
     },
     {
@@ -277,15 +265,27 @@
       "action": "added"
     },
     {
-      "id": "inspector-mcp",
+      "id": "apify-server-mcp",
       "action": "added"
     },
     {
-      "id": "esp32-nat-router-mcp",
+      "id": "unla-mcp",
       "action": "added"
     },
     {
-      "id": "contextplus-mcp",
+      "id": "mcp-shrimp-task-manager",
+      "action": "added"
+    },
+    {
+      "id": "fusio-mcp",
+      "action": "added"
+    },
+    {
+      "id": "mcp-router",
+      "action": "added"
+    },
+    {
+      "id": "flint-chart-mcp",
       "action": "added"
     }
   ]
