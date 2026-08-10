@@ -1,7 +1,7 @@
 {
-  "entriesAdded": 70,
+  "entriesAdded": 66,
   "entriesUpdated": 0,
-  "entriesPreserved": 91,
+  "entriesPreserved": 101,
   "fieldsPreserved": [
     "installConfig",
     "usageSnippet",
@@ -29,6 +29,10 @@
       "action": "added"
     },
     {
+      "id": "codebase-memory-mcp",
+      "action": "added"
+    },
+    {
       "id": "github-server-mcp",
       "action": "added"
     },
@@ -37,15 +41,7 @@
       "action": "added"
     },
     {
-      "id": "codebase-memory-mcp",
-      "action": "added"
-    },
-    {
       "id": "serena-mcp",
-      "action": "added"
-    },
-    {
-      "id": "activepieces-mcp",
       "action": "added"
     },
     {
@@ -57,11 +53,11 @@
       "action": "added"
     },
     {
-      "id": "funasr-mcp",
+      "id": "context-mode-mcp",
       "action": "added"
     },
     {
-      "id": "context-mode-mcp",
+      "id": "funasr-mcp",
       "action": "added"
     },
     {
@@ -73,11 +69,11 @@
       "action": "added"
     },
     {
-      "id": "fastapi-mcp",
+      "id": "xhs-downloader-mcp",
       "action": "added"
     },
     {
-      "id": "xhs-downloader-mcp",
+      "id": "fastapi-mcp",
       "action": "added"
     },
     {
@@ -85,15 +81,11 @@
       "action": "added"
     },
     {
-      "id": "hexstrike-ai-mcp",
-      "action": "added"
-    },
-    {
       "id": "ida-pro-mcp",
       "action": "added"
     },
     {
-      "id": "mcp",
+      "id": "hexstrike-ai-mcp",
       "action": "added"
     },
     {
@@ -101,11 +93,15 @@
       "action": "added"
     },
     {
-      "id": "lamda-mcp",
+      "id": "mcp",
       "action": "added"
     },
     {
-      "id": "browser-tools-mcp",
+      "id": "openstatus-mcp",
+      "action": "added"
+    },
+    {
+      "id": "lamda-mcp",
       "action": "added"
     },
     {
@@ -113,7 +109,11 @@
       "action": "added"
     },
     {
-      "id": "mcp",
+      "id": "browser-tools-mcp",
+      "action": "added"
+    },
+    {
+      "id": "bifrost-mcp",
       "action": "added"
     },
     {
@@ -121,7 +121,7 @@
       "action": "added"
     },
     {
-      "id": "bifrost-mcp",
+      "id": "mcp",
       "action": "added"
     },
     {
@@ -133,7 +133,15 @@
       "action": "added"
     },
     {
+      "id": "ouroboros-mcp",
+      "action": "added"
+    },
+    {
       "id": "financetoolkit-mcp",
+      "action": "added"
+    },
+    {
+      "id": "whodb-mcp",
       "action": "added"
     },
     {
@@ -142,6 +150,10 @@
     },
     {
       "id": "deep-research-mcp",
+      "action": "added"
+    },
+    {
+      "id": "wigolo-mcp",
       "action": "added"
     },
     {
@@ -157,19 +169,11 @@
       "action": "added"
     },
     {
-      "id": "fast-agent-mcp",
-      "action": "added"
-    },
-    {
-      "id": "dagu-mcp",
-      "action": "added"
-    },
-    {
       "id": "tabularis-mcp",
       "action": "added"
     },
     {
-      "id": "mcp-chinese-getting-started-guide",
+      "id": "fast-agent-mcp",
       "action": "added"
     },
     {
@@ -177,11 +181,11 @@
       "action": "added"
     },
     {
-      "id": "py-xiaozhi-mcp",
+      "id": "dagu-mcp",
       "action": "added"
     },
     {
-      "id": "neo-mcp",
+      "id": "flint-chart-mcp",
       "action": "added"
     },
     {
@@ -189,7 +193,15 @@
       "action": "added"
     },
     {
+      "id": "mcp-chinese-getting-started-guide",
+      "action": "added"
+    },
+    {
       "id": "md2wechat-skill-mcp",
+      "action": "added"
+    },
+    {
+      "id": "py-xiaozhi-mcp",
       "action": "added"
     },
     {
@@ -197,7 +209,7 @@
       "action": "added"
     },
     {
-      "id": "arxiv-server-mcp",
+      "id": "neo-mcp",
       "action": "added"
     },
     {
@@ -209,6 +221,22 @@
       "action": "added"
     },
     {
+      "id": "apify-server-mcp",
+      "action": "added"
+    },
+    {
+      "id": "arxiv-server-mcp",
+      "action": "added"
+    },
+    {
+      "id": "code-graph-rag-mcp",
+      "action": "added"
+    },
+    {
+      "id": "radar-mcp",
+      "action": "added"
+    },
+    {
       "id": "slackdump-mcp",
       "action": "added"
     },
@@ -217,11 +245,11 @@
       "action": "added"
     },
     {
-      "id": "nunu-mcp",
+      "id": "jadx-ai-mcp",
       "action": "added"
     },
     {
-      "id": "radar-mcp",
+      "id": "nunu-mcp",
       "action": "added"
     },
     {
@@ -233,19 +261,7 @@
       "action": "added"
     },
     {
-      "id": "jadx-ai-mcp",
-      "action": "added"
-    },
-    {
-      "id": "code-graph-rag-mcp",
-      "action": "added"
-    },
-    {
-      "id": "hub-mcp",
-      "action": "added"
-    },
-    {
-      "id": "unla-mcp",
+      "id": "js-reverse-mcp",
       "action": "added"
     },
     {
@@ -253,39 +269,7 @@
       "action": "added"
     },
     {
-      "id": "mcp-shrimp-task-manager",
-      "action": "added"
-    },
-    {
-      "id": "js-reverse-mcp",
-      "action": "added"
-    },
-    {
-      "id": "fusio-mcp",
-      "action": "added"
-    },
-    {
-      "id": "mcp-router",
-      "action": "added"
-    },
-    {
       "id": "paper-search-mcp",
-      "action": "added"
-    },
-    {
-      "id": "paperbanana-mcp",
-      "action": "added"
-    },
-    {
-      "id": "inspector-mcp",
-      "action": "added"
-    },
-    {
-      "id": "esp32-nat-router-mcp",
-      "action": "added"
-    },
-    {
-      "id": "contextplus-mcp",
       "action": "added"
     }
   ]
